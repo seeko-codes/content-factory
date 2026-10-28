@@ -1,4 +1,5 @@
-import type { ReactNode } from "react";
+import type { CSSProperties, ReactNode } from "react";
+import { ramp, useTime } from "../anim";
 import { color, font, layout } from "../theme";
 
 // "Calculus III / in 60 seconds": large sans title, mono subtitle beneath.
@@ -41,8 +42,20 @@ export const Kicker = ({ label, index, total }: { label: string; index?: number;
 );
 
 // "1 matrix · 2 det · 3 eigen": chapter nav, the active one underlined.
-export const ChapterNav = ({ chapters, active }: { chapters: string[]; active: number }) => (
-  <div style={{ fontFamily: font.mono, fontSize: 34, color: color.label, marginBottom: 22, display: "flex", gap: 18 }}>
+// `numbered={false}` uses the labels as given ("Alg 1 · Alg 2 · Geo · Trig").
+// Pass `style` to place it, e.g. { position: "absolute", left, top }.
+export const ChapterNav = ({
+  chapters,
+  active,
+  numbered = true,
+  style,
+}: {
+  chapters: string[];
+  active: number;
+  numbered?: boolean;
+  style?: CSSProperties;
+}) => (
+  <div style={{ fontFamily: font.mono, fontSize: 34, color: color.label, marginBottom: 22, display: "flex", gap: 18, ...style }}>
     {chapters.map((c, i) => (
       <span key={c} style={{ display: "flex", gap: 18 }}>
         {i > 0 && <span>·</span>}
@@ -53,11 +66,59 @@ export const ChapterNav = ({ chapters, active }: { chapters: string[]; active: n
             paddingBottom: 4,
           }}
         >
-          {i + 1} {c}
+          {numbered && <>{i + 1} </>}
+          {c}
         </span>
       </span>
     ))}
   </div>
+);
+
+/**
+ * A chapter nav that stays on screen while the underline moves between
+ * chapters. `states` are [time, active] pairs; -1 underlines nothing. The
+ * plain nav is always drawn and each underlined variant fades over it, so the
+ * shared words never dip in opacity during a change.
+ */
+export const NavTrack = ({
+  chapters,
+  states,
+  top,
+  left,
+  numbered = true,
+  dur = 0.3,
+}: {
+  chapters: string[];
+  states: [at: number, active: number][];
+  top: number;
+  left: number;
+  numbered?: boolean;
+  dur?: number;
+}) => {
+  const t = useTime();
+  const layer = (active: number, opacity: number, key: string) => (
+    <div key={key} style={{ position: "absolute", top, left, whiteSpace: "nowrap", opacity }}>
+      <ChapterNav chapters={chapters} active={active} numbered={numbered} />
+    </div>
+  );
+  return (
+    <>
+      {layer(-1, 1, "base")}
+      {states.map(([at, active], i) => {
+        if (active < 0) return null;
+        const next = states[i + 1]?.[0] ?? Infinity;
+        const o = ramp(t, at, dur) * (next === Infinity ? 1 : 1 - ramp(t, next, dur));
+        return o > 0 ? layer(active, o, `s${i}`) : null;
+      })}
+    </>
+  );
+};
+
+/** Title text that slides up out of its own clipped box, the way caption words leave. `out` runs 0 to 1. */
+export const Rise = ({ out, children }: { out: number; children: ReactNode }) => (
+  <span style={{ display: "inline-block", overflow: "hidden", verticalAlign: "top" }}>
+    <span style={{ display: "inline-block", transform: `translateY(${-out * 105}%)` }}>{children}</span>
+  </span>
 );
 
 // "area ×3": mono readout on a soft rounded chip.

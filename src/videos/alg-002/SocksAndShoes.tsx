@@ -1,11 +1,10 @@
 import { interpolateColors } from "remotion";
-import { easeIn, ramp, useTime, visible } from "../../anim";
+import { glides, ramp, spans, useTime, visible } from "../../anim";
 import { Layer } from "../../components/Chart";
-import { Tex } from "../../components/Tex";
+import { Layers, Readout, Roll } from "../../components/Readout";
+import { lit, Tex } from "../../components/Tex";
 import { useNarration } from "../../narration";
 import { color, font, layout } from "../../theme";
-// Shared with sat-003 until these pieces are promoted to src/components.
-import { Layers, lit, Roll, Row } from "../sat-003/parts";
 
 // 3x + 5 = 20: x goes in, times 3, plus 5, comes out 20.
 // Backwards: 20 - 5 = 15, 15 / 3 = 5, and 3 * 5 + 5 = 20 checks.
@@ -18,21 +17,6 @@ const E = 900; // where the recipe's output lands
 const BOX = { w: 220, top: 1040, bottom: 1280 };
 const R0 = 15; // the dot
 const RING = [27, 40]; // the layers the recipe wraps around it
-
-/** Sum of glides: the value starts at `from` and each move adds (to - from) as it plays. */
-const path = (t: number, from: number, moves: [start: number, dur: number, to: number][]) => {
-  let at = from;
-  let v = from;
-  for (const [start, dur, to] of moves) {
-    v += (to - at) * ramp(t, start, dur);
-    at = to;
-  }
-  return v;
-};
-
-/** 0..1 while a layer is on: on at each `on` time, off at the matching `off` time. */
-const layer = (t: number, spans: [on: number, off: number][]) =>
-  spans.reduce((p, [on, off]) => p + ramp(t, on, 0.35, easeIn) - (off === Infinity ? 0 : ramp(t, off, 0.35)), 0);
 
 export const SocksAndShoes = () => {
   const t = useTime();
@@ -51,7 +35,7 @@ export const SocksAndShoes = () => {
   const offline = cue("offline");
 
   // The dot: on with socks and shoes, off again in reverse; then x through x3, +5, and back.
-  const dotX = path(t, S, [
+  const dotX = glides(t, S, [
     [socks - 0.45, 0.5, B[0]],
     [socks + 0.12, 0.55, B[1]],
     [shoes + 0.3, 0.5, E],
@@ -65,8 +49,8 @@ export const SocksAndShoes = () => {
     [div, 0.55, B[0]],
     [five + 0.1, 0.55, S],
   ]);
-  const inner = layer(t, [[socks, shoesoff + 0.25 + 0.5], [times + 0.5, div + 0.55]]);
-  const outer = layer(t, [[shoes, shoesoff], [plus + 0.4, minus + 0.55]]);
+  const inner = spans(t, [[socks, shoesoff + 0.25 + 0.5], [times + 0.5, div + 0.55]]);
+  const outer = spans(t, [[shoes, shoesoff], [plus + 0.4, minus + 0.55]]);
 
   // What the dot is called as it travels.
   const label: [number, React.ReactNode][] = [
@@ -134,12 +118,12 @@ export const SocksAndShoes = () => {
       )}
 
       {/* Solving, written out as the dot walks back */}
-      <Row top={rowTop[1]} from={fifteen}>
+      <Readout top={rowTop[1]} from={fifteen}>
         <Tex tex="3x = 15" size={layout.texSize} />
-      </Row>
-      <Row top={rowTop[2]} from={five}>
+      </Readout>
+      <Readout top={rowTop[2]} from={five}>
         <Tex tex={lit("x = 15 / 3 = [5]", true)} size={layout.texSize} />
-      </Row>
+      </Readout>
 
       <Layer opacity={machine}>
         {/* track, with end ticks and direction marks */}

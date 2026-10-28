@@ -1,87 +1,11 @@
-import type { ReactNode } from "react";
+import { PICTURE_ROW } from "../../components/Cards";
 import { fnPath, scale, type Box } from "../../components/Chart";
-import { color, font, layout } from "../../theme";
+import { color } from "../../theme";
 
-// "Alg 1 · Alg 2 · Geo · Trig": a chapter nav whose labels are used as given
-// (the shared ChapterNav numbers its chapters, "1 matrix · 2 det").
-// Candidate for src/components/Title.tsx.
-export const Nav = ({ items, active, top = 222, opacity = 1 }: { items: string[]; active: number; top?: number; opacity?: number }) => (
-  <div
-    style={{
-      position: "absolute",
-      left: layout.margin,
-      top,
-      opacity,
-      display: "flex",
-      gap: 18,
-      fontFamily: font.mono,
-      fontSize: 34,
-      color: color.label,
-    }}
-  >
-    {items.map((c, i) => (
-      <span key={c} style={{ display: "flex", gap: 18 }}>
-        {i > 0 && <span>·</span>}
-        <span
-          style={{
-            color: i === active ? color.ink : color.label,
-            borderBottom: `3px solid ${i === active ? color.ink : "transparent"}`,
-            paddingBottom: 4,
-          }}
-        >
-          {c}
-        </span>
-      </span>
-    ))}
-  </div>
-);
-
-// One row of the "year in five pictures" list: a thumbnail, its class name
-// and (in the recap) what the picture means.
+// The five pictures of Algebra 1, drawn small for the list and the recap.
 export type Kind = "line" | "meet" | "system" | "half" | "zeros";
 
-export const Row = ({
-  top,
-  term,
-  meaning,
-  picture = 1,
-  text = 1,
-  rise = 0,
-  indent = 1,
-  children,
-}: {
-  top: number;
-  term: string;
-  meaning?: ReactNode;
-  picture?: number;
-  text?: number;
-  rise?: number;
-  indent?: number; // 0 = text at the margin, 1 = text beside the thumbnail
-  children?: ReactNode;
-}) => (
-  <div style={{ position: "absolute", left: layout.margin, right: layout.margin, top, height: ROW_H, transform: `translateY(${rise}px)` }}>
-    <div style={{ position: "absolute", left: 0, top: 0, opacity: picture }}>{children}</div>
-    <div
-      style={{
-        position: "absolute",
-        left: (THUMB.w + 50) * indent,
-        top: 0,
-        height: THUMB.h,
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        gap: 12,
-        opacity: text,
-      }}
-    >
-      <div style={{ fontFamily: font.sans, fontWeight: 500, fontSize: 46, letterSpacing: "-0.02em", color: color.ink, lineHeight: 1.05 }}>{term}</div>
-      {meaning && <div style={{ fontFamily: font.mono, fontSize: 32, color: color.inkSoft, lineHeight: 1.1 }}>{meaning}</div>}
-    </div>
-  </div>
-);
-
-export const ROW_H = 184;
-export const THUMB = { w: 230, h: 140 };
+const THUMB = PICTURE_ROW.thumb;
 
 // A small, quiet version of each of the five pictures.
 export const Thumb = ({ kind, id }: { kind: Kind; id: string }) => {

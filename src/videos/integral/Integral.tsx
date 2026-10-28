@@ -1,5 +1,6 @@
 import { easeIn, easeMove, ramp, useTime, visible } from "../../anim";
 import { fnPath, Layer, MonoLabel, scale } from "../../components/Chart";
+import { Label, Mono, Op } from "../../components/Readout";
 import { Swap } from "../../components/Swap";
 import { Tex } from "../../components/Tex";
 import { useNarration } from "../../narration";
@@ -17,13 +18,6 @@ const box = { x: 190, y: 900, w: 690, h: 440 };
 const S = scale(box, { x0: 0, x1: 4, y0: 0, y1: 7 });
 const rowTop = [552, 682];
 
-const Mono = ({ children, c = color.ink, w = 600 }: { children: React.ReactNode; c?: string; w?: number }) => (
-  <span style={{ fontFamily: font.mono, fontSize: layout.monoSize, color: c, fontWeight: w }}>{children}</span>
-);
-const Op = ({ tex }: { tex: string }) => <Tex tex={tex} size={layout.texSize} style={{ color: color.operator }} />;
-const Word = ({ children }: { children: React.ReactNode }) => (
-  <span style={{ fontSize: layout.monoSize, fontWeight: 400, color: color.inkSoft }}>{children}</span>
-);
 
 export const Integral = () => {
   const t = useTime();
@@ -91,10 +85,10 @@ export const Integral = () => {
       <Swap
         style={{ left: layout.margin, top: rowTop[1] }}
         states={[
-          [cue("distq"), <><Word>distance</Word><Op tex="=" /><Mono>?</Mono></>],
-          [cue("sum"), <><Word>distance</Word><Op tex="\approx" /><Mono>{riemann(4).toFixed(1)} m</Mono></>],
-          [thin, <><Word>distance</Word><Op tex="\approx" /><Mono>{riemann(n).toFixed(2)} m</Mono></>],
-          [exact, <><Word>distance</Word><Op tex="=" /><Mono c={color.accent}>20 m</Mono></>],
+          [cue("distq"), <><Label>distance</Label><Op tex="=" /><Mono>?</Mono></>],
+          [cue("sum"), <><Label>distance</Label><Op tex="\approx" /><Mono>{riemann(4).toFixed(1)} m</Mono></>],
+          [thin, <><Label>distance</Label><Op tex="\approx" /><Mono>{riemann(n).toFixed(2)} m</Mono></>],
+          [exact, <><Label>distance</Label><Op tex="=" /><Mono c={color.accent}>20 m</Mono></>],
           [morph, null],
         ]}
       />

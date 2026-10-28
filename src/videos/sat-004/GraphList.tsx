@@ -1,5 +1,5 @@
 import { interpolateColors } from "remotion";
-import { easeIn, easeMove, lerp, ramp, useTime, visible } from "../../anim";
+import { easeIn, lerp, ramp, seeded, useTime, visible } from "../../anim";
 import { Layer, MonoLabel, scale } from "../../components/Chart";
 import { Swap } from "../../components/Swap";
 import { Tex } from "../../components/Tex";
@@ -19,14 +19,6 @@ const P = [4, 1] as const; // the point in question
 const FAIL = [1, 3] as const; // 2(1) - 3(3) = -7
 const PASS = [5.5, 2] as const; // 2(5.5) - 3(2) = 5
 
-// Deterministic rain.
-const rng = (seed: number) => () => {
-  seed |= 0;
-  seed = (seed + 0x6d2b79f5) | 0;
-  let r = Math.imul(seed ^ (seed >>> 15), 1 | seed);
-  r = (r + Math.imul(r ^ (r >>> 7), 61 | r)) ^ r;
-  return ((r ^ (r >>> 14)) >>> 0) / 4294967296;
-};
 // Data-space boxes [x0, x1, y0, y1] of the two line labels and the "(4, 1)" label.
 const LABELS = [
   [4.6, 8, 3.7, 5],
@@ -35,7 +27,7 @@ const LABELS = [
 ];
 type Drop = { x: number; y: number; on: 0 | 1 | 2; wave: number; r: number; land: number }; // land: 0..1 within its wave
 const makeWave = (wave: number, off: number, on: number, line: 0 | 1 | 2, seed: number, r: number): Drop[] => {
-  const rand = rng(seed);
+  const rand = seeded(seed); // deterministic rain
   const out: Drop[] = [];
   const f = line === 2 ? L2 : L1;
   while (out.length < off) {
@@ -66,7 +58,7 @@ const DROPS = [...W1, ...W2, ...W3, ...W4];
 
 const rowTop = [528, 622];
 const T = ({ tex, c }: { tex: string; c?: string }) => <Tex tex={tex} style={c ? { color: c } : undefined} />;
-const acc = (s: string) => `\\textcolor{${color.accent}}{${s}}`;
+const acc = (s: string) => `\\acc{${s}}`;
 
 export const GraphList = () => {
   const t = useTime();

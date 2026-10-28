@@ -1,12 +1,13 @@
 import { interpolateColors } from "remotion";
-import { easeIn, easeMove, lerp, ramp, useTime, visible } from "../../anim";
+import { drawOn, easeIn, easeMove, lerp, ramp, useTime, visible } from "../../anim";
 import { fnPath, Layer, MonoLabel, scale, type Box } from "../../components/Chart";
+import { gridSlot } from "../../components/Cards";
+import { Label, Mono, Op } from "../../components/Readout";
 import { Swap } from "../../components/Swap";
 import { Tex } from "../../components/Tex";
-import { TitleCard } from "../../components/Title";
+import { NavTrack, Rise, TitleCard } from "../../components/Title";
 import { useNarration } from "../../narration";
 import { color, font, layout } from "../../theme";
-import { drawOn, NavTrack, Rise } from "./parts";
 
 // The four pictures, all from one start value of 3:
 //   line        y = 3 + 2x          3, 5, 7, 9, 11   (the step is always +2)
@@ -42,16 +43,9 @@ const VERTEX = [A, C, B]; // where the three accent dots (5, 6, 8) snap to
 
 const rowTop = [528, 622];
 
-const Mono = ({ children, c = color.ink, w = 600 }: { children: React.ReactNode; c?: string; w?: number }) => (
-  <span style={{ fontFamily: font.mono, fontSize: layout.monoSize, color: c, fontWeight: w }}>{children}</span>
-);
-const Op = ({ tex }: { tex: string }) => <Tex tex={tex} size={layout.texSize} style={{ color: color.operator }} />;
-const Word = ({ children }: { children: React.ReactNode }) => (
-  <span style={{ fontSize: layout.monoSize, fontWeight: 400, color: color.inkSoft }}>{children}</span>
-);
 const Count = ({ n }: { n: string }) => (
   <>
-    <Word>questions</Word>
+    <Label>questions</Label>
     <Op tex="=" />
     <Mono>{n}</Mono>
   </>
@@ -188,11 +182,11 @@ export const SatMath = () => {
           [bend, null],
           [para, <Tex tex="y = x^2 - 3x + 3" />],
                     [scatter, null],
-          [four, <><Word>mean</Word><Op tex="=" /><Mono c={color.accent}>4</Mono></>],
+          [four, <><Label>mean</Label><Op tex="=" /><Mono c={color.accent}>4</Mono></>],
           [pct, <><Mono>3 / 10</Mono><Op tex="=" /><Mono c={color.accent}>30%</Mono></>],
           [snap, null],
           [triWord, <Tex tex="3^2 + 4^2 = 5^2" />],
-          [diam, <><Word>diameter</Word><Op tex="=" /><Mono c={color.accent}>5</Mono></>],
+          [diam, <><Label>diameter</Label><Op tex="=" /><Mono c={color.accent}>5</Mono></>],
           [clear, null],
         ]}
       />
@@ -361,17 +355,12 @@ const RightAngle = ({
 
 // ---------------------------------------------------------------------------
 // The four-panel map, used for the opening frame and the recap.
-const PANEL = { w: 400, h: 360 };
-const SLOTS = [
-  [100, 540],
-  [580, 540],
-  [100, 1000],
-  [580, 1000],
-] as const;
+const PANEL = { cols: 2, w: 400, h: 360, gapX: 80, gapY: 100, top: 540 };
 
 const Panels = ({ show, rise }: { show: number[]; rise: number }) => (
   <>
-    {SLOTS.map(([x, y], i) => {
+    {CHAPTERS.map((_, i) => {
+      const { x, y } = gridSlot(i, PANEL);
       const o = show[i];
       if (o <= 0) return null;
       const inner: Box = { x: x + 24, y: y + 14, w: PANEL.w - 48, h: PANEL.h - 40 };

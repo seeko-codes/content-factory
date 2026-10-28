@@ -2,7 +2,7 @@
   "title": "Algebra 2 in 60 seconds: the class behind SAT Advanced Math",
   "voice": "am_michael",
   "lines": [
-    { "text": "Algebra 2, the whole year, in {six} six *pictures.*", "say": "Algebra two, the whole year, in six pictures.", "pause": 0.4 },
+    { "text": "Algebra 2, the whole year, in {six} six *pictures.*", "say": "Algebra two, the whole year, in six pictures.", "pause": 0.4, "caption": false },
     { "text": "Which one *broke* you?", "pause": 0.7 },
     { "text": "{b1} One parabola, {forms} three forms: {zeros} *zeros,* {vertex} *vertex,* {yint} *y-intercept.*", "say": "One parabola, three forms: zeros, vertex, y intercept.", "pause": 0.7 },
     { "text": "{b2} Slide it up: {two} *two* {sol} solutions, then {one} *one,* then {none} *none.*", "pause": 0.4 },

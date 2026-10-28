@@ -9,7 +9,7 @@ export type Token = {
   tex: boolean; // $...$ in the script: rendered with KaTeX
 };
 
-export type Line = { start: number; end: number; tokens: Token[] };
+export type Line = { start: number; end: number; tokens: Token[]; caption?: boolean }; // caption false: spoken under a title card, no caption
 
 export type Timing = {
   id: string;

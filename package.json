@@ -6,7 +6,8 @@
     "studio": "remotion studio",
     "voice": "uv run --python 3.12 tools/voice.py",
     "render": "remotion render",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "stills": "node tools/stills.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.539",
@@ -18,6 +19,8 @@
     "remotion": "4.0.539"
   },
   "devDependencies": {
+    "@remotion/bundler": "4.0.539",
+    "@remotion/renderer": "4.0.539",
     "@types/katex": "^0.16.8",
     "@types/react": "^19.3.0",
     "typescript": "^7.0.2"

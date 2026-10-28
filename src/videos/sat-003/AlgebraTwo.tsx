@@ -1,12 +1,13 @@
 import { interpolate, interpolateColors } from "remotion";
 import { easeIn, easeMove, ramp, useTime, visible } from "../../anim";
-import { fnPath, Layer, MonoLabel, scale } from "../../components/Chart";
+import { gridSlot, PictureCard } from "../../components/Cards";
+import { fnPath, Layer, MonoLabel, scale, type Box } from "../../components/Chart";
+import { Layers, Mono, Op, Readout, Roll } from "../../components/Readout";
 import { Arrow } from "../../components/Space";
-import { Tex } from "../../components/Tex";
-import { Chip, TitleCard } from "../../components/Title";
+import { lit, Tex } from "../../components/Tex";
+import { ChapterNav, Chip, TitleCard } from "../../components/Title";
 import { useNarration } from "../../narration";
 import { color, font, layout } from "../../theme";
-import { ClassNav, Layers, lit, Roll, Row } from "./parts";
 
 // The numbers on screen, recomputed:
 // (x - 1)(x - 5) = (x - 3)^2 - 4 = x^2 - 6x + 5: zeros 1 and 5, vertex (3, -4), y-intercept 5.
@@ -26,7 +27,6 @@ const E = scale(eBox, { x0: 0, x1: 20, y0: 0, y1: 720 }); // growth over 20 year
 const clipTop = box.y - 15;
 const clipBottom = box.y + box.h + 30;
 const yTop = 7 + 15 / (box.h / 12); // data y at the clip edges of P
-const yBottom = -5 - 30 / (box.h / 12);
 
 const quad = (h: number, k: number) => (x: number) => (x - h) ** 2 + k;
 const cubic = (x: number) => (x - 1) ** 2 * (x - 4);
@@ -34,10 +34,6 @@ const root = (x: number) => Math.sqrt(Math.max(0, x + 2));
 
 const T = ({ tex, size = layout.texSize, c }: { tex: string; size?: number; c?: string }) => (
   <Tex tex={tex} size={size} style={c ? { color: c } : undefined} />
-);
-const Op = ({ tex }: { tex: string }) => <Tex tex={tex} size={layout.texSize} style={{ color: color.operator }} />;
-const Mono = ({ children, c = color.ink }: { children: React.ReactNode; c?: string }) => (
-  <span style={{ fontFamily: font.mono, fontSize: layout.monoSize, color: c, fontWeight: 600 }}>{children}</span>
 );
 
 const Curve = ({ d, stroke = color.ink, width = 5.5, dash, opacity = 1 }: { d: string; stroke?: string; width?: number; dash?: string; opacity?: number }) => (
@@ -63,10 +59,9 @@ export const AlgebraTwo = () => {
   const out = (at: number) => at - 0.35; // stale pieces leave just before the next beat's first word
 
   // ---- Hook: title card over the first line, then the six pictures --------
-  // The title leaves once the first line is spoken; its paper backdrop stays a
-  // moment longer, until that line's caption has finished sliding away.
+  // The first line is spoken under the title, with no caption, like the
+  // reference title cards; the title leaves once that line is spoken.
   const titleText = 1 - ramp(t, lines[0].end + 0.1, 0.35);
-  const backdrop = 1 - ramp(t, lines[1].start + 0.07, 0.15);
   const hookGrid = (i: number) => Math.min(ramp(t, cue("six") + i * 0.11, 0.5, easeIn), 1 - ramp(t, out(b[0]) - 0.1, 0.35));
   const recapGrid = (i: number) => ramp(t, recap + i * 0.11, 0.5, easeIn);
 
@@ -123,7 +118,12 @@ export const AlgebraTwo = () => {
 
   return (
     <>
-      <ClassNav items={["Alg 1", "Alg 2", "Geo", "Trig"]} active={1} top={NAV_TOP} />
+      <ChapterNav
+        numbered={false}
+        chapters={["Alg 1", "Alg 2", "Geo", "Trig"]}
+        active={1}
+        style={{ position: "absolute", left: layout.margin, top: NAV_TOP, whiteSpace: "nowrap" }}
+      />
       {counter > 0 && beat > 0 && (
         <div style={{ position: "absolute", right: layout.margin, top: NAV_TOP, fontFamily: font.mono, fontSize: 34, opacity: counter }}>
           <span style={{ color: color.ink }}>{beat}</span>
@@ -131,29 +131,24 @@ export const AlgebraTwo = () => {
         </div>
       )}
 
-      {/* Title card. It sits above the captions while the first line is spoken,
-          like the reference title cards, which carry the voice without a caption. */}
-      {backdrop > 0 && (
-        <div style={{ position: "absolute", left: 0, right: 0, top: 262, height: 210, background: color.paper, zIndex: 2, opacity: backdrop }}>
-          <TitleCard title="Algebra 2" top={18 - (1 - titleText) * 24} opacity={titleText} />
-        </div>
-      )}
+      {/* Title card, spoken over without a caption */}
+      {titleText > 0 && <TitleCard title="Algebra 2" top={280 - (1 - titleText) * 24} opacity={titleText} />}
 
       {/* ---- Readouts ---- */}
       {/* Beat 1: three forms, each lighting up the numbers that show its feature */}
-      <Row top={rowTop[0]} from={forms} to={out(b[1])}>
+      <Readout top={rowTop[0]} from={forms} to={out(b[1])}>
         <Layers
           base={<T tex={lit("y = (x - [1])(x - [5])", false)} />}
           layers={[[zeros, vertex, <T tex={lit("y = (x - [1])(x - [5])", true)} />]]}
         />
-      </Row>
-      <Row top={rowTop[1]} from={forms + 0.15} to={out(b[1])}>
+      </Readout>
+      <Readout top={rowTop[1]} from={forms + 0.15} to={out(b[1])}>
         <Layers
           base={<T tex={lit("y = (x - [3])^2 [- 4]", false)} />}
           layers={[[vertex, yint, <T tex={lit("y = (x - [3])^2 [- 4]", true)} />]]}
         />
-      </Row>
-      <Row top={interpolate(lift, [0, 1], [rowTop[2], rowTop[0]])} from={forms + 0.3} to={out(b[2])}>
+      </Readout>
+      <Readout top={interpolate(lift, [0, 1], [rowTop[2], rowTop[0]])} from={forms + 0.3} to={out(b[2])}>
         <Roll
           states={[
             [0, <Layers base={<T tex={lit("y = x^2 - 6x + [5]", false)} />} layers={[[yint, b[1], <T tex={lit("y = x^2 - 6x + [5]", true)} />]]} />],
@@ -161,13 +156,13 @@ export const AlgebraTwo = () => {
             [cue("none") + 0.35, <T tex="y = x^2 - 6x + 11" />],
           ]}
         />
-      </Row>
+      </Readout>
 
       {/* Beat 2: the 2-1-0 counter and the number that predicts it */}
-      <Row top={rowTop[1] + 14} from={two} to={out(b[2])} right>
+      <Readout top={rowTop[1] + 14} from={two} to={out(b[2])} right>
         <Chip label="solutions" value={<span style={{ color: color.accent }}>{solutions}</span>} />
-      </Row>
-      <Row top={rowTop[1] + 18} from={two + 0.15} to={out(b[2])}>
+      </Readout>
+      <Readout top={rowTop[1] + 18} from={two + 0.15} to={out(b[2])}>
         <Layers base={<T tex="b^2 - 4ac" />} layers={[[cue("disc"), Infinity, <T tex="b^2 - 4ac" c={color.accent} />]]} />
         <Op tex="=" />
         <Roll
@@ -177,18 +172,18 @@ export const AlgebraTwo = () => {
             [cue("none") + 0.35, <Mono>−8</Mono>],
           ]}
         />
-      </Row>
+      </Readout>
 
       {/* Beat 3 */}
-      <Row top={rowTop[0]} from={b[2]} to={out(b[3])}>
+      <Readout top={rowTop[0]} from={b[2]} to={out(b[3])}>
         <Roll states={[[0, <T tex="100 + 10t" />], [cue("pct"), <T tex="100(1 + 0.1)^t" />]]} />
-      </Row>
-      <Row top={rowTop[1]} from={cue("away")} to={out(b[3])}>
+      </Readout>
+      <Readout top={rowTop[1]} from={cue("away")} to={out(b[3])}>
         <T tex="a(1 + r)^t" c={color.label} />
-      </Row>
+      </Readout>
 
       {/* Beat 4 */}
-      <Row top={rowTop[0]} from={b[3]} to={out(b[4])}>
+      <Readout top={rowTop[0]} from={b[3]} to={out(b[4])}>
         <Roll
           states={[
             [0, <T tex="y = x^2" />],
@@ -201,13 +196,13 @@ export const AlgebraTwo = () => {
             ],
           ]}
         />
-      </Row>
-      <Row top={rowTop[1]} from={lines[8].end} to={out(b[4])}>
+      </Readout>
+      <Readout top={rowTop[1]} from={lines[8].end} to={out(b[4])}>
         <T tex="f(x - h) + k" c={color.label} />
-      </Row>
+      </Readout>
 
       {/* Beat 5 */}
-      <Row top={rowTop[0]} from={b[4]} to={out(b[5])}>
+      <Readout top={rowTop[0]} from={b[4]} to={out(b[5])}>
         <Layers
           base={<T tex={lit("y = [(x - 1)^2][(x - 4)]", false)} />}
           layers={[
@@ -216,18 +211,18 @@ export const AlgebraTwo = () => {
             [cross, Infinity, <T tex={lit("y = [(x - 1)^2][(x - 4)]", [1])} />],
           ]}
         />
-      </Row>
+      </Readout>
 
       {/* Beat 6 */}
-      <Row top={rowTop[0]} from={b[5]} to={out(recap)}>
+      <Readout top={rowTop[0]} from={b[5]} to={out(recap)}>
         <Roll states={[[0, <T tex="\sqrt{x + 2} = x" />], [cue("sides"), <T tex="x + 2 = x^2" />]]} />
-      </Row>
-      <Row top={rowTop[1]} from={two2} to={out(recap)}>
+      </Readout>
+      <Readout top={rowTop[1]} from={two2} to={out(recap)}>
         <Roll states={[[0, <T tex="x = 2 \quad\text{or}\quad x = -1" />], [cue("fake"), <T tex={lit("x = [2]", true)} />]]} />
-      </Row>
-      <Row top={rowTop[2]} from={cue("check")} to={out(recap)}>
+      </Readout>
+      <Readout top={rowTop[2]} from={cue("check")} to={out(recap)}>
         <T tex="\sqrt{-1 + 2} = 1 \neq -1" />
-      </Row>
+      </Readout>
 
       <Layer>
         <defs>
@@ -363,18 +358,21 @@ export const AlgebraTwo = () => {
 };
 
 // ---- The six cards ------------------------------------------------------------
-const CARD = { w: 280, h: 330, gapX: 20, gapY: 20, top: 570 };
-const cardAt = (i: number) => ({
-  x: layout.margin + (i % 3) * (CARD.w + CARD.gapX),
-  y: CARD.top + Math.floor(i / 3) * (CARD.h + CARD.gapY),
-});
+const CARD = { cols: 3, w: 280, h: 330, gapX: 20, gapY: 20, top: 570 };
+const cardAt = (i: number) => gridSlot(i, CARD);
 const cards = ["(x-1)(x-5)", "b^2-4ac", "a(1+r)^t", "f(x-h)+k", "(x-1)^2(x-4)", "\\sqrt{x+2}=x"];
 
 const Card = ({ i, opacity }: { i: number; opacity: number }) => {
   const { x, y } = cardAt(i);
-  const area = { x: x + 22, y: y + 62, w: CARD.w - 44, h: 170 };
-  const id = `sat003-card${i}`;
-  const rise = (1 - opacity) * 14;
+  return (
+    <PictureCard x={x} y={y} w={CARD.w} h={CARD.h} n={i + 1} id={`sat003-card${i}`} opacity={opacity}>
+      {(area) => <CardArt i={i} area={area} />}
+    </PictureCard>
+  );
+};
+
+// What each card shows, drawn into its art area.
+const CardArt = ({ i, area }: { i: number; area: Box }) => {
   const mini = (d: { x0: number; x1: number; y0: number; y1: number }) => scale(area, d);
   const axes = (S: ReturnType<typeof scale>, yAxis = true) => (
     <g stroke={color.rule} strokeWidth={2}>
@@ -447,16 +445,5 @@ const Card = ({ i, opacity }: { i: number; opacity: number }) => {
       </>
     );
   }
-  return (
-    <g opacity={opacity} transform={`translate(0 ${rise})`}>
-      <defs>
-        <clipPath id={id}>
-          <rect x={area.x - 6} y={area.y - 6} width={area.w + 12} height={area.h + 12} />
-        </clipPath>
-      </defs>
-      <rect x={x} y={y} width={CARD.w} height={CARD.h} rx={18} fill={color.chip} />
-      <MonoLabel x={x + 22} y={y + 44} anchor="start" size={28}>{i + 1}</MonoLabel>
-      <g clipPath={`url(#${id})`}>{body}</g>
-    </g>
-  );
+  return <>{body}</>;
 };

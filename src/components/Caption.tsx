@@ -54,6 +54,7 @@ export const Captions = ({ top = layout.captionTop, size = layout.captionSize }:
         const next = lines[i + 1];
         // Clear just before the next line is spoken; the last line stays.
         const exitAt = next ? Math.max(line.end, next.start - EXIT - 0.05) : Infinity;
+        if (line.caption === false) return null;
         if (t < line.start - 0.1 || t > exitAt + EXIT + line.tokens.length * EXIT_STAGGER) return null;
         return (
           <div

@@ -1,9 +1,12 @@
 import { interpolateColors } from "remotion";
-import { easeIn, easeMove, lerp, ramp, useTime, visible } from "../../anim";
+import { easeMove, lerp, ramp, useTime, visible } from "../../anim";
 import { Layer } from "../../components/Chart";
 import { useNarration } from "../../narration";
+import { MathGlyph, useKatexFonts } from "../../components/Tex";
+import { REL_X, Step, STEP_EM } from "../../components/Working";
 import { color } from "../../theme";
-import { acc, Glyph, REL_X, Step, STEP_EM, useKatexFonts } from "./parts";
+
+const acc = (tex: string) => `\\acc{${tex}}`;
 
 // (x + 2)/3 = (x - 4)/5.
 //   Trap: 5x + 2 = 3x - 4, 2x = -6, x = -3. Check: -1/3 vs -7/5, no match.
@@ -43,9 +46,9 @@ const Numerator = ({ cx, y, op, digit }: { cx: number; y: number; op: string; di
   const l = cx - NUM_W / 2;
   return (
     <>
-      <Glyph x={l + em(0.286)} y={y} ch="x" size={F} italic />
-      <Glyph x={l + em(1.183)} y={y} ch={op} size={F} />
-      <Glyph x={l + em(2.044)} y={y} ch={digit} size={F} />
+      <MathGlyph x={l + em(0.286)} y={y} ch="x" size={F} italic />
+      <MathGlyph x={l + em(1.183)} y={y} ch={op} size={F} />
+      <MathGlyph x={l + em(2.044)} y={y} ch={digit} size={F} />
     </>
   );
 };
@@ -170,9 +173,9 @@ export const CrossMultiply = () => {
         {/* Hero equation */}
         <Numerator cx={numL} y={numY} op="+" digit="2" />
         <Numerator cx={numR} y={numY} op="−" digit="4" />
-        <Glyph x={540} y={YB} ch="=" size={F} />
-        <Glyph x={three[0]} y={three[1]} ch="3" size={F} />
-        <Glyph x={five[0]} y={five[1]} ch="5" size={F} />
+        <MathGlyph x={540} y={YB} ch="=" size={F} />
+        <MathGlyph x={three[0]} y={three[1]} ch="3" size={F} />
+        <MathGlyph x={five[0]} y={five[1]} ch="5" size={F} />
 
         {/* Fraction bars: two halves each, curling into parentheses */}
         {(
@@ -193,7 +196,7 @@ export const CrossMultiply = () => {
             [C1.parenL[1], ")"],
             [C1.parenR[0], "("],
             [C1.parenR[1], ")"],
-          ].map(([x, ch]) => <Glyph key={`${x}`} x={x as number} y={numY} ch={ch as string} size={F} fill={color.accent} opacity={glyphParen} />)}
+          ].map(([x, ch]) => <MathGlyph key={`${x}`} x={x as number} y={numY} ch={ch as string} size={F} fill={color.accent} opacity={glyphParen} />)}
 
         {/* Now 5 multiplies both terms (and 3 does too) */}
         <Reach from={[C1.five + 8, startY]} to={[C1.numL - NUM_W / 2 + em(0.34), xTop]} lift={38} p={reach(0)} />

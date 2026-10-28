@@ -13,6 +13,7 @@ Script markup, per line of narration (one line = one caption screen):
   *word* or *several words*  emphasis: stays dark after it is read
   $tex$                      inline math in the caption (give the line a "say")
   {cue}                      named moment = start of the next spoken word
+  "caption": false           on a line: spoken without a caption (e.g. under a title card)
 
 Every video ends with the channel's call to action (CTA below) unless the
 script sets "cta": false.
@@ -109,7 +110,10 @@ def main(video_id):
             tok["start"], tok["end"] = round(s, 3), round(e, 3)
         for name, idx in line_cues.items():
             cues[name] = tokens[idx]["start"] if idx < len(tokens) else tokens[-1]["end"]
-        lines.append({"start": tokens[0]["start"], "end": tokens[-1]["end"], "tokens": tokens})
+        entry = {"start": tokens[0]["start"], "end": tokens[-1]["end"], "tokens": tokens}
+        if line.get("caption") is False:
+            entry["caption"] = False
+        lines.append(entry)
         clock += len(audio) / SR
         pause = line.get("pause", default_pause)
         pieces += [audio.astype(np.float32), np.zeros(int(pause * SR), dtype=np.float32)]

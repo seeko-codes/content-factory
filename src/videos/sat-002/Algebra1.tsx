@@ -1,12 +1,14 @@
 import { interpolateColors } from "remotion";
 import { easeIn, easeMove, lerp, ramp, useTime, visible } from "../../anim";
 import { fnPath, Layer, MonoLabel, scale } from "../../components/Chart";
+import { PICTURE_ROW, PictureRow } from "../../components/Cards";
+import { Mono, Op } from "../../components/Readout";
 import { Swap } from "../../components/Swap";
 import { Tex } from "../../components/Tex";
-import { Chip, TitleCard } from "../../components/Title";
+import { ChapterNav, Chip, TitleCard } from "../../components/Title";
 import { useNarration } from "../../narration";
 import { color, font, layout } from "../../theme";
-import { Nav, Row, ROW_H, Thumb, type Kind } from "./parts";
+import { Thumb, type Kind } from "./Thumbs";
 
 // Algebra 1 in five pictures, all on one grid:
 //   y = 2x + 1 (start 1, rate 2) and y = 7 - x meet at x = 2 (2x + 1 = 7 - x, 3x = 6);
@@ -28,10 +30,6 @@ const ROWS: { kind: Kind; term: string; meaning: string }[] = [
   { kind: "zeros", term: "Factoring", meaning: "the zeros, read off" },
 ];
 
-const Mono = ({ children, c = color.ink, w = 600 }: { children: React.ReactNode; c?: string; w?: number }) => (
-  <span style={{ fontFamily: font.mono, fontSize: layout.monoSize, color: c, fontWeight: w }}>{children}</span>
-);
-const Op = ({ tex }: { tex: string }) => <Tex tex={tex} size={layout.texSize} style={{ color: color.operator }} />;
 
 export const Algebra1 = () => {
   const t = useTime();
@@ -110,7 +108,12 @@ export const Algebra1 = () => {
 
   return (
     <>
-      <Nav items={["Alg 1", "Alg 2", "Geo", "Trig"]} active={0} />
+      <ChapterNav
+        numbered={false}
+        chapters={["Alg 1", "Alg 2", "Geo", "Trig"]}
+        active={0}
+        style={{ position: "absolute", left: layout.margin, top: 222 }}
+      />
       {title > 0 && (
         <div style={{ position: "absolute", inset: 0, opacity: title, transform: `translateY(${-(1 - title) * 24}px)` }}>
           <TitleCard title="Algebra 1" />
@@ -120,9 +123,9 @@ export const Algebra1 = () => {
       {/* The year as a syllabus; the pictures arrive on "five pictures" */}
       {listOut < 1 &&
         ROWS.map((r, i) => (
-          <Row
+          <PictureRow
             key={r.kind}
-            top={listTop + i * ROW_H}
+            top={listTop + i * PICTURE_ROW.h}
             term={r.term}
             picture={ramp(t, five + 0.45 + i * 0.1, 0.45, easeIn) * (1 - listOut)}
             text={1 - listOut}
@@ -130,7 +133,7 @@ export const Algebra1 = () => {
             indent={ramp(t, five, 0.6)}
           >
             <Thumb kind={r.kind} id={`sat002-hook-${i}`} />
-          </Row>
+          </PictureRow>
         ))}
 
       {/* Recap: the same five, with what each picture means */}
@@ -138,9 +141,9 @@ export const Algebra1 = () => {
         const p = ramp(t, recap + i * 0.12, 0.5, easeIn);
         if (p <= 0) return null;
         return (
-          <Row key={`recap-${r.kind}`} top={listTop + i * ROW_H} term={r.term} meaning={r.meaning} picture={p} text={p} rise={(1 - p) * 16}>
+          <PictureRow key={`recap-${r.kind}`} top={listTop + i * PICTURE_ROW.h} term={r.term} meaning={r.meaning} picture={p} text={p} rise={(1 - p) * 16}>
             <Thumb kind={r.kind} id={`sat002-recap-${i}`} />
-          </Row>
+          </PictureRow>
         );
       })}
 
