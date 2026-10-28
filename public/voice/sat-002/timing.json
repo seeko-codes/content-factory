@@ -1,6 +1,6 @@
 {
  "id": "sat-002",
- "duration": 58.575,
+ "duration": 59.025,
  "lines": [
   {
    "start": 1.25,
@@ -819,7 +819,7 @@
   },
   {
    "start": 53.925,
-   "end": 58.075,
+   "end": 58.525,
    "tokens": [
     {
      "text": "Want",
@@ -868,21 +868,21 @@
      "emph": true,
      "tex": false,
      "start": 55.587,
-     "end": 56.425
+     "end": 56.475
     },
     {
      "text": "Comment",
      "emph": false,
      "tex": false,
-     "start": 56.587,
-     "end": 57.1
+     "start": 56.662,
+     "end": 57.225
     },
     {
-     "text": "\"seeko\".",
+     "text": "\"ultralearn\".",
      "emph": true,
      "tex": false,
-     "start": 57.162,
-     "end": 58.075
+     "start": 57.312,
+     "end": 58.525
     }
    ]
   }
@@ -914,6 +914,6 @@
   "recap": 47.25,
   "year": 48.262,
   "core": 52.112,
-  "cta": 56.587
+  "cta": 56.662
  }
 }

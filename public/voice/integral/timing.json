@@ -1,6 +1,6 @@
 {
  "id": "integral",
- "duration": 34.775,
+ "duration": 35.225,
  "lines": [
   {
    "start": 0.65,
@@ -485,7 +485,7 @@
   },
   {
    "start": 30.125,
-   "end": 34.275,
+   "end": 34.725,
    "tokens": [
     {
      "text": "Want",
@@ -534,21 +534,21 @@
      "emph": true,
      "tex": false,
      "start": 31.787,
-     "end": 32.625
+     "end": 32.675
     },
     {
      "text": "Comment",
      "emph": false,
      "tex": false,
-     "start": 32.787,
-     "end": 33.3
+     "start": 32.862,
+     "end": 33.425
     },
     {
-     "text": "\"seeko\".",
+     "text": "\"ultralearn\".",
      "emph": true,
      "tex": false,
-     "start": 33.362,
-     "end": 34.275
+     "start": 33.512,
+     "end": 34.725
     }
    ]
   }
@@ -563,6 +563,6 @@
   "thin": 15.95,
   "converge": 20.125,
   "morph": 23.787,
-  "cta": 32.787
+  "cta": 32.862
  }
 }

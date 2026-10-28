@@ -40,6 +40,6 @@ export const layout = {
 };
 
 export const brand = {
-  // Shown on the end card. Change to your own name or mark.
-  name: "seeko learns",
+  // The end card is just the name, in plain type (components/Video.tsx). The brand kit lives in the ultralearn repo, brand/.
+  name: "ultralearn",
 };

@@ -32,8 +32,8 @@ ROOT = Path(__file__).resolve().parent.parent
 SR = 24000
 LEAD = 0.05  # seconds kept before the first word / after the last word of a line
 CTA = {
-    "text": 'Want to take SAT math prep *seriously?* {cta} Comment *"seeko".*',
-    "say": "Want to take SAT math prep seriously? Comment, seeko.",
+    "text": 'Want to take SAT math prep *seriously?* {cta} Comment *"ultralearn".*',
+    "say": "Want to take SAT math prep seriously? Comment, ultra learn.",  # two words so the voice says it cleanly
 }
 CTA_GAP = 0.8  # seconds of silence between the thesis line and the CTA
 

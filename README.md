@@ -44,7 +44,7 @@ The first `npm run voice` downloads the Kokoro model and PyTorch, about 1 GB, on
    - `"caption": false`: speak a line without a caption, e.g. under a title card
 2. **Voice it:** `npm run voice -- <id>`. This writes `public/voice/<id>/narration.wav` and `timing.json`, and prints the wpm, which should be about 120.
 3. **Draw it** in `src/videos/<id>/<Name>.tsx`. Read times with `useNarration().cue("name")` and animate with `ramp`/`visible` from `src/anim.ts`. Captions, audio and the end card are automatic.
-4. **Register it.** Add a standalone `src/videos/<id>/entry.tsx` (copy the integral one) so the video can be previewed on its own with `npx remotion still src/videos/<id>/entry.tsx <id> out/x.png --frame=N`. Add one line to `src/videos/index.ts` so it appears in the studio. Every video automatically ends with the channel CTA (`Comment "seeko"`) and the end card.
+4. **Register it.** Add a standalone `src/videos/<id>/entry.tsx` (copy the integral one) so the video can be previewed on its own with `npx remotion still src/videos/<id>/entry.tsx <id> out/x.png --frame=N`. Add one line to `src/videos/index.ts` so it appears in the studio. Every video automatically ends with the channel CTA (`Comment "ultralearn"`) and the end card.
 5. **Preview** with `npm run studio` and scrub the timeline, or check many frames at once with `npm run stills -- <id> every 2`. **Render** with `npm run render -- <id> out/<id>.mp4`.
 
 When you rewrite a line, run `voice` again. Cue times move with the new audio, so the animation follows without edits.
@@ -75,7 +75,7 @@ Reach for these before writing anything new in a video folder. If a video needs 
 
 | Module | What it gives you |
 |---|---|
-| `Video` | The page, narration audio, captions, the seeko CTA and the end card. Every video is wrapped in it automatically. |
+| `Video` | The page, narration audio, captions, the Ultralearn CTA and the end card. Every video is wrapped in it automatically. |
 | `Caption` | Kinetic word captions. A script line with `"caption": false` is spoken without one, e.g. under a title card. |
 | `Readout` | `Mono` (values), `Op` (=, ≈, ×), `Label` ("distance"), `Readout` (a fading row at a fixed height), `Roll` (an inline value that changes in place), `Layers` (highlight variants stacked in one slot) |
 | `Tex` | KaTeX formulas, with an optional `color`. `\acc{}` and `\soft{}` macros, `lit()` to light up `[bracketed]` parts without moving anything, `MathGlyph` and `useKatexFonts` for single symbols that move |

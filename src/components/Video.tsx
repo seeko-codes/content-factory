@@ -37,7 +37,9 @@ export const Video = ({ timing, children }: { timing: Timing; children: ReactNod
 };
 
 // The CTA: a comment box that types the keyword as it is spoken.
-const KEYWORD = "seeko";
+const KEYWORD = "ultralearn";
+// Wide enough for the keyword in 64px mono (0.6em a character) with the same padding on both sides.
+const BUBBLE = 56 * 2 + Math.ceil(KEYWORD.length * 64 * 0.6) + 24;
 const CommentBubble = ({ start, typeAt }: { start: number; typeAt: number }) => {
   const t = useTime();
   const p = ramp(t, start - 0.1, 0.5, easeIn);
@@ -47,9 +49,9 @@ const CommentBubble = ({ start, typeAt }: { start: number; typeAt: number }) => 
   return (
     <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", opacity: p }}>
       <div style={{ transform: `translateY(${(1 - p) * 20}px)`, position: "relative" }}>
-        <svg width={440} height={200} viewBox="0 0 440 200" style={{ display: "block" }}>
+        <svg width={BUBBLE} height={200} viewBox={`0 0 ${BUBBLE} 200`} style={{ display: "block" }}>
           <path
-            d="M40,4 H400 A36,36 0 0 1 436,40 V124 A36,36 0 0 1 400,160 H150 L104,196 L110,160 H40 A36,36 0 0 1 4,124 V40 A36,36 0 0 1 40,4 Z"
+            d={`M40,4 H${BUBBLE - 40} A36,36 0 0 1 ${BUBBLE - 4},40 V124 A36,36 0 0 1 ${BUBBLE - 40},160 H150 L104,196 L110,160 H40 A36,36 0 0 1 4,124 V40 A36,36 0 0 1 40,4 Z`}
             fill="none"
             stroke={color.ink}
             strokeWidth={4}
@@ -84,9 +86,6 @@ const EndCard = ({ start }: { start: number }) => {
     <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", opacity: p }}>
       <div
         style={{
-          display: "flex",
-          alignItems: "center",
-          gap: 18,
           transform: `translateY(${(1 - p) * 16}px)`,
           fontFamily: font.sans,
           fontWeight: 500,
@@ -94,17 +93,8 @@ const EndCard = ({ start }: { start: number }) => {
           letterSpacing: "-0.02em",
         }}
       >
-        <Mark />
         {brand.name}
       </div>
     </AbsoluteFill>
   );
 };
-
-// A neutral mark: replace with your own logo SVG.
-const Mark = () => (
-  <svg width={40} height={40} viewBox="0 0 40 40">
-    <rect x={2} y={2} width={36} height={36} rx={4} fill="none" stroke={color.ink} strokeWidth={6} />
-    <rect x={14} y={14} width={12} height={12} fill={color.accent} />
-  </svg>
-);

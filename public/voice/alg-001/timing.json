@@ -1,6 +1,6 @@
 {
  "id": "alg-001",
- "duration": 41.275,
+ "duration": 41.725,
  "lines": [
   {
    "start": 0.65,
@@ -538,7 +538,7 @@
   },
   {
    "start": 36.625,
-   "end": 40.775,
+   "end": 41.225,
    "tokens": [
     {
      "text": "Want",
@@ -587,21 +587,21 @@
      "emph": true,
      "tex": false,
      "start": 38.287,
-     "end": 39.125
+     "end": 39.175
     },
     {
      "text": "Comment",
      "emph": false,
      "tex": false,
-     "start": 39.287,
-     "end": 39.8
+     "start": 39.362,
+     "end": 39.925
     },
     {
-     "text": "\"seeko\".",
+     "text": "\"ultralearn\".",
      "emph": true,
      "tex": false,
-     "start": 39.862,
-     "end": 40.775
+     "start": 40.012,
+     "end": 41.225
     }
    ]
   }
@@ -625,6 +625,6 @@
   "check2": 30.8,
   "match": 31.775,
   "paren": 34.55,
-  "cta": 39.287
+  "cta": 39.362
  }
 }
