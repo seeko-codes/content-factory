@@ -1,0 +1,630 @@
+{
+ "id": "alg-001",
+ "duration": 41.275,
+ "lines": [
+  {
+   "start": 0.65,
+   "end": 5.275,
+   "tokens": [
+    {
+     "text": "x",
+     "emph": false,
+     "tex": false,
+     "start": 0.65,
+     "end": 0.875
+    },
+    {
+     "text": "plus",
+     "emph": false,
+     "tex": false,
+     "start": 0.875,
+     "end": 1.188
+    },
+    {
+     "text": "2,",
+     "emph": false,
+     "tex": false,
+     "start": 1.188,
+     "end": 1.5
+    },
+    {
+     "text": "over",
+     "emph": false,
+     "tex": false,
+     "start": 1.55,
+     "end": 1.825
+    },
+    {
+     "text": "3,",
+     "emph": false,
+     "tex": false,
+     "start": 1.825,
+     "end": 2.45
+    },
+    {
+     "text": "equals",
+     "emph": false,
+     "tex": false,
+     "start": 2.6,
+     "end": 3.013
+    },
+    {
+     "text": "x",
+     "emph": false,
+     "tex": false,
+     "start": 3.013,
+     "end": 3.275
+    },
+    {
+     "text": "minus",
+     "emph": false,
+     "tex": false,
+     "start": 3.275,
+     "end": 3.688
+    },
+    {
+     "text": "4,",
+     "emph": false,
+     "tex": false,
+     "start": 3.688,
+     "end": 4.05
+    },
+    {
+     "text": "over",
+     "emph": false,
+     "tex": false,
+     "start": 4.1,
+     "end": 4.4
+    },
+    {
+     "text": "5.",
+     "emph": false,
+     "tex": false,
+     "start": 4.4,
+     "end": 5.275
+    }
+   ]
+  },
+  {
+   "start": 5.725,
+   "end": 6.8,
+   "tokens": [
+    {
+     "text": "What",
+     "emph": false,
+     "tex": false,
+     "start": 5.725,
+     "end": 5.9
+    },
+    {
+     "text": "is",
+     "emph": false,
+     "tex": false,
+     "start": 5.9,
+     "end": 6.1
+    },
+    {
+     "text": "x?",
+     "emph": true,
+     "tex": false,
+     "start": 6.1,
+     "end": 6.8
+    }
+   ]
+  },
+  {
+   "start": 7.6,
+   "end": 10.15,
+   "tokens": [
+    {
+     "text": "Most",
+     "emph": false,
+     "tex": false,
+     "start": 7.6,
+     "end": 7.85
+    },
+    {
+     "text": "people",
+     "emph": false,
+     "tex": false,
+     "start": 7.85,
+     "end": 8.237
+    },
+    {
+     "text": "cross-multiply",
+     "emph": false,
+     "tex": false,
+     "start": 8.237,
+     "end": 9.25
+    },
+    {
+     "text": "like",
+     "emph": false,
+     "tex": false,
+     "start": 9.25,
+     "end": 9.475
+    },
+    {
+     "text": "this.",
+     "emph": false,
+     "tex": false,
+     "start": 9.475,
+     "end": 10.15
+    }
+   ]
+  },
+  {
+   "start": 10.6,
+   "end": 12.75,
+   "tokens": [
+    {
+     "text": "Then",
+     "emph": false,
+     "tex": false,
+     "start": 10.6,
+     "end": 10.862
+    },
+    {
+     "text": "x",
+     "emph": false,
+     "tex": false,
+     "start": 10.862,
+     "end": 11.262
+    },
+    {
+     "text": "is",
+     "emph": false,
+     "tex": false,
+     "start": 11.262,
+     "end": 11.5
+    },
+    {
+     "text": "\u22123.",
+     "emph": true,
+     "tex": false,
+     "start": 11.5,
+     "end": 12.75
+    }
+   ]
+  },
+  {
+   "start": 13.25,
+   "end": 15.675,
+   "tokens": [
+    {
+     "text": "But",
+     "emph": false,
+     "tex": false,
+     "start": 13.25,
+     "end": 13.425
+    },
+    {
+     "text": "check",
+     "emph": false,
+     "tex": false,
+     "start": 13.425,
+     "end": 13.75
+    },
+    {
+     "text": "it:",
+     "emph": false,
+     "tex": false,
+     "start": 13.75,
+     "end": 13.95
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 14.025,
+     "end": 14.175
+    },
+    {
+     "text": "sides",
+     "emph": false,
+     "tex": false,
+     "start": 14.175,
+     "end": 14.65
+    },
+    {
+     "text": "don't",
+     "emph": true,
+     "tex": false,
+     "start": 14.65,
+     "end": 14.9
+    },
+    {
+     "text": "match.",
+     "emph": false,
+     "tex": false,
+     "start": 14.9,
+     "end": 15.675
+    }
+   ]
+  },
+  {
+   "start": 16.175,
+   "end": 18.1,
+   "tokens": [
+    {
+     "text": "\u22123",
+     "emph": true,
+     "tex": false,
+     "start": 16.175,
+     "end": 16.625
+    },
+    {
+     "text": "is",
+     "emph": false,
+     "tex": false,
+     "start": 16.625,
+     "end": 17.062
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 17.062,
+     "end": 17.212
+    },
+    {
+     "text": "trap.",
+     "emph": true,
+     "tex": false,
+     "start": 17.212,
+     "end": 18.1
+    }
+   ]
+  },
+  {
+   "start": 18.8,
+   "end": 21.275,
+   "tokens": [
+    {
+     "text": "The",
+     "emph": false,
+     "tex": false,
+     "start": 18.8,
+     "end": 18.875
+    },
+    {
+     "text": "fraction",
+     "emph": false,
+     "tex": false,
+     "start": 18.875,
+     "end": 19.35
+    },
+    {
+     "text": "bar",
+     "emph": false,
+     "tex": false,
+     "start": 19.35,
+     "end": 19.65
+    },
+    {
+     "text": "groups",
+     "emph": true,
+     "tex": false,
+     "start": 19.65,
+     "end": 19.987
+    },
+    {
+     "text": "x",
+     "emph": false,
+     "tex": false,
+     "start": 19.987,
+     "end": 20.275
+    },
+    {
+     "text": "+",
+     "emph": false,
+     "tex": false,
+     "start": 20.275,
+     "end": 20.587
+    },
+    {
+     "text": "2.",
+     "emph": false,
+     "tex": false,
+     "start": 20.587,
+     "end": 21.275
+    }
+   ]
+  },
+  {
+   "start": 21.775,
+   "end": 24.075,
+   "tokens": [
+    {
+     "text": "Cross-multiply",
+     "emph": false,
+     "tex": false,
+     "start": 21.775,
+     "end": 22.85
+    },
+    {
+     "text": "and",
+     "emph": false,
+     "tex": false,
+     "start": 22.85,
+     "end": 22.975
+    },
+    {
+     "text": "keep",
+     "emph": true,
+     "tex": false,
+     "start": 22.975,
+     "end": 23.225
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 23.225,
+     "end": 23.337
+    },
+    {
+     "text": "group.",
+     "emph": false,
+     "tex": false,
+     "start": 23.337,
+     "end": 24.075
+    }
+   ]
+  },
+  {
+   "start": 24.575,
+   "end": 26.975,
+   "tokens": [
+    {
+     "text": "Now",
+     "emph": false,
+     "tex": false,
+     "start": 24.575,
+     "end": 24.85
+    },
+    {
+     "text": "5",
+     "emph": false,
+     "tex": false,
+     "start": 24.85,
+     "end": 25.25
+    },
+    {
+     "text": "multiplies",
+     "emph": false,
+     "tex": false,
+     "start": 25.25,
+     "end": 25.85
+    },
+    {
+     "text": "both",
+     "emph": true,
+     "tex": false,
+     "start": 25.85,
+     "end": 26.15
+    },
+    {
+     "text": "terms.",
+     "emph": false,
+     "tex": false,
+     "start": 26.15,
+     "end": 26.975
+    }
+   ]
+  },
+  {
+   "start": 27.475,
+   "end": 30.25,
+   "tokens": [
+    {
+     "text": "This",
+     "emph": false,
+     "tex": false,
+     "start": 27.475,
+     "end": 27.675
+    },
+    {
+     "text": "time,",
+     "emph": false,
+     "tex": false,
+     "start": 27.675,
+     "end": 28.175
+    },
+    {
+     "text": "x",
+     "emph": false,
+     "tex": false,
+     "start": 28.287,
+     "end": 28.687
+    },
+    {
+     "text": "is",
+     "emph": false,
+     "tex": false,
+     "start": 28.687,
+     "end": 28.9
+    },
+    {
+     "text": "\u221211.",
+     "emph": true,
+     "tex": false,
+     "start": 28.9,
+     "end": 30.25
+    }
+   ]
+  },
+  {
+   "start": 30.8,
+   "end": 32.525,
+   "tokens": [
+    {
+     "text": "Check:",
+     "emph": false,
+     "tex": false,
+     "start": 30.8,
+     "end": 31.05
+    },
+    {
+     "text": "both",
+     "emph": false,
+     "tex": false,
+     "start": 31.1,
+     "end": 31.4
+    },
+    {
+     "text": "sides",
+     "emph": false,
+     "tex": false,
+     "start": 31.4,
+     "end": 31.775
+    },
+    {
+     "text": "match.",
+     "emph": true,
+     "tex": false,
+     "start": 31.775,
+     "end": 32.525
+    }
+   ]
+  },
+  {
+   "start": 33.325,
+   "end": 35.725,
+   "tokens": [
+    {
+     "text": "A",
+     "emph": false,
+     "tex": false,
+     "start": 33.325,
+     "end": 33.412
+    },
+    {
+     "text": "fraction",
+     "emph": false,
+     "tex": false,
+     "start": 33.412,
+     "end": 33.95
+    },
+    {
+     "text": "bar",
+     "emph": false,
+     "tex": false,
+     "start": 33.95,
+     "end": 34.362
+    },
+    {
+     "text": "is",
+     "emph": false,
+     "tex": false,
+     "start": 34.362,
+     "end": 34.487
+    },
+    {
+     "text": "a",
+     "emph": false,
+     "tex": false,
+     "start": 34.487,
+     "end": 34.55
+    },
+    {
+     "text": "parenthesis.",
+     "emph": true,
+     "tex": false,
+     "start": 34.55,
+     "end": 35.725
+    }
+   ]
+  },
+  {
+   "start": 36.625,
+   "end": 40.775,
+   "tokens": [
+    {
+     "text": "Want",
+     "emph": false,
+     "tex": false,
+     "start": 36.625,
+     "end": 36.762
+    },
+    {
+     "text": "to",
+     "emph": false,
+     "tex": false,
+     "start": 36.762,
+     "end": 36.85
+    },
+    {
+     "text": "take",
+     "emph": false,
+     "tex": false,
+     "start": 36.85,
+     "end": 37.162
+    },
+    {
+     "text": "SAT",
+     "emph": false,
+     "tex": false,
+     "start": 37.162,
+     "end": 37.7
+    },
+    {
+     "text": "math",
+     "emph": false,
+     "tex": false,
+     "start": 37.7,
+     "end": 38.0
+    },
+    {
+     "text": "prep",
+     "emph": false,
+     "tex": false,
+     "start": 38.0,
+     "end": 38.287
+    },
+    {
+     "text": "seriously?",
+     "emph": true,
+     "tex": false,
+     "start": 38.287,
+     "end": 39.125
+    },
+    {
+     "text": "Comment",
+     "emph": false,
+     "tex": false,
+     "start": 39.287,
+     "end": 39.8
+    },
+    {
+     "text": "\"seeko\".",
+     "emph": true,
+     "tex": false,
+     "start": 39.862,
+     "end": 40.775
+    }
+   ]
+  }
+ ],
+ "cues": {
+  "wrong": 9.25,
+  "then": 10.6,
+  "neg3": 11.5,
+  "check": 13.25,
+  "sides": 14.025,
+  "trap": 16.175,
+  "trapword": 17.212,
+  "bar": 18.8,
+  "groups": 19.65,
+  "swing": 21.775,
+  "curl": 22.85,
+  "mult": 25.25,
+  "terms": 26.15,
+  "right": 27.475,
+  "neg11": 28.9,
+  "check2": 30.8,
+  "match": 31.775,
+  "paren": 34.55,
+  "cta": 39.287
+ }
+}

@@ -1,0 +1,889 @@
+{
+ "id": "sat-003",
+ "duration": 53.475,
+ "lines": [
+  {
+   "start": 0.65,
+   "end": 3.825,
+   "tokens": [
+    {
+     "text": "Algebra",
+     "emph": false,
+     "tex": false,
+     "start": 0.65,
+     "end": 1.15
+    },
+    {
+     "text": "2,",
+     "emph": false,
+     "tex": false,
+     "start": 1.15,
+     "end": 1.625
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 1.75,
+     "end": 1.85
+    },
+    {
+     "text": "whole",
+     "emph": false,
+     "tex": false,
+     "start": 1.85,
+     "end": 2.1
+    },
+    {
+     "text": "year,",
+     "emph": false,
+     "tex": false,
+     "start": 2.1,
+     "end": 2.375
+    },
+    {
+     "text": "in",
+     "emph": false,
+     "tex": false,
+     "start": 2.425,
+     "end": 2.587
+    },
+    {
+     "text": "six",
+     "emph": false,
+     "tex": false,
+     "start": 2.587,
+     "end": 2.875
+    },
+    {
+     "text": "pictures.",
+     "emph": true,
+     "tex": false,
+     "start": 2.875,
+     "end": 3.825
+    }
+   ]
+  },
+  {
+   "start": 4.325,
+   "end": 5.8,
+   "tokens": [
+    {
+     "text": "Which",
+     "emph": false,
+     "tex": false,
+     "start": 4.325,
+     "end": 4.6
+    },
+    {
+     "text": "one",
+     "emph": false,
+     "tex": false,
+     "start": 4.6,
+     "end": 4.863
+    },
+    {
+     "text": "broke",
+     "emph": true,
+     "tex": false,
+     "start": 4.863,
+     "end": 5.238
+    },
+    {
+     "text": "you?",
+     "emph": false,
+     "tex": false,
+     "start": 5.238,
+     "end": 5.8
+    }
+   ]
+  },
+  {
+   "start": 6.6,
+   "end": 11.15,
+   "tokens": [
+    {
+     "text": "One",
+     "emph": false,
+     "tex": false,
+     "start": 6.6,
+     "end": 6.825
+    },
+    {
+     "text": "parabola,",
+     "emph": false,
+     "tex": false,
+     "start": 6.825,
+     "end": 7.375
+    },
+    {
+     "text": "three",
+     "emph": false,
+     "tex": false,
+     "start": 7.463,
+     "end": 7.75
+    },
+    {
+     "text": "forms:",
+     "emph": false,
+     "tex": false,
+     "start": 7.75,
+     "end": 8.55
+    },
+    {
+     "text": "zeros,",
+     "emph": true,
+     "tex": false,
+     "start": 8.7,
+     "end": 9.275
+    },
+    {
+     "text": "vertex,",
+     "emph": true,
+     "tex": false,
+     "start": 9.325,
+     "end": 9.85
+    },
+    {
+     "text": "y-intercept.",
+     "emph": true,
+     "tex": false,
+     "start": 9.913,
+     "end": 11.15
+    }
+   ]
+  },
+  {
+   "start": 11.95,
+   "end": 15.2,
+   "tokens": [
+    {
+     "text": "Slide",
+     "emph": false,
+     "tex": false,
+     "start": 11.95,
+     "end": 12.238
+    },
+    {
+     "text": "it",
+     "emph": false,
+     "tex": false,
+     "start": 12.238,
+     "end": 12.325
+    },
+    {
+     "text": "up:",
+     "emph": false,
+     "tex": false,
+     "start": 12.325,
+     "end": 12.75
+    },
+    {
+     "text": "two",
+     "emph": true,
+     "tex": false,
+     "start": 12.888,
+     "end": 13.113
+    },
+    {
+     "text": "solutions,",
+     "emph": false,
+     "tex": false,
+     "start": 13.113,
+     "end": 13.7
+    },
+    {
+     "text": "then",
+     "emph": false,
+     "tex": false,
+     "start": 13.738,
+     "end": 13.925
+    },
+    {
+     "text": "one,",
+     "emph": true,
+     "tex": false,
+     "start": 13.925,
+     "end": 14.2
+    },
+    {
+     "text": "then",
+     "emph": false,
+     "tex": false,
+     "start": 14.25,
+     "end": 14.475
+    },
+    {
+     "text": "none.",
+     "emph": true,
+     "tex": false,
+     "start": 14.475,
+     "end": 15.2
+    }
+   ]
+  },
+  {
+   "start": 15.7,
+   "end": 18.4,
+   "tokens": [
+    {
+     "text": "One",
+     "emph": false,
+     "tex": false,
+     "start": 15.7,
+     "end": 15.925
+    },
+    {
+     "text": "number",
+     "emph": false,
+     "tex": false,
+     "start": 15.925,
+     "end": 16.262
+    },
+    {
+     "text": "counts",
+     "emph": false,
+     "tex": false,
+     "start": 16.262,
+     "end": 16.65
+    },
+    {
+     "text": "them:",
+     "emph": false,
+     "tex": false,
+     "start": 16.65,
+     "end": 17.075
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 17.2,
+     "end": 17.3
+    },
+    {
+     "text": "discriminant.",
+     "emph": true,
+     "tex": false,
+     "start": 17.3,
+     "end": 18.4
+    }
+   ]
+  },
+  {
+   "start": 19.2,
+   "end": 21.625,
+   "tokens": [
+    {
+     "text": "Add",
+     "emph": false,
+     "tex": false,
+     "start": 19.2,
+     "end": 19.437
+    },
+    {
+     "text": "10",
+     "emph": false,
+     "tex": false,
+     "start": 19.437,
+     "end": 19.7
+    },
+    {
+     "text": "a",
+     "emph": false,
+     "tex": false,
+     "start": 19.7,
+     "end": 19.812
+    },
+    {
+     "text": "year,",
+     "emph": false,
+     "tex": false,
+     "start": 19.812,
+     "end": 20.225
+    },
+    {
+     "text": "and",
+     "emph": false,
+     "tex": false,
+     "start": 20.3,
+     "end": 20.425
+    },
+    {
+     "text": "you",
+     "emph": false,
+     "tex": false,
+     "start": 20.425,
+     "end": 20.55
+    },
+    {
+     "text": "get",
+     "emph": false,
+     "tex": false,
+     "start": 20.55,
+     "end": 20.687
+    },
+    {
+     "text": "a",
+     "emph": false,
+     "tex": false,
+     "start": 20.687,
+     "end": 20.787
+    },
+    {
+     "text": "line.",
+     "emph": true,
+     "tex": false,
+     "start": 20.787,
+     "end": 21.625
+    }
+   ]
+  },
+  {
+   "start": 22.025,
+   "end": 24.575,
+   "tokens": [
+    {
+     "text": "Grow",
+     "emph": false,
+     "tex": false,
+     "start": 22.025,
+     "end": 22.287
+    },
+    {
+     "text": "10",
+     "emph": false,
+     "tex": false,
+     "start": 22.287,
+     "end": 22.55
+    },
+    {
+     "text": "percent,",
+     "emph": true,
+     "tex": false,
+     "start": 22.55,
+     "end": 23.1
+    },
+    {
+     "text": "and",
+     "emph": false,
+     "tex": false,
+     "start": 23.175,
+     "end": 23.287
+    },
+    {
+     "text": "it",
+     "emph": false,
+     "tex": false,
+     "start": 23.287,
+     "end": 23.387
+    },
+    {
+     "text": "peels",
+     "emph": true,
+     "tex": false,
+     "start": 23.387,
+     "end": 23.8
+    },
+    {
+     "text": "away.",
+     "emph": false,
+     "tex": false,
+     "start": 23.8,
+     "end": 24.575
+    }
+   ]
+  },
+  {
+   "start": 25.375,
+   "end": 27.85,
+   "tokens": [
+    {
+     "text": "Minus",
+     "emph": false,
+     "tex": false,
+     "start": 25.375,
+     "end": 25.737
+    },
+    {
+     "text": "3",
+     "emph": false,
+     "tex": false,
+     "start": 25.737,
+     "end": 26.075
+    },
+    {
+     "text": "inside",
+     "emph": false,
+     "tex": false,
+     "start": 26.075,
+     "end": 26.662
+    },
+    {
+     "text": "moves",
+     "emph": false,
+     "tex": false,
+     "start": 26.662,
+     "end": 26.987
+    },
+    {
+     "text": "it",
+     "emph": false,
+     "tex": false,
+     "start": 26.987,
+     "end": 27.125
+    },
+    {
+     "text": "right.",
+     "emph": true,
+     "tex": false,
+     "start": 27.125,
+     "end": 27.85
+    }
+   ]
+  },
+  {
+   "start": 28.25,
+   "end": 30.275,
+   "tokens": [
+    {
+     "text": "Plus",
+     "emph": false,
+     "tex": false,
+     "start": 28.25,
+     "end": 28.512
+    },
+    {
+     "text": "2",
+     "emph": false,
+     "tex": false,
+     "start": 28.512,
+     "end": 28.75
+    },
+    {
+     "text": "outside",
+     "emph": false,
+     "tex": false,
+     "start": 28.75,
+     "end": 29.337
+    },
+    {
+     "text": "moves",
+     "emph": false,
+     "tex": false,
+     "start": 29.337,
+     "end": 29.612
+    },
+    {
+     "text": "it",
+     "emph": false,
+     "tex": false,
+     "start": 29.612,
+     "end": 29.7
+    },
+    {
+     "text": "up.",
+     "emph": true,
+     "tex": false,
+     "start": 29.7,
+     "end": 30.275
+    }
+   ]
+  },
+  {
+   "start": 31.075,
+   "end": 32.95,
+   "tokens": [
+    {
+     "text": "Every",
+     "emph": false,
+     "tex": false,
+     "start": 31.075,
+     "end": 31.4
+    },
+    {
+     "text": "zero",
+     "emph": false,
+     "tex": false,
+     "start": 31.4,
+     "end": 31.9
+    },
+    {
+     "text": "is",
+     "emph": false,
+     "tex": false,
+     "start": 31.9,
+     "end": 32.012
+    },
+    {
+     "text": "a",
+     "emph": false,
+     "tex": false,
+     "start": 32.012,
+     "end": 32.112
+    },
+    {
+     "text": "factor.",
+     "emph": true,
+     "tex": false,
+     "start": 32.112,
+     "end": 32.95
+    }
+   ]
+  },
+  {
+   "start": 33.35,
+   "end": 36.55,
+   "tokens": [
+    {
+     "text": "Squared",
+     "emph": false,
+     "tex": false,
+     "start": 33.35,
+     "end": 33.725
+    },
+    {
+     "text": "factors",
+     "emph": false,
+     "tex": false,
+     "start": 33.725,
+     "end": 34.212
+    },
+    {
+     "text": "bounce,",
+     "emph": true,
+     "tex": false,
+     "start": 34.212,
+     "end": 34.825
+    },
+    {
+     "text": "single",
+     "emph": false,
+     "tex": false,
+     "start": 34.975,
+     "end": 35.375
+    },
+    {
+     "text": "ones",
+     "emph": false,
+     "tex": false,
+     "start": 35.375,
+     "end": 35.662
+    },
+    {
+     "text": "cross.",
+     "emph": true,
+     "tex": false,
+     "start": 35.662,
+     "end": 36.55
+    }
+   ]
+  },
+  {
+   "start": 37.35,
+   "end": 40.175,
+   "tokens": [
+    {
+     "text": "Square",
+     "emph": false,
+     "tex": false,
+     "start": 37.35,
+     "end": 37.65
+    },
+    {
+     "text": "both",
+     "emph": false,
+     "tex": false,
+     "start": 37.65,
+     "end": 37.962
+    },
+    {
+     "text": "sides,",
+     "emph": false,
+     "tex": false,
+     "start": 37.962,
+     "end": 38.5
+    },
+    {
+     "text": "and",
+     "emph": false,
+     "tex": false,
+     "start": 38.575,
+     "end": 38.687
+    },
+    {
+     "text": "you",
+     "emph": false,
+     "tex": false,
+     "start": 38.687,
+     "end": 38.775
+    },
+    {
+     "text": "get",
+     "emph": false,
+     "tex": false,
+     "start": 38.775,
+     "end": 38.987
+    },
+    {
+     "text": "two",
+     "emph": true,
+     "tex": false,
+     "start": 38.987,
+     "end": 39.212
+    },
+    {
+     "text": "answers.",
+     "emph": false,
+     "tex": false,
+     "start": 39.212,
+     "end": 40.175
+    }
+   ]
+  },
+  {
+   "start": 40.575,
+   "end": 42.35,
+   "tokens": [
+    {
+     "text": "Check",
+     "emph": false,
+     "tex": false,
+     "start": 40.575,
+     "end": 40.8
+    },
+    {
+     "text": "them:",
+     "emph": false,
+     "tex": false,
+     "start": 40.8,
+     "end": 41.075
+    },
+    {
+     "text": "one",
+     "emph": false,
+     "tex": false,
+     "start": 41.125,
+     "end": 41.35
+    },
+    {
+     "text": "is",
+     "emph": false,
+     "tex": false,
+     "start": 41.35,
+     "end": 41.487
+    },
+    {
+     "text": "a",
+     "emph": false,
+     "tex": false,
+     "start": 41.487,
+     "end": 41.6
+    },
+    {
+     "text": "fake.",
+     "emph": true,
+     "tex": false,
+     "start": 41.6,
+     "end": 42.35
+    }
+   ]
+  },
+  {
+   "start": 43.25,
+   "end": 45.475,
+   "tokens": [
+    {
+     "text": "Read",
+     "emph": false,
+     "tex": false,
+     "start": 43.25,
+     "end": 43.462
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 43.462,
+     "end": 43.6
+    },
+    {
+     "text": "formula,",
+     "emph": false,
+     "tex": false,
+     "start": 43.6,
+     "end": 44.225
+    },
+    {
+     "text": "see",
+     "emph": false,
+     "tex": false,
+     "start": 44.337,
+     "end": 44.537
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 44.537,
+     "end": 44.625
+    },
+    {
+     "text": "picture.",
+     "emph": true,
+     "tex": false,
+     "start": 44.625,
+     "end": 45.475
+    }
+   ]
+  },
+  {
+   "start": 46.075,
+   "end": 47.925,
+   "tokens": [
+    {
+     "text": "That's",
+     "emph": false,
+     "tex": false,
+     "start": 46.075,
+     "end": 46.375
+    },
+    {
+     "text": "all",
+     "emph": false,
+     "tex": false,
+     "start": 46.375,
+     "end": 46.537
+    },
+    {
+     "text": "of",
+     "emph": false,
+     "tex": false,
+     "start": 46.537,
+     "end": 46.662
+    },
+    {
+     "text": "Algebra",
+     "emph": true,
+     "tex": false,
+     "start": 46.662,
+     "end": 47.2
+    },
+    {
+     "text": "2.",
+     "emph": true,
+     "tex": false,
+     "start": 47.2,
+     "end": 47.925
+    }
+   ]
+  },
+  {
+   "start": 48.825,
+   "end": 52.975,
+   "tokens": [
+    {
+     "text": "Want",
+     "emph": false,
+     "tex": false,
+     "start": 48.825,
+     "end": 48.962
+    },
+    {
+     "text": "to",
+     "emph": false,
+     "tex": false,
+     "start": 48.962,
+     "end": 49.05
+    },
+    {
+     "text": "take",
+     "emph": false,
+     "tex": false,
+     "start": 49.05,
+     "end": 49.362
+    },
+    {
+     "text": "SAT",
+     "emph": false,
+     "tex": false,
+     "start": 49.362,
+     "end": 49.9
+    },
+    {
+     "text": "math",
+     "emph": false,
+     "tex": false,
+     "start": 49.9,
+     "end": 50.2
+    },
+    {
+     "text": "prep",
+     "emph": false,
+     "tex": false,
+     "start": 50.2,
+     "end": 50.487
+    },
+    {
+     "text": "seriously?",
+     "emph": true,
+     "tex": false,
+     "start": 50.487,
+     "end": 51.325
+    },
+    {
+     "text": "Comment",
+     "emph": false,
+     "tex": false,
+     "start": 51.487,
+     "end": 52.0
+    },
+    {
+     "text": "\"seeko\".",
+     "emph": true,
+     "tex": false,
+     "start": 52.062,
+     "end": 52.975
+    }
+   ]
+  }
+ ],
+ "cues": {
+  "six": 2.587,
+  "b1": 6.6,
+  "forms": 7.463,
+  "zeros": 8.7,
+  "vertex": 9.325,
+  "yint": 9.913,
+  "b2": 11.95,
+  "two": 12.888,
+  "sol": 13.113,
+  "one": 13.925,
+  "none": 14.475,
+  "disc": 17.3,
+  "b3": 19.2,
+  "line": 20.787,
+  "pct": 22.55,
+  "peel": 23.387,
+  "away": 23.8,
+  "b4": 25.375,
+  "three": 25.737,
+  "right": 26.662,
+  "plus": 28.25,
+  "up": 29.337,
+  "b5": 31.075,
+  "zero": 31.4,
+  "factor": 32.112,
+  "draw": 33.35,
+  "bounce": 34.212,
+  "cross": 35.662,
+  "b6": 37.35,
+  "sides": 37.962,
+  "two2": 38.987,
+  "check": 40.575,
+  "fake": 41.6,
+  "recap": 43.25,
+  "end": 46.075,
+  "cta": 51.487
+ }
+}

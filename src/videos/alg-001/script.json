@@ -1,0 +1,59 @@
+{
+  "title": "Cross-multiply without parentheses and you get -3. It's -11",
+  "voice": "am_michael",
+  "lines": [
+    {
+      "text": "x plus 2, over 3, equals x minus 4, over 5.",
+      "say": "x plus two, over three, equals x minus four, over five.",
+      "pause": 0.35
+    },
+    {
+      "text": "What is *x?*",
+      "pause": 0.7
+    },
+    {
+      "text": "Most people cross-multiply {wrong} like this.",
+      "pause": 0.35
+    },
+    {
+      "text": "{then} Then x is {neg3} *−3.*",
+      "say": "Then x is negative three.",
+      "pause": 0.4
+    },
+    {
+      "text": "{check} But check it: {sides} the sides *don't* match.",
+      "pause": 0.4
+    },
+    {
+      "text": "{trap} *−3* is the {trapword} *trap.*",
+      "say": "Negative three is the trap.",
+      "pause": 0.6
+    },
+    {
+      "text": "{bar} The fraction bar {groups} *groups* x + 2.",
+      "say": "The fraction bar groups x plus two.",
+      "pause": 0.4
+    },
+    {
+      "text": "{swing} Cross-multiply {curl} and *keep* the group.",
+      "pause": 0.4
+    },
+    {
+      "text": "Now 5 {mult} multiplies *both* {terms} terms.",
+      "say": "Now five multiplies both terms.",
+      "pause": 0.4
+    },
+    {
+      "text": "{right} This time, x is {neg11} *−11.*",
+      "say": "This time, x is negative eleven.",
+      "pause": 0.45
+    },
+    {
+      "text": "{check2} Check: both sides {match} *match.*",
+      "pause": 0.7
+    },
+    {
+      "text": "A fraction bar is a {paren} *parenthesis.*"
+    }
+  ]
+}

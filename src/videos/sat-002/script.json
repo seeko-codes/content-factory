@@ -1,0 +1,81 @@
+{
+  "title": "All of Algebra 1 in 60 seconds, the SAT version",
+  "voice": "am_michael",
+  "lead_in": 1.2,
+  "lines": [
+    {
+      "text": "A whole year of *Algebra 1.* {five} Five *pictures.*",
+      "say": "A whole year of Algebra one. Five pictures.",
+      "pause": 0.35
+    },
+    {
+      "text": "Which one {broke} *broke* you?",
+      "pause": 0.7
+    },
+    {
+      "text": "{line} Start at *1.* {climb} Climb *2* each step.",
+      "say": "Start at one. Climb two each step.",
+      "pause": 0.4
+    },
+    {
+      "text": "A line is a {start} *start* plus a {rate} *rate.*",
+      "pause": 0.5
+    },
+    {
+      "text": "{second} A second line *crosses* it.",
+      "pause": 0.35
+    },
+    {
+      "text": "{solve} Solving an equation is finding where they {meet} *meet.*",
+      "pause": 0.5
+    },
+    {
+      "text": "{parallel} Make them *parallel:* {zero} *no* crossing.",
+      "pause": 0.4
+    },
+    {
+      "text": "{merge} Stack them: {inf} *infinitely* many.",
+      "pause": 0.45
+    },
+    {
+      "text": "One, zero or infinite. That's every {system} *system.*",
+      "pause": 0.5
+    },
+    {
+      "text": "{ineq} Now trade *equals* for {gt} *greater than.*",
+      "pause": 0.35
+    },
+    {
+      "text": "{flood} Everything *above* the line works.",
+      "pause": 0.35
+    },
+    {
+      "text": "An inequality keeps {half} *half* the plane.",
+      "pause": 0.5
+    },
+    {
+      "text": "{parab} Last, a *curve.*",
+      "pause": 0.35
+    },
+    {
+      "text": "{factor} *Factor* it.",
+      "pause": 0.35
+    },
+    {
+      "text": "It touches down at {zeros} *−2* and {z3} *−3.*",
+      "say": "It touches down at negative two and negative three.",
+      "pause": 0.4
+    },
+    {
+      "text": "Factoring {reads} *reads* the zeros.",
+      "pause": 1.0
+    },
+    {
+      "text": "{recap} Five pictures. {year} *One* year.",
+      "pause": 0.8
+    },
+    {
+      "text": "That year is the core of SAT {core} *Algebra.*"
+    }
+  ]
+}

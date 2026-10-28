@@ -3,10 +3,12 @@ import { useMemo, type CSSProperties } from "react";
 import { color, layout } from "../theme";
 
 // KaTeX gives the Computer Modern math the reference videos use.
-// Use \textcolor{accent}{...} via the `accent` macro: \acc{20}.
+// \acc{20} colors in the accent, \soft{...} in the quiet label gray. In a
+// macro body "#2" would mean "argument 2", so the hex colors' # is doubled.
+const hex = (c: string) => c.replace("#", "##");
 const macros = {
-  "\\acc": `\\textcolor{${color.accent}}{#1}`,
-  "\\soft": `\\textcolor{${color.label}}{#1}`,
+  "\\acc": `\\textcolor{${hex(color.accent)}}{#1}`,
+  "\\soft": `\\textcolor{${hex(color.label)}}{#1}`,
 };
 
 export const Tex = ({

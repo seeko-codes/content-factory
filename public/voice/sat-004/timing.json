@@ -1,0 +1,751 @@
+{
+ "id": "sat-004",
+ "duration": 44.1,
+ "lines": [
+  {
+   "start": 0.65,
+   "end": 5.6,
+   "tokens": [
+    {
+     "text": "Is",
+     "emph": false,
+     "tex": false,
+     "start": 0.65,
+     "end": 0.812
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 0.812,
+     "end": 0.9
+    },
+    {
+     "text": "point",
+     "emph": false,
+     "tex": false,
+     "start": 0.9,
+     "end": 1.237
+    },
+    {
+     "text": "(4,",
+     "emph": false,
+     "tex": false,
+     "start": 1.237,
+     "end": 1.55
+    },
+    {
+     "text": "1)",
+     "emph": false,
+     "tex": false,
+     "start": 1.6,
+     "end": 2.2
+    },
+    {
+     "text": "on",
+     "emph": false,
+     "tex": false,
+     "start": 2.325,
+     "end": 2.462
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 2.462,
+     "end": 2.55
+    },
+    {
+     "text": "line",
+     "emph": false,
+     "tex": false,
+     "start": 2.55,
+     "end": 2.887
+    },
+    {
+     "text": "$2x - 3y = 5$?",
+     "emph": false,
+     "tex": true,
+     "start": 2.887,
+     "end": 3.425
+    },
+    {
+     "text": "\u200b",
+     "emph": false,
+     "tex": false,
+     "start": 3.425,
+     "end": 3.837
+    },
+    {
+     "text": "\u200b",
+     "emph": false,
+     "tex": false,
+     "start": 3.837,
+     "end": 4.375
+    },
+    {
+     "text": "\u200b",
+     "emph": false,
+     "tex": false,
+     "start": 4.375,
+     "end": 4.762
+    },
+    {
+     "text": "\u200b",
+     "emph": false,
+     "tex": false,
+     "start": 4.762,
+     "end": 5.6
+    }
+   ]
+  },
+  {
+   "start": 6.4,
+   "end": 8.35,
+   "tokens": [
+    {
+     "text": "Rain",
+     "emph": false,
+     "tex": false,
+     "start": 6.4,
+     "end": 6.712
+    },
+    {
+     "text": "points",
+     "emph": false,
+     "tex": false,
+     "start": 6.712,
+     "end": 7.15
+    },
+    {
+     "text": "onto",
+     "emph": false,
+     "tex": false,
+     "start": 7.15,
+     "end": 7.387
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 7.387,
+     "end": 7.487
+    },
+    {
+     "text": "plane.",
+     "emph": true,
+     "tex": false,
+     "start": 7.487,
+     "end": 8.35
+    }
+   ]
+  },
+  {
+   "start": 8.75,
+   "end": 11.15,
+   "tokens": [
+    {
+     "text": "Keep",
+     "emph": false,
+     "tex": false,
+     "start": 8.75,
+     "end": 9.087
+    },
+    {
+     "text": "only",
+     "emph": false,
+     "tex": false,
+     "start": 9.087,
+     "end": 9.4
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 9.4,
+     "end": 9.525
+    },
+    {
+     "text": "ones",
+     "emph": false,
+     "tex": false,
+     "start": 9.525,
+     "end": 9.85
+    },
+    {
+     "text": "that",
+     "emph": false,
+     "tex": false,
+     "start": 9.85,
+     "end": 10.025
+    },
+    {
+     "text": "make",
+     "emph": false,
+     "tex": false,
+     "start": 10.025,
+     "end": 10.237
+    },
+    {
+     "text": "it",
+     "emph": false,
+     "tex": false,
+     "start": 10.237,
+     "end": 10.387
+    },
+    {
+     "text": "true.",
+     "emph": true,
+     "tex": false,
+     "start": 10.387,
+     "end": 11.15
+    }
+   ]
+  },
+  {
+   "start": 11.65,
+   "end": 13.65,
+   "tokens": [
+    {
+     "text": "More",
+     "emph": false,
+     "tex": false,
+     "start": 11.65,
+     "end": 11.887
+    },
+    {
+     "text": "points,",
+     "emph": false,
+     "tex": false,
+     "start": 11.887,
+     "end": 12.325
+    },
+    {
+     "text": "smaller",
+     "emph": false,
+     "tex": false,
+     "start": 12.387,
+     "end": 12.85
+    },
+    {
+     "text": "gaps.",
+     "emph": true,
+     "tex": false,
+     "start": 12.85,
+     "end": 13.65
+    }
+   ]
+  },
+  {
+   "start": 14.15,
+   "end": 16.15,
+   "tokens": [
+    {
+     "text": "The",
+     "emph": false,
+     "tex": false,
+     "start": 14.15,
+     "end": 14.262
+    },
+    {
+     "text": "survivors",
+     "emph": false,
+     "tex": false,
+     "start": 14.262,
+     "end": 15.05
+    },
+    {
+     "text": "are",
+     "emph": true,
+     "tex": false,
+     "start": 15.05,
+     "end": 15.2
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 15.2,
+     "end": 15.337
+    },
+    {
+     "text": "line.",
+     "emph": true,
+     "tex": false,
+     "start": 15.337,
+     "end": 16.15
+    }
+   ]
+  },
+  {
+   "start": 16.75,
+   "end": 19.075,
+   "tokens": [
+    {
+     "text": "A",
+     "emph": false,
+     "tex": false,
+     "start": 16.75,
+     "end": 16.837
+    },
+    {
+     "text": "graph",
+     "emph": false,
+     "tex": false,
+     "start": 16.837,
+     "end": 17.362
+    },
+    {
+     "text": "is",
+     "emph": false,
+     "tex": false,
+     "start": 17.362,
+     "end": 17.5
+    },
+    {
+     "text": "a",
+     "emph": false,
+     "tex": false,
+     "start": 17.5,
+     "end": 17.6
+    },
+    {
+     "text": "list",
+     "emph": true,
+     "tex": false,
+     "start": 17.6,
+     "end": 17.862
+    },
+    {
+     "text": "of",
+     "emph": false,
+     "tex": false,
+     "start": 17.862,
+     "end": 17.975
+    },
+    {
+     "text": "solutions.",
+     "emph": true,
+     "tex": false,
+     "start": 17.975,
+     "end": 19.075
+    }
+   ]
+  },
+  {
+   "start": 19.775,
+   "end": 23.125,
+   "tokens": [
+    {
+     "text": "Plug",
+     "emph": false,
+     "tex": false,
+     "start": 19.775,
+     "end": 20.025
+    },
+    {
+     "text": "in:",
+     "emph": false,
+     "tex": false,
+     "start": 20.025,
+     "end": 20.225
+    },
+    {
+     "text": "2",
+     "emph": false,
+     "tex": false,
+     "start": 20.275,
+     "end": 20.475
+    },
+    {
+     "text": "times",
+     "emph": false,
+     "tex": false,
+     "start": 20.475,
+     "end": 20.812
+    },
+    {
+     "text": "4,",
+     "emph": false,
+     "tex": false,
+     "start": 20.812,
+     "end": 21.275
+    },
+    {
+     "text": "minus",
+     "emph": false,
+     "tex": false,
+     "start": 21.35,
+     "end": 21.712
+    },
+    {
+     "text": "3",
+     "emph": false,
+     "tex": false,
+     "start": 21.712,
+     "end": 21.975
+    },
+    {
+     "text": "times",
+     "emph": false,
+     "tex": false,
+     "start": 21.975,
+     "end": 22.362
+    },
+    {
+     "text": "1.",
+     "emph": false,
+     "tex": false,
+     "start": 22.362,
+     "end": 23.125
+    }
+   ]
+  },
+  {
+   "start": 23.525,
+   "end": 25.425,
+   "tokens": [
+    {
+     "text": "That's",
+     "emph": false,
+     "tex": false,
+     "start": 23.525,
+     "end": 23.837
+    },
+    {
+     "text": "5.",
+     "emph": true,
+     "tex": false,
+     "start": 23.837,
+     "end": 24.225
+    },
+    {
+     "text": "It's",
+     "emph": false,
+     "tex": false,
+     "start": 24.262,
+     "end": 24.425
+    },
+    {
+     "text": "on",
+     "emph": false,
+     "tex": false,
+     "start": 24.425,
+     "end": 24.587
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 24.587,
+     "end": 24.675
+    },
+    {
+     "text": "list.",
+     "emph": true,
+     "tex": false,
+     "start": 24.675,
+     "end": 25.425
+    }
+   ]
+  },
+  {
+   "start": 26.225,
+   "end": 29.65,
+   "tokens": [
+    {
+     "text": "Now",
+     "emph": false,
+     "tex": false,
+     "start": 26.225,
+     "end": 26.412
+    },
+    {
+     "text": "a",
+     "emph": false,
+     "tex": false,
+     "start": 26.412,
+     "end": 26.512
+    },
+    {
+     "text": "second",
+     "emph": false,
+     "tex": false,
+     "start": 26.512,
+     "end": 26.85
+    },
+    {
+     "text": "line:",
+     "emph": false,
+     "tex": false,
+     "start": 26.85,
+     "end": 27.425
+    },
+    {
+     "text": "$x + y = 5$.",
+     "emph": false,
+     "tex": true,
+     "start": 27.562,
+     "end": 27.825
+    },
+    {
+     "text": "\u200b",
+     "emph": false,
+     "tex": false,
+     "start": 27.825,
+     "end": 28.125
+    },
+    {
+     "text": "\u200b",
+     "emph": false,
+     "tex": false,
+     "start": 28.125,
+     "end": 28.4
+    },
+    {
+     "text": "\u200b",
+     "emph": false,
+     "tex": false,
+     "start": 28.4,
+     "end": 28.812
+    },
+    {
+     "text": "\u200b",
+     "emph": false,
+     "tex": false,
+     "start": 28.812,
+     "end": 29.65
+    }
+   ]
+  },
+  {
+   "start": 30.15,
+   "end": 32.125,
+   "tokens": [
+    {
+     "text": "One",
+     "emph": false,
+     "tex": false,
+     "start": 30.15,
+     "end": 30.387
+    },
+    {
+     "text": "point",
+     "emph": false,
+     "tex": false,
+     "start": 30.387,
+     "end": 30.725
+    },
+    {
+     "text": "is",
+     "emph": false,
+     "tex": false,
+     "start": 30.725,
+     "end": 30.837
+    },
+    {
+     "text": "on",
+     "emph": false,
+     "tex": false,
+     "start": 30.837,
+     "end": 31.037
+    },
+    {
+     "text": "both",
+     "emph": true,
+     "tex": false,
+     "start": 31.037,
+     "end": 31.375
+    },
+    {
+     "text": "lists.",
+     "emph": false,
+     "tex": false,
+     "start": 31.375,
+     "end": 32.125
+    }
+   ]
+  },
+  {
+   "start": 32.625,
+   "end": 34.2,
+   "tokens": [
+    {
+     "text": "That's",
+     "emph": false,
+     "tex": false,
+     "start": 32.625,
+     "end": 32.925
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 32.925,
+     "end": 33.075
+    },
+    {
+     "text": "intersection.",
+     "emph": true,
+     "tex": false,
+     "start": 33.075,
+     "end": 34.2
+    }
+   ]
+  },
+  {
+   "start": 35.1,
+   "end": 38.55,
+   "tokens": [
+    {
+     "text": "On",
+     "emph": false,
+     "tex": false,
+     "start": 35.1,
+     "end": 35.262
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 35.262,
+     "end": 35.387
+    },
+    {
+     "text": "line",
+     "emph": false,
+     "tex": false,
+     "start": 35.387,
+     "end": 35.8
+    },
+    {
+     "text": "means",
+     "emph": false,
+     "tex": false,
+     "start": 35.8,
+     "end": 36.112
+    },
+    {
+     "text": "true.",
+     "emph": true,
+     "tex": false,
+     "start": 36.112,
+     "end": 36.65
+    },
+    {
+     "text": "On",
+     "emph": false,
+     "tex": false,
+     "start": 36.8,
+     "end": 37.0
+    },
+    {
+     "text": "both",
+     "emph": false,
+     "tex": false,
+     "start": 37.0,
+     "end": 37.325
+    },
+    {
+     "text": "means",
+     "emph": false,
+     "tex": false,
+     "start": 37.325,
+     "end": 37.65
+    },
+    {
+     "text": "solved.",
+     "emph": true,
+     "tex": false,
+     "start": 37.65,
+     "end": 38.55
+    }
+   ]
+  },
+  {
+   "start": 39.45,
+   "end": 43.6,
+   "tokens": [
+    {
+     "text": "Want",
+     "emph": false,
+     "tex": false,
+     "start": 39.45,
+     "end": 39.587
+    },
+    {
+     "text": "to",
+     "emph": false,
+     "tex": false,
+     "start": 39.587,
+     "end": 39.675
+    },
+    {
+     "text": "take",
+     "emph": false,
+     "tex": false,
+     "start": 39.675,
+     "end": 39.987
+    },
+    {
+     "text": "SAT",
+     "emph": false,
+     "tex": false,
+     "start": 39.987,
+     "end": 40.525
+    },
+    {
+     "text": "math",
+     "emph": false,
+     "tex": false,
+     "start": 40.525,
+     "end": 40.825
+    },
+    {
+     "text": "prep",
+     "emph": false,
+     "tex": false,
+     "start": 40.825,
+     "end": 41.112
+    },
+    {
+     "text": "seriously?",
+     "emph": true,
+     "tex": false,
+     "start": 41.112,
+     "end": 41.95
+    },
+    {
+     "text": "Comment",
+     "emph": false,
+     "tex": false,
+     "start": 42.112,
+     "end": 42.625
+    },
+    {
+     "text": "\"seeko\".",
+     "emph": true,
+     "tex": false,
+     "start": 42.687,
+     "end": 43.6
+    }
+   ]
+  }
+ ],
+ "cues": {
+  "rain": 6.4,
+  "test": 8.75,
+  "true": 10.387,
+  "more": 11.65,
+  "line": 14.15,
+  "list": 17.6,
+  "plug": 19.775,
+  "five": 23.525,
+  "yes": 24.262,
+  "second": 26.225,
+  "both": 30.15,
+  "inter": 33.075,
+  "solved": 36.8,
+  "cta": 42.112
+ }
+}

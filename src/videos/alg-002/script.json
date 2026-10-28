@@ -1,0 +1,16 @@
+{
+  "title": "Why you solve equations backwards: socks and shoes",
+  "voice": "am_michael",
+  "lines": [
+    { "text": "$3x + 5 = 20.$", "say": "Three x plus five equals twenty.", "pause": 0.4 },
+    { "text": "Why do you {subtract} *subtract* before you {divide} *divide?*", "pause": 0.7 },
+    { "text": "{socks0} You put on {socks} *socks,* then {shoes} *shoes.*", "pause": 0.3 },
+    { "text": "{offline} To take them off, {shoesoff} *shoes* come off {first} *first.*", "pause": 0.7 },
+    { "text": "{recipe0} This equation is a {recipe} *recipe* done to {x} $x$.", "say": "This equation is a recipe done to x.", "pause": 0.4 },
+    { "text": "{times} Times *3,* then {plus} plus *5:* {lands} *20.*", "say": "Times three, then plus five: twenty.", "pause": 0.6 },
+    { "text": "So {undo} undo it in {reverse} *reverse* order.", "pause": 0.4 },
+    { "text": "{minus} Minus *5:* {fifteen} 15. {div} Divide by *3:* {five} *5.*", "say": "Minus five: fifteen. Divide by three: five.", "pause": 0.7 },
+    { "text": "{last} Plus 5 went on *last,* so it comes off {first2} *first.*", "say": "Plus five went on last, so it comes off first.", "pause": 0.8 },
+    { "text": "{thesis} Solving is running the recipe *backwards.*" }
+  ]
+}

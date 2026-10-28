@@ -1,0 +1,919 @@
+{
+ "id": "sat-002",
+ "duration": 58.575,
+ "lines": [
+  {
+   "start": 1.25,
+   "end": 4.5,
+   "tokens": [
+    {
+     "text": "A",
+     "emph": false,
+     "tex": false,
+     "start": 1.25,
+     "end": 1.337
+    },
+    {
+     "text": "whole",
+     "emph": false,
+     "tex": false,
+     "start": 1.337,
+     "end": 1.625
+    },
+    {
+     "text": "year",
+     "emph": false,
+     "tex": false,
+     "start": 1.625,
+     "end": 1.863
+    },
+    {
+     "text": "of",
+     "emph": false,
+     "tex": false,
+     "start": 1.863,
+     "end": 1.988
+    },
+    {
+     "text": "Algebra",
+     "emph": true,
+     "tex": false,
+     "start": 1.988,
+     "end": 2.513
+    },
+    {
+     "text": "1.",
+     "emph": true,
+     "tex": false,
+     "start": 2.513,
+     "end": 3.0
+    },
+    {
+     "text": "Five",
+     "emph": false,
+     "tex": false,
+     "start": 3.15,
+     "end": 3.537
+    },
+    {
+     "text": "pictures.",
+     "emph": true,
+     "tex": false,
+     "start": 3.537,
+     "end": 4.5
+    }
+   ]
+  },
+  {
+   "start": 4.95,
+   "end": 6.425,
+   "tokens": [
+    {
+     "text": "Which",
+     "emph": false,
+     "tex": false,
+     "start": 4.95,
+     "end": 5.225
+    },
+    {
+     "text": "one",
+     "emph": false,
+     "tex": false,
+     "start": 5.225,
+     "end": 5.487
+    },
+    {
+     "text": "broke",
+     "emph": true,
+     "tex": false,
+     "start": 5.487,
+     "end": 5.862
+    },
+    {
+     "text": "you?",
+     "emph": false,
+     "tex": false,
+     "start": 5.862,
+     "end": 6.425
+    }
+   ]
+  },
+  {
+   "start": 7.225,
+   "end": 9.75,
+   "tokens": [
+    {
+     "text": "Start",
+     "emph": false,
+     "tex": false,
+     "start": 7.225,
+     "end": 7.487
+    },
+    {
+     "text": "at",
+     "emph": false,
+     "tex": false,
+     "start": 7.487,
+     "end": 7.575
+    },
+    {
+     "text": "1.",
+     "emph": true,
+     "tex": false,
+     "start": 7.575,
+     "end": 8.05
+    },
+    {
+     "text": "Climb",
+     "emph": false,
+     "tex": false,
+     "start": 8.175,
+     "end": 8.475
+    },
+    {
+     "text": "2",
+     "emph": true,
+     "tex": false,
+     "start": 8.475,
+     "end": 8.787
+    },
+    {
+     "text": "each",
+     "emph": false,
+     "tex": false,
+     "start": 8.787,
+     "end": 9.062
+    },
+    {
+     "text": "step.",
+     "emph": false,
+     "tex": false,
+     "start": 9.062,
+     "end": 9.75
+    }
+   ]
+  },
+  {
+   "start": 10.25,
+   "end": 12.375,
+   "tokens": [
+    {
+     "text": "A",
+     "emph": false,
+     "tex": false,
+     "start": 10.25,
+     "end": 10.337
+    },
+    {
+     "text": "line",
+     "emph": false,
+     "tex": false,
+     "start": 10.337,
+     "end": 10.775
+    },
+    {
+     "text": "is",
+     "emph": false,
+     "tex": false,
+     "start": 10.775,
+     "end": 10.887
+    },
+    {
+     "text": "a",
+     "emph": false,
+     "tex": false,
+     "start": 10.887,
+     "end": 10.975
+    },
+    {
+     "text": "start",
+     "emph": true,
+     "tex": false,
+     "start": 10.975,
+     "end": 11.35
+    },
+    {
+     "text": "plus",
+     "emph": false,
+     "tex": false,
+     "start": 11.35,
+     "end": 11.6
+    },
+    {
+     "text": "a",
+     "emph": false,
+     "tex": false,
+     "start": 11.6,
+     "end": 11.7
+    },
+    {
+     "text": "rate.",
+     "emph": true,
+     "tex": false,
+     "start": 11.7,
+     "end": 12.375
+    }
+   ]
+  },
+  {
+   "start": 12.975,
+   "end": 14.875,
+   "tokens": [
+    {
+     "text": "A",
+     "emph": false,
+     "tex": false,
+     "start": 12.975,
+     "end": 13.075
+    },
+    {
+     "text": "second",
+     "emph": false,
+     "tex": false,
+     "start": 13.075,
+     "end": 13.45
+    },
+    {
+     "text": "line",
+     "emph": false,
+     "tex": false,
+     "start": 13.45,
+     "end": 13.825
+    },
+    {
+     "text": "crosses",
+     "emph": true,
+     "tex": false,
+     "start": 13.825,
+     "end": 14.387
+    },
+    {
+     "text": "it.",
+     "emph": false,
+     "tex": false,
+     "start": 14.387,
+     "end": 14.875
+    }
+   ]
+  },
+  {
+   "start": 15.325,
+   "end": 18.15,
+   "tokens": [
+    {
+     "text": "Solving",
+     "emph": false,
+     "tex": false,
+     "start": 15.325,
+     "end": 15.687
+    },
+    {
+     "text": "an",
+     "emph": false,
+     "tex": false,
+     "start": 15.687,
+     "end": 15.775
+    },
+    {
+     "text": "equation",
+     "emph": false,
+     "tex": false,
+     "start": 15.775,
+     "end": 16.4
+    },
+    {
+     "text": "is",
+     "emph": false,
+     "tex": false,
+     "start": 16.4,
+     "end": 16.562
+    },
+    {
+     "text": "finding",
+     "emph": false,
+     "tex": false,
+     "start": 16.562,
+     "end": 17.125
+    },
+    {
+     "text": "where",
+     "emph": false,
+     "tex": false,
+     "start": 17.125,
+     "end": 17.275
+    },
+    {
+     "text": "they",
+     "emph": false,
+     "tex": false,
+     "start": 17.275,
+     "end": 17.437
+    },
+    {
+     "text": "meet.",
+     "emph": true,
+     "tex": false,
+     "start": 17.437,
+     "end": 18.15
+    }
+   ]
+  },
+  {
+   "start": 18.75,
+   "end": 21.225,
+   "tokens": [
+    {
+     "text": "Make",
+     "emph": false,
+     "tex": false,
+     "start": 18.75,
+     "end": 18.962
+    },
+    {
+     "text": "them",
+     "emph": false,
+     "tex": false,
+     "start": 18.962,
+     "end": 19.162
+    },
+    {
+     "text": "parallel:",
+     "emph": true,
+     "tex": false,
+     "start": 19.162,
+     "end": 19.875
+    },
+    {
+     "text": "no",
+     "emph": true,
+     "tex": false,
+     "start": 19.975,
+     "end": 20.212
+    },
+    {
+     "text": "crossing.",
+     "emph": false,
+     "tex": false,
+     "start": 20.212,
+     "end": 21.225
+    }
+   ]
+  },
+  {
+   "start": 21.725,
+   "end": 23.675,
+   "tokens": [
+    {
+     "text": "Stack",
+     "emph": false,
+     "tex": false,
+     "start": 21.725,
+     "end": 22.05
+    },
+    {
+     "text": "them:",
+     "emph": false,
+     "tex": false,
+     "start": 22.05,
+     "end": 22.275
+    },
+    {
+     "text": "infinitely",
+     "emph": true,
+     "tex": false,
+     "start": 22.35,
+     "end": 22.95
+    },
+    {
+     "text": "many.",
+     "emph": false,
+     "tex": false,
+     "start": 22.95,
+     "end": 23.675
+    }
+   ]
+  },
+  {
+   "start": 24.225,
+   "end": 27.7,
+   "tokens": [
+    {
+     "text": "One,",
+     "emph": false,
+     "tex": false,
+     "start": 24.225,
+     "end": 24.475
+    },
+    {
+     "text": "zero",
+     "emph": false,
+     "tex": false,
+     "start": 24.537,
+     "end": 25.037
+    },
+    {
+     "text": "or",
+     "emph": false,
+     "tex": false,
+     "start": 25.037,
+     "end": 25.212
+    },
+    {
+     "text": "infinite.",
+     "emph": false,
+     "tex": false,
+     "start": 25.212,
+     "end": 26.0
+    },
+    {
+     "text": "That's",
+     "emph": false,
+     "tex": false,
+     "start": 26.137,
+     "end": 26.487
+    },
+    {
+     "text": "every",
+     "emph": false,
+     "tex": false,
+     "start": 26.487,
+     "end": 26.85
+    },
+    {
+     "text": "system.",
+     "emph": true,
+     "tex": false,
+     "start": 26.85,
+     "end": 27.7
+    }
+   ]
+  },
+  {
+   "start": 28.3,
+   "end": 30.65,
+   "tokens": [
+    {
+     "text": "Now",
+     "emph": false,
+     "tex": false,
+     "start": 28.3,
+     "end": 28.537
+    },
+    {
+     "text": "trade",
+     "emph": false,
+     "tex": false,
+     "start": 28.537,
+     "end": 28.975
+    },
+    {
+     "text": "equals",
+     "emph": true,
+     "tex": false,
+     "start": 28.975,
+     "end": 29.4
+    },
+    {
+     "text": "for",
+     "emph": false,
+     "tex": false,
+     "start": 29.4,
+     "end": 29.55
+    },
+    {
+     "text": "greater",
+     "emph": true,
+     "tex": false,
+     "start": 29.55,
+     "end": 30.012
+    },
+    {
+     "text": "than.",
+     "emph": true,
+     "tex": false,
+     "start": 30.012,
+     "end": 30.65
+    }
+   ]
+  },
+  {
+   "start": 31.1,
+   "end": 33.175,
+   "tokens": [
+    {
+     "text": "Everything",
+     "emph": false,
+     "tex": false,
+     "start": 31.1,
+     "end": 31.625
+    },
+    {
+     "text": "above",
+     "emph": true,
+     "tex": false,
+     "start": 31.625,
+     "end": 31.975
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 31.975,
+     "end": 32.112
+    },
+    {
+     "text": "line",
+     "emph": false,
+     "tex": false,
+     "start": 32.112,
+     "end": 32.475
+    },
+    {
+     "text": "works.",
+     "emph": false,
+     "tex": false,
+     "start": 32.475,
+     "end": 33.175
+    }
+   ]
+  },
+  {
+   "start": 33.625,
+   "end": 36.075,
+   "tokens": [
+    {
+     "text": "An",
+     "emph": false,
+     "tex": false,
+     "start": 33.625,
+     "end": 33.75
+    },
+    {
+     "text": "inequality",
+     "emph": false,
+     "tex": false,
+     "start": 33.75,
+     "end": 34.537
+    },
+    {
+     "text": "keeps",
+     "emph": false,
+     "tex": false,
+     "start": 34.537,
+     "end": 34.85
+    },
+    {
+     "text": "half",
+     "emph": true,
+     "tex": false,
+     "start": 34.85,
+     "end": 35.125
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 35.125,
+     "end": 35.225
+    },
+    {
+     "text": "plane.",
+     "emph": false,
+     "tex": false,
+     "start": 35.225,
+     "end": 36.075
+    }
+   ]
+  },
+  {
+   "start": 36.675,
+   "end": 37.95,
+   "tokens": [
+    {
+     "text": "Last,",
+     "emph": false,
+     "tex": false,
+     "start": 36.675,
+     "end": 37.0
+    },
+    {
+     "text": "a",
+     "emph": false,
+     "tex": false,
+     "start": 37.037,
+     "end": 37.137
+    },
+    {
+     "text": "curve.",
+     "emph": true,
+     "tex": false,
+     "start": 37.137,
+     "end": 37.95
+    }
+   ]
+  },
+  {
+   "start": 38.4,
+   "end": 39.375,
+   "tokens": [
+    {
+     "text": "Factor",
+     "emph": true,
+     "tex": false,
+     "start": 38.4,
+     "end": 38.887
+    },
+    {
+     "text": "it.",
+     "emph": false,
+     "tex": false,
+     "start": 38.887,
+     "end": 39.375
+    }
+   ]
+  },
+  {
+   "start": 39.825,
+   "end": 43.6,
+   "tokens": [
+    {
+     "text": "It",
+     "emph": false,
+     "tex": false,
+     "start": 39.825,
+     "end": 39.975
+    },
+    {
+     "text": "touches",
+     "emph": false,
+     "tex": false,
+     "start": 39.975,
+     "end": 40.412
+    },
+    {
+     "text": "down",
+     "emph": false,
+     "tex": false,
+     "start": 40.412,
+     "end": 40.8
+    },
+    {
+     "text": "at",
+     "emph": false,
+     "tex": false,
+     "start": 40.8,
+     "end": 41.45
+    },
+    {
+     "text": "\u22122",
+     "emph": true,
+     "tex": false,
+     "start": 41.45,
+     "end": 42.162
+    },
+    {
+     "text": "and",
+     "emph": false,
+     "tex": false,
+     "start": 42.162,
+     "end": 42.35
+    },
+    {
+     "text": "\u22123.",
+     "emph": true,
+     "tex": false,
+     "start": 42.35,
+     "end": 43.6
+    }
+   ]
+  },
+  {
+   "start": 44.1,
+   "end": 46.15,
+   "tokens": [
+    {
+     "text": "Factoring",
+     "emph": false,
+     "tex": false,
+     "start": 44.1,
+     "end": 44.662
+    },
+    {
+     "text": "reads",
+     "emph": true,
+     "tex": false,
+     "start": 44.662,
+     "end": 45.05
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 45.05,
+     "end": 45.187
+    },
+    {
+     "text": "zeros.",
+     "emph": false,
+     "tex": false,
+     "start": 45.187,
+     "end": 46.15
+    }
+   ]
+  },
+  {
+   "start": 47.25,
+   "end": 49.275,
+   "tokens": [
+    {
+     "text": "Five",
+     "emph": false,
+     "tex": false,
+     "start": 47.25,
+     "end": 47.575
+    },
+    {
+     "text": "pictures.",
+     "emph": false,
+     "tex": false,
+     "start": 47.575,
+     "end": 48.15
+    },
+    {
+     "text": "One",
+     "emph": true,
+     "tex": false,
+     "start": 48.262,
+     "end": 48.562
+    },
+    {
+     "text": "year.",
+     "emph": false,
+     "tex": false,
+     "start": 48.562,
+     "end": 49.275
+    }
+   ]
+  },
+  {
+   "start": 50.175,
+   "end": 53.025,
+   "tokens": [
+    {
+     "text": "That",
+     "emph": false,
+     "tex": false,
+     "start": 50.175,
+     "end": 50.4
+    },
+    {
+     "text": "year",
+     "emph": false,
+     "tex": false,
+     "start": 50.4,
+     "end": 50.625
+    },
+    {
+     "text": "is",
+     "emph": false,
+     "tex": false,
+     "start": 50.625,
+     "end": 50.775
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 50.775,
+     "end": 50.912
+    },
+    {
+     "text": "core",
+     "emph": false,
+     "tex": false,
+     "start": 50.912,
+     "end": 51.25
+    },
+    {
+     "text": "of",
+     "emph": false,
+     "tex": false,
+     "start": 51.25,
+     "end": 51.425
+    },
+    {
+     "text": "SAT",
+     "emph": false,
+     "tex": false,
+     "start": 51.425,
+     "end": 52.112
+    },
+    {
+     "text": "Algebra.",
+     "emph": true,
+     "tex": false,
+     "start": 52.112,
+     "end": 53.025
+    }
+   ]
+  },
+  {
+   "start": 53.925,
+   "end": 58.075,
+   "tokens": [
+    {
+     "text": "Want",
+     "emph": false,
+     "tex": false,
+     "start": 53.925,
+     "end": 54.062
+    },
+    {
+     "text": "to",
+     "emph": false,
+     "tex": false,
+     "start": 54.062,
+     "end": 54.15
+    },
+    {
+     "text": "take",
+     "emph": false,
+     "tex": false,
+     "start": 54.15,
+     "end": 54.462
+    },
+    {
+     "text": "SAT",
+     "emph": false,
+     "tex": false,
+     "start": 54.462,
+     "end": 55.0
+    },
+    {
+     "text": "math",
+     "emph": false,
+     "tex": false,
+     "start": 55.0,
+     "end": 55.3
+    },
+    {
+     "text": "prep",
+     "emph": false,
+     "tex": false,
+     "start": 55.3,
+     "end": 55.587
+    },
+    {
+     "text": "seriously?",
+     "emph": true,
+     "tex": false,
+     "start": 55.587,
+     "end": 56.425
+    },
+    {
+     "text": "Comment",
+     "emph": false,
+     "tex": false,
+     "start": 56.587,
+     "end": 57.1
+    },
+    {
+     "text": "\"seeko\".",
+     "emph": true,
+     "tex": false,
+     "start": 57.162,
+     "end": 58.075
+    }
+   ]
+  }
+ ],
+ "cues": {
+  "five": 3.15,
+  "broke": 5.487,
+  "line": 7.225,
+  "climb": 8.175,
+  "start": 10.975,
+  "rate": 11.7,
+  "second": 12.975,
+  "solve": 15.325,
+  "meet": 17.437,
+  "parallel": 18.75,
+  "zero": 19.975,
+  "merge": 21.725,
+  "inf": 22.35,
+  "system": 26.85,
+  "ineq": 28.3,
+  "gt": 29.55,
+  "flood": 31.1,
+  "half": 34.85,
+  "parab": 36.675,
+  "factor": 38.4,
+  "zeros": 41.45,
+  "z3": 42.35,
+  "reads": 44.662,
+  "recap": 47.25,
+  "year": 48.262,
+  "core": 52.112,
+  "cta": 56.587
+ }
+}

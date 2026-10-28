@@ -1,0 +1,21 @@
+{
+  "title": "Algebra 2 in 60 seconds: the class behind SAT Advanced Math",
+  "voice": "am_michael",
+  "lines": [
+    { "text": "Algebra 2, the whole year, in {six} six *pictures.*", "say": "Algebra two, the whole year, in six pictures.", "pause": 0.4 },
+    { "text": "Which one *broke* you?", "pause": 0.7 },
+    { "text": "{b1} One parabola, {forms} three forms: {zeros} *zeros,* {vertex} *vertex,* {yint} *y-intercept.*", "say": "One parabola, three forms: zeros, vertex, y intercept.", "pause": 0.7 },
+    { "text": "{b2} Slide it up: {two} *two* {sol} solutions, then {one} *one,* then {none} *none.*", "pause": 0.4 },
+    { "text": "One number counts them: the {disc} *discriminant.*", "pause": 0.7 },
+    { "text": "{b3} Add 10 a year, and you get a {line} *line.*", "say": "Add ten a year, and you get a line.", "pause": 0.3 },
+    { "text": "Grow 10 {pct} *percent,* and it {peel} *peels* {away} away.", "say": "Grow ten percent, and it peels away.", "pause": 0.7 },
+    { "text": "{b4} Minus {three} 3 inside {right} moves it *right.*", "say": "Minus three inside moves it right.", "pause": 0.3 },
+    { "text": "{plus} Plus 2 outside {up} moves it *up.*", "say": "Plus two outside moves it up.", "pause": 0.7 },
+    { "text": "{b5} Every {zero} zero is a {factor} *factor.*", "pause": 0.3 },
+    { "text": "{draw} Squared factors {bounce} *bounce,* single ones {cross} *cross.*", "pause": 0.7 },
+    { "text": "{b6} Square both {sides} sides, and you get {two2} *two* answers.", "pause": 0.3 },
+    { "text": "{check} Check them: one is a {fake} *fake.*", "pause": 0.8 },
+    { "text": "{recap} Read the formula, see the *picture.*", "pause": 0.5 },
+    { "text": "{end} That's all of *Algebra 2.*", "say": "That's all of Algebra two." }
+  ]
+}

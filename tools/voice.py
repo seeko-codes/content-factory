@@ -40,7 +40,7 @@ CTA_GAP = 0.8  # seconds of silence between the thesis line and the CTA
 def tokenize(text):
     """Display tokens with emphasis/tex flags, and cue names keyed by token index."""
     tokens, cues, in_emph = [], {}, False
-    for raw in re.findall(r"\{[\w-]+\}|\S*\$[^$]+\$\S*|\S+", text):
+    for raw in re.findall(r"\{[\w-]+\}|[^\s$]*\$[^$]+\$[^\s$]*|\S+", text):
         if re.fullmatch(r"\{[\w-]+\}", raw):
             cues[raw[1:-1]] = len(tokens)
             continue
