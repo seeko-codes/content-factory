@@ -41,5 +41,5 @@ export const layout = {
 
 export const brand = {
   // Shown on the end card. Change to your own name or mark.
-  name: "seeko",
+  name: "seeko learns",
 };

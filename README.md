@@ -60,7 +60,7 @@ src/components/       Video (page, audio, end card), Caption, Tex, Chart, Swap, 
 src/videos/<id>/      script.json + the video's diagram component
 tools/voice.py        Kokoro narration + word timings
 public/voice/<id>/    generated narration and timing (committed, so renders are reproducible)
-research/             topic research (sat-math-topics.md: prioritized SAT video ideas)
+research/             the SAT video list (568 ranked ideas split between Andres and Sharan), posting calendar, viral and question-pattern research. Start at research/README.md
 samples/              reference recordings, local only
 out/                  renders, ignored
 ```
