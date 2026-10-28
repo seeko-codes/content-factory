@@ -1,0 +1,15 @@
+{
+  "title": "What does the integral symbol actually do?",
+  "voice": "am_michael",
+  "lines": [
+    { "text": "What does this symbol *actually* do?", "pause": 0.6 },
+    { "text": "{chart} If this is your *speed,* how far did you {distq} *go?*", "pause": 0.5 },
+    { "text": "{freeze} Freeze it for *one second.*" },
+    { "text": "*Speed* times *time* is {mult} *distance.*", "pause": 0.6 },
+    { "text": "Add every {strips} *strip:* about {sum} *17 meters.*", "say": "Add every strip: about seventeen meters.", "pause": 0.6 },
+    { "text": "{thin} Thinner strips, smaller *gaps.*" },
+    { "text": "The total closes in on {converge} exactly *20.*", "say": "The total closes in on exactly twenty.", "pause": 0.7 },
+    { "text": "That's why this *symbol* is a {morph} long *S,* for *sum.*", "pause": 0.6 },
+    { "text": "An integral adds *tiny* pieces into a *whole.*" }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+ "id": "integral",
+ "duration": 29.725,
+ "lines": [
+  {
+   "start": 0.65,
+   "end": 2.8,
+   "tokens": [
+    {
+     "text": "What",
+     "emph": false,
+     "tex": false,
+     "start": 0.65,
+     "end": 0.787
+    },
+    {
+     "text": "does",
+     "emph": false,
+     "tex": false,
+     "start": 0.787,
+     "end": 0.975
+    },
+    {
+     "text": "this",
+     "emph": false,
+     "tex": false,
+     "start": 0.975,
+     "end": 1.188
+    },
+    {
+     "text": "symbol",
+     "emph": false,
+     "tex": false,
+     "start": 1.188,
+     "end": 1.625
+    },
+    {
+     "text": "actually",
+     "emph": true,
+     "tex": false,
+     "start": 1.625,
+     "end": 2.163
+    },
+    {
+     "text": "do?",
+     "emph": false,
+     "tex": false,
+     "start": 2.163,
+     "end": 2.8
+    }
+   ]
+  },
+  {
+   "start": 3.5,
+   "end": 6.45,
+   "tokens": [
+    {
+     "text": "If",
+     "emph": false,
+     "tex": false,
+     "start": 3.5,
+     "end": 3.675
+    },
+    {
+     "text": "this",
+     "emph": false,
+     "tex": false,
+     "start": 3.675,
+     "end": 3.875
+    },
+    {
+     "text": "is",
+     "emph": false,
+     "tex": false,
+     "start": 3.875,
+     "end": 4.0
+    },
+    {
+     "text": "your",
+     "emph": false,
+     "tex": false,
+     "start": 4.0,
+     "end": 4.212
+    },
+    {
+     "text": "speed,",
+     "emph": true,
+     "tex": false,
+     "start": 4.212,
+     "end": 4.85
+    },
+    {
+     "text": "how",
+     "emph": false,
+     "tex": false,
+     "start": 4.95,
+     "end": 5.2
+    },
+    {
+     "text": "far",
+     "emph": false,
+     "tex": false,
+     "start": 5.2,
+     "end": 5.487
+    },
+    {
+     "text": "did",
+     "emph": false,
+     "tex": false,
+     "start": 5.487,
+     "end": 5.625
+    },
+    {
+     "text": "you",
+     "emph": false,
+     "tex": false,
+     "start": 5.625,
+     "end": 5.762
+    },
+    {
+     "text": "go?",
+     "emph": true,
+     "tex": false,
+     "start": 5.762,
+     "end": 6.45
+    }
+   ]
+  },
+  {
+   "start": 7.05,
+   "end": 8.725,
+   "tokens": [
+    {
+     "text": "Freeze",
+     "emph": false,
+     "tex": false,
+     "start": 7.05,
+     "end": 7.375
+    },
+    {
+     "text": "it",
+     "emph": false,
+     "tex": false,
+     "start": 7.375,
+     "end": 7.525
+    },
+    {
+     "text": "for",
+     "emph": false,
+     "tex": false,
+     "start": 7.525,
+     "end": 7.675
+    },
+    {
+     "text": "one",
+     "emph": true,
+     "tex": false,
+     "start": 7.675,
+     "end": 7.937
+    },
+    {
+     "text": "second.",
+     "emph": true,
+     "tex": false,
+     "start": 7.937,
+     "end": 8.725
+    }
+   ]
+  },
+  {
+   "start": 9.275,
+   "end": 11.425,
+   "tokens": [
+    {
+     "text": "Speed",
+     "emph": true,
+     "tex": false,
+     "start": 9.275,
+     "end": 9.575
+    },
+    {
+     "text": "times",
+     "emph": false,
+     "tex": false,
+     "start": 9.575,
+     "end": 9.95
+    },
+    {
+     "text": "time",
+     "emph": true,
+     "tex": false,
+     "start": 9.95,
+     "end": 10.35
+    },
+    {
+     "text": "is",
+     "emph": false,
+     "tex": false,
+     "start": 10.35,
+     "end": 10.512
+    },
+    {
+     "text": "distance.",
+     "emph": true,
+     "tex": false,
+     "start": 10.512,
+     "end": 11.425
+    }
+   ]
+  },
+  {
+   "start": 12.125,
+   "end": 15.25,
+   "tokens": [
+    {
+     "text": "Add",
+     "emph": false,
+     "tex": false,
+     "start": 12.125,
+     "end": 12.35
+    },
+    {
+     "text": "every",
+     "emph": false,
+     "tex": false,
+     "start": 12.35,
+     "end": 12.687
+    },
+    {
+     "text": "strip:",
+     "emph": true,
+     "tex": false,
+     "start": 12.687,
+     "end": 13.3
+    },
+    {
+     "text": "about",
+     "emph": false,
+     "tex": false,
+     "start": 13.425,
+     "end": 13.762
+    },
+    {
+     "text": "17",
+     "emph": true,
+     "tex": false,
+     "start": 13.762,
+     "end": 14.375
+    },
+    {
+     "text": "meters.",
+     "emph": true,
+     "tex": false,
+     "start": 14.375,
+     "end": 15.25
+    }
+   ]
+  },
+  {
+   "start": 15.95,
+   "end": 18.025,
+   "tokens": [
+    {
+     "text": "Thinner",
+     "emph": false,
+     "tex": false,
+     "start": 15.95,
+     "end": 16.225
+    },
+    {
+     "text": "strips,",
+     "emph": false,
+     "tex": false,
+     "start": 16.225,
+     "end": 16.675
+    },
+    {
+     "text": "smaller",
+     "emph": false,
+     "tex": false,
+     "start": 16.762,
+     "end": 17.225
+    },
+    {
+     "text": "gaps.",
+     "emph": true,
+     "tex": false,
+     "start": 17.225,
+     "end": 18.025
+    }
+   ]
+  },
+  {
+   "start": 18.575,
+   "end": 21.625,
+   "tokens": [
+    {
+     "text": "The",
+     "emph": false,
+     "tex": false,
+     "start": 18.575,
+     "end": 18.675
+    },
+    {
+     "text": "total",
+     "emph": false,
+     "tex": false,
+     "start": 18.675,
+     "end": 19.062
+    },
+    {
+     "text": "closes",
+     "emph": false,
+     "tex": false,
+     "start": 19.062,
+     "end": 19.575
+    },
+    {
+     "text": "in",
+     "emph": false,
+     "tex": false,
+     "start": 19.575,
+     "end": 19.962
+    },
+    {
+     "text": "on",
+     "emph": false,
+     "tex": false,
+     "start": 19.962,
+     "end": 20.125
+    },
+    {
+     "text": "exactly",
+     "emph": false,
+     "tex": false,
+     "start": 20.125,
+     "end": 20.712
+    },
+    {
+     "text": "20.",
+     "emph": true,
+     "tex": false,
+     "start": 20.712,
+     "end": 21.625
+    }
+   ]
+  },
+  {
+   "start": 22.425,
+   "end": 25.525,
+   "tokens": [
+    {
+     "text": "That's",
+     "emph": false,
+     "tex": false,
+     "start": 22.425,
+     "end": 22.725
+    },
+    {
+     "text": "why",
+     "emph": false,
+     "tex": false,
+     "start": 22.725,
+     "end": 22.925
+    },
+    {
+     "text": "this",
+     "emph": false,
+     "tex": false,
+     "start": 22.925,
+     "end": 23.137
+    },
+    {
+     "text": "symbol",
+     "emph": true,
+     "tex": false,
+     "start": 23.137,
+     "end": 23.55
+    },
+    {
+     "text": "is",
+     "emph": false,
+     "tex": false,
+     "start": 23.55,
+     "end": 23.675
+    },
+    {
+     "text": "a",
+     "emph": false,
+     "tex": false,
+     "start": 23.675,
+     "end": 23.787
+    },
+    {
+     "text": "long",
+     "emph": false,
+     "tex": false,
+     "start": 23.787,
+     "end": 24.162
+    },
+    {
+     "text": "S,",
+     "emph": true,
+     "tex": false,
+     "start": 24.162,
+     "end": 24.525
+    },
+    {
+     "text": "for",
+     "emph": false,
+     "tex": false,
+     "start": 24.6,
+     "end": 24.775
+    },
+    {
+     "text": "sum.",
+     "emph": true,
+     "tex": false,
+     "start": 24.775,
+     "end": 25.525
+    }
+   ]
+  },
+  {
+   "start": 26.225,
+   "end": 29.225,
+   "tokens": [
+    {
+     "text": "An",
+     "emph": false,
+     "tex": false,
+     "start": 26.225,
+     "end": 26.35
+    },
+    {
+     "text": "integral",
+     "emph": false,
+     "tex": false,
+     "start": 26.35,
+     "end": 26.9
+    },
+    {
+     "text": "adds",
+     "emph": false,
+     "tex": false,
+     "start": 26.9,
+     "end": 27.237
+    },
+    {
+     "text": "tiny",
+     "emph": true,
+     "tex": false,
+     "start": 27.237,
+     "end": 27.65
+    },
+    {
+     "text": "pieces",
+     "emph": false,
+     "tex": false,
+     "start": 27.65,
+     "end": 28.087
+    },
+    {
+     "text": "into",
+     "emph": false,
+     "tex": false,
+     "start": 28.087,
+     "end": 28.35
+    },
+    {
+     "text": "a",
+     "emph": false,
+     "tex": false,
+     "start": 28.35,
+     "end": 28.462
+    },
+    {
+     "text": "whole.",
+     "emph": true,
+     "tex": false,
+     "start": 28.462,
+     "end": 29.225
+    }
+   ]
+  }
+ ],
+ "cues": {
+  "chart": 3.5,
+  "distq": 5.762,
+  "freeze": 7.05,
+  "mult": 10.512,
+  "strips": 12.687,
+  "sum": 13.762,
+  "thin": 15.95,
+  "converge": 20.125,
+  "morph": 23.787
+ }
+}

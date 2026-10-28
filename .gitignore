@@ -1,0 +1,5 @@
+node_modules/
+out/
+# Reference recordings are third-party content; keep them local only
+samples/
+.DS_Store

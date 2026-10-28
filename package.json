@@ -1,0 +1,25 @@
+{
+  "name": "video-gen",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "voice": "uv run --python 3.12 --with 'kokoro>=0.9.4' --with soundfile python -I tools/voice.py",
+    "render": "remotion render",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.539",
+    "@remotion/google-fonts": "4.0.539",
+    "@remotion/media-utils": "4.0.539",
+    "katex": "^0.19.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "4.0.539"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.8",
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}
