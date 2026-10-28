@@ -1,6 +1,6 @@
 {
  "id": "integral",
- "duration": 29.725,
+ "duration": 34.775,
  "lines": [
   {
    "start": 0.65,
@@ -482,6 +482,75 @@
      "end": 29.225
     }
    ]
+  },
+  {
+   "start": 30.125,
+   "end": 34.275,
+   "tokens": [
+    {
+     "text": "Want",
+     "emph": false,
+     "tex": false,
+     "start": 30.125,
+     "end": 30.262
+    },
+    {
+     "text": "to",
+     "emph": false,
+     "tex": false,
+     "start": 30.262,
+     "end": 30.35
+    },
+    {
+     "text": "take",
+     "emph": false,
+     "tex": false,
+     "start": 30.35,
+     "end": 30.662
+    },
+    {
+     "text": "SAT",
+     "emph": false,
+     "tex": false,
+     "start": 30.662,
+     "end": 31.2
+    },
+    {
+     "text": "math",
+     "emph": false,
+     "tex": false,
+     "start": 31.2,
+     "end": 31.5
+    },
+    {
+     "text": "prep",
+     "emph": false,
+     "tex": false,
+     "start": 31.5,
+     "end": 31.787
+    },
+    {
+     "text": "seriously?",
+     "emph": true,
+     "tex": false,
+     "start": 31.787,
+     "end": 32.625
+    },
+    {
+     "text": "Comment",
+     "emph": false,
+     "tex": false,
+     "start": 32.787,
+     "end": 33.3
+    },
+    {
+     "text": "\"seeko\".",
+     "emph": true,
+     "tex": false,
+     "start": 33.362,
+     "end": 34.275
+    }
+   ]
   }
  ],
  "cues": {
@@ -493,6 +562,7 @@
   "sum": 13.762,
   "thin": 15.95,
   "converge": 20.125,
-  "morph": 23.787
+  "morph": 23.787,
+  "cta": 32.787
  }
 }

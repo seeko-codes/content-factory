@@ -34,7 +34,8 @@ This is what makes these videos look and sound the way they do. It is taken from
 - *Series kicker:* `MILLENNIUM 05 / 07`, tracked caps with mono numbers. A teaser for the next episode closes a series ("TOMORROW 05 / 07").
 - *Chapter nav:* `1 matrix · 2 det · 3 eigen`, mono, with the current chapter underlined.
 - *Readout rows:* a computation row, then a "what we know" row (`distance = ?`, then `≈ 17.4 m`, then `= 20 m` in accent).
-- *End card:* the diagram fades, and a small logo plus wordmark appears centered. Many videos then cut back to the opening frame, so the reel loops seamlessly.
+- *CTA:* the diagram fades and a comment box types the keyword `seeko` in accent mono while the narrator asks for the comment.
+- *End card:* a small logo plus the wordmark (seeko learns) appears centered. Many videos then cut back to the opening frame, so the reel loops seamlessly.
 
 **Drawings.**
 - Curves are 5-6px ink with round caps, and they are drawn on from left to right.
@@ -66,7 +67,8 @@ This is what makes these videos look and sound the way they do. It is taken from
 7. **Demystify the notation explicitly.** "That's why this symbol is a long S, for sum." The symbol is the last thing explained, never the first.
 8. **Close with one compressed thesis line,** often a parallel pair. "Local rules. Global motion." "Cosine isn't a random rule. It's how fast sine changes." "Zoom in until it's simple. That's all of calculus." "Calculus 2 is calculus learning to handle the infinite."
 9. **Use one idea per line.** A line that needs two caption screens is two lines.
-10. **No filler.** There is no "in this video", no "let's", no "basically", no sign-off and no call to action. The last line is the thesis, then the logo.
+10. **No filler.** There is no "in this video", no "let's" and no "basically". The last written line is the thesis.
+11. **One call to action, always the same.** After the thesis and a 0.8s beat, every video ends with: Want to take SAT math prep *seriously?* Comment *"seeko"*. The diagram clears, and a comment box types `seeko` as the word is spoken. Then comes the logo. `tools/voice.py` appends this line automatically, so scripts never include it. Set `"cta": false` to leave it out.
 
 This is the hub's teaching principle in miniature. Begin from the viewer's example (speed × time), climb to the first principle (add tiny pieces), and extend it into the target domain (the integral).
 

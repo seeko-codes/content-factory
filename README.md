@@ -43,7 +43,7 @@ The first `npm run voice` downloads the Kokoro model and PyTorch, about 1 GB, on
    - `"pause"`: silence after a line, 0.45s by default
 2. **Voice it:** `npm run voice -- <id>`. This writes `public/voice/<id>/narration.wav` and `timing.json`, and prints the wpm, which should be about 120.
 3. **Draw it** in `src/videos/<id>/<Name>.tsx`. Read times with `useNarration().cue("name")` and animate with `ramp`/`visible` from `src/anim.ts`. Captions, audio and the end card are automatic.
-4. **Register it** in the `videos` list in `src/Root.tsx`.
+4. **Register it.** Add a standalone `src/videos/<id>/entry.tsx` (copy the integral one) so the video can be previewed on its own with `npx remotion still src/videos/<id>/entry.tsx <id> out/x.png --frame=N`. Add one line to `src/videos/index.ts` so it appears in the studio. Every video automatically ends with the channel CTA (`Comment "seeko"`) and the end card.
 5. **Preview** with `npm run studio` and scrub the timeline. **Render** with `npm run render -- <id> out/<id>.mp4`.
 
 When you rewrite a line, run `voice` again. Cue times move with the new audio, so the animation follows without edits.
@@ -57,7 +57,9 @@ src/theme.ts          colors, fonts, sizes (measured, see STYLE.md)
 src/anim.ts           time, easing, ramp/visible helpers
 src/narration.ts      timing types and useNarration()
 src/components/       Video (page, audio, end card), Caption, Tex, Chart, Swap, Title, Space (3D, arrows, fields)
-src/videos/<id>/      script.json + the video's diagram component
+src/videos/<id>/      script.json, the video's diagram component and its standalone entry.tsx
+src/videos/index.ts   the studio's list of videos
+src/compose.tsx       turns a component plus timing into a composition
 tools/voice.py        Kokoro narration + word timings
 public/voice/<id>/    generated narration and timing (committed, so renders are reproducible)
 research/             the SAT video list (568 ranked ideas split between Andres and Sharan), posting calendar, viral and question-pattern research. Start at research/README.md

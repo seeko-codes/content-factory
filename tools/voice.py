@@ -13,6 +13,9 @@ Script markup, per line of narration (one line = one caption screen):
   *word* or *several words*  emphasis: stays dark after it is read
   $tex$                      inline math in the caption (give the line a "say")
   {cue}                      named moment = start of the next spoken word
+
+Every video ends with the channel's call to action (CTA below) unless the
+script sets "cta": false.
 """
 
 import json
@@ -27,6 +30,11 @@ from kokoro import KPipeline
 ROOT = Path(__file__).resolve().parent.parent
 SR = 24000
 LEAD = 0.05  # seconds kept before the first word / after the last word of a line
+CTA = {
+    "text": 'Want to take SAT math prep *seriously?* {cta} Comment *"seeko".*',
+    "say": "Want to take SAT math prep seriously? Comment, seeko.",
+}
+CTA_GAP = 0.8  # seconds of silence between the thesis line and the CTA
 
 
 def tokenize(text):
@@ -83,7 +91,11 @@ def main(video_id):
 
     pieces, lines, cues, clock = [], [], {}, script.get("lead_in", 0.6)
     pieces.append(np.zeros(int(clock * SR), dtype=np.float32))
-    for line in script["lines"]:
+    script_lines = [dict(l) for l in script["lines"]]
+    if script.get("cta", True):
+        script_lines[-1]["pause"] = max(script_lines[-1].get("pause", default_pause), CTA_GAP)
+        script_lines.append(CTA)
+    for line in script_lines:
         tokens, line_cues = tokenize(line["text"])
         audio, words = synth(pipeline, spoken(line, tokens), voice, speed)
         if not words:
