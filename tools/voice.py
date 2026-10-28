@@ -1,3 +1,7 @@
+# /// script
+# requires-python = ">=3.10,<3.13"
+# dependencies = ["kokoro>=0.9.4", "soundfile"]
+# ///
 """Narrate a video script with Kokoro (local TTS) and write word timings.
 
     npm run voice -- integral

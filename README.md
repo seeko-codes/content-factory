@@ -17,6 +17,23 @@ Read [STYLE.md](STYLE.md) before writing a video. It covers the visual tokens, t
 
 I also considered Manim and Motion Canvas. Manim has the right math but makes this caption typography and layout hard. Motion Canvas's maintenance status is uncertain. Remotion's license is free for individuals and companies of up to three people.
 
+## Setup on a new machine
+
+You need [Node.js](https://nodejs.org) 20 or newer and [uv](https://docs.astral.sh/uv/getting-started/installation/). Nothing else is needed: uv fetches Python 3.12 and the voice model, and Remotion downloads its own headless Chrome and ffmpeg on the first render. It works on macOS, Windows and Linux.
+
+```bash
+npm install
+npm run studio
+```
+
+`npm run studio` opens the editor in the browser with the worked example (`integral`), already voiced. To check that everything works, render it:
+
+```bash
+npm run render -- integral out/integral.mp4
+```
+
+The first `npm run voice` downloads the Kokoro model and PyTorch, about 1 GB, once.
+
 ## Make a video
 
 1. **Write the script** at `src/videos/<id>/script.json`. One line is one caption screen. Use the markup:
