@@ -25,4 +25,3 @@ Published 2026-04-11; 2336 seconds; 48,010 observed views on 2026-10-29. Selecti
 - **23:22-27:15:** An edges mode expands to twelve nodes, then a combined mode uses twenty. The topology of the mapping diagram changes with the represented pieces while the visual grammar stays stable. This is a specific within-video scalability choice, with correspondingly smaller labels.
 - **31:09:** A determinant example and expanded terms appear beside the presenter. The relationship is permutation sign in algebra rather than merely another impossible toy. Asset decision: preserve the pairing between each term and its selected matrix entries so sign does actual mathematical work.
 - **35:02-38:55:** The swap visualizer returns before black thanks/supporter pages. The return makes the initial mapping apparatus a useful recap surface. The review verifies the visual return and credit states, not the exact narrated conclusion or retention effect.
-

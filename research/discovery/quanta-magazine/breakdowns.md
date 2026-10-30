@@ -17,4 +17,3 @@ Each source was inspected as 12 timestamped frames. These are sampled states, no
 | 55 | A cosmic-looking comparison occupies the finish; the frame does not supply a recurrence proof or a standard two-argument definition. |
 
 Sample timestamps: 1, 5.9, 10.8, 15.7, 20.6, 25.5, 30.4, 35.3, 40.2, 45.2, 50.1, 55 seconds. The written table selects meaningful states from those samples.
-

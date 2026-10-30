@@ -42,4 +42,3 @@ higher observed view candidate in retrieved short list. Automatic English captio
 - 6.27s - A return to the host lands the time-related joke. The observed facial expression supplies a personality beat between procedural fragments; no claim about vocal comedic timing is made.
 - 8.36s - The derivative begins with a factor 7 and a colored parenthesis. The evolving board shows an operation in progress rather than a completed result screen.
 - 11.50s - The final sample still shows an incomplete derivative while the caption directs viewers to the linked lesson for how and when to use the rule. The essential inside factor 3 and final expression are not verified as completed on screen.
-

@@ -25,4 +25,3 @@ Published 2026-10-24; 587 seconds; 697 observed views on 2026-10-29. Selection: 
 - **06:51:** Why bother with weights gives compression, tensor-product addition and the route toward roots as reasons. A small lattice diagram sits in a red-bordered image area. Subtitle excerpts note that not every representation claim has been demonstrated, which should remain an explicit scope limit.
 - **07:50-09:35:** The web diagram returns with broad symmetric and narrower weight arrangements, followed again by the utility slide. This is a back-and-forth between an example tool and lecture summary. Exact controls, multiplicity values and transitions were not systematically tested.
 - **09:46:** A green thank-you line names Root systems as the next topic. This finishes a lecture chapter rather than looping the opening picture. The sample remains archived as slide/interactive-demo instruction, not active mathematical animation.
-

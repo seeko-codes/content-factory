@@ -42,4 +42,3 @@ higher observed view candidate in retrieved short list. Automatic English captio
 - 114.23s - The quadratic has been set to zero and factors into (4x-5)(x+1). The accumulated calculation occupies the page rather than being replaced by a clean answer slide.
 - 130.55s - Two candidates are written, x=5/4 and x=-1. The transcript warns that candidates for the quadratic need verification in the original logarithms.
 - 179.50s - The negative root is crossed out as extraneous and 5/4 is retained. For the original problem both arguments must be positive, giving x>1/4; 5/4 satisfies that condition. The ending thus resolves validity, not merely factorization.
-

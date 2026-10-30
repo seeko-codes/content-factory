@@ -42,4 +42,3 @@ higher observed view candidate in retrieved short list. Automatic English captio
 - 37.86s - The teacher points back to the original system and the circled constants. This preserves the source of the replacement numbers rather than presenting them as arbitrary matrix values.
 - 43.27s - The first numerator column is physically erased and replaced with 7,4 for x. The denominator is retained, showing the operation by selective revision.
 - 59.50s - The second numerator instead replaces the y column. The completed setup is the ending payoff; numerical evaluation is outside the clip's observed scope. The original determinant is -1, so the illustrated system satisfies the nonzero requirement.
-

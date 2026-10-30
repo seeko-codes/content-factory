@@ -33,4 +33,3 @@ Sample timestamps: 0.3, 2, 3.6, 5.3, 7, 8.6, 10.3, 11.9, 13.6, 15.3, 16.9, 18.6 
 | 9.2 | The short ends within the generated structure, with no sampled mathematical derivation. |
 
 Sample timestamps: 0.2, 1, 1.8, 2.6, 3.5, 4.3, 5.1, 5.9, 6.8, 7.6, 8.4, 9.2 seconds. The written table selects meaningful states from those samples.
-

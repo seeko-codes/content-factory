@@ -15,4 +15,3 @@ Source: https://www.instagram.com/mathematisa/reels/. Followers displayed: `158K
 - [DViztquiPTY](https://www.instagram.com/mathematisa/reel/DViztquiPTY/): `63.3K`
 - [DVTu-3CiXoS](https://www.instagram.com/mathematisa/reel/DVTu-3CiXoS/): `1.2M`
 - [DVJCut-iSB9](https://www.instagram.com/mathematisa/reel/DVJCut-iSB9/): `855K`
-

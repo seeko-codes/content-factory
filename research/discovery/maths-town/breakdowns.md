@@ -33,4 +33,3 @@ Sample timestamps: 0.3, 2.1, 3.8, 5.6, 7.3, 9.1, 10.8, 12.5, 14.3, 16, 17.8, 19.
 | 55.9 | The inspected ending remains on the form. A repeated pose is insufficient to certify a seamless loop. |
 
 Sample timestamps: 1, 6, 11, 16, 21, 26, 30.9, 35.9, 40.9, 45.9, 50.9, 55.9 seconds. The written table selects meaningful states from those samples.
-

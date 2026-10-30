@@ -25,4 +25,3 @@ Published 2026-10-22; 1249 seconds; 59,541 observed views on 2026-10-29. Selecti
 - **14:34-16:39:** A nearer face framing gives the essay a second camera scale. The background texture and shirt remain consistent. This is an editorial emphasis change, with exact cuts and spoken emphasis unaudited.
 - **18:44:** A paper figure containing many geometric diagrams appears with another yellow source number. It is a reference illustration, not proof that the entire underlying mathematical argument has been explained visually. A faithful record must retain its provenance and avoid inventing motion from the static insert.
 - **19:47-20:48:** The presenter folds his arms and returns to direct address before a small thanks/name panel. The source is retained for provenance but excluded from active math animation. Available subtitles support the broad topic only; current AI-news claims need their own factual verification.
-

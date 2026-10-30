@@ -40,4 +40,3 @@ higher observed view candidate in retrieved short list. Automatic English captio
 - 96.27s - Swapping x and y creates the sideways V; coefficient and shift changes place both branches around the targets. The captions explain the sign choice and distinguish horizontal from vertical displacement.
 - 144.41s - A circle inequality shades almost the whole graph purple while leaving a circular hole. This makes the proposed domain restriction visible before it is embedded in the route equation.
 - 176.50s - The auxiliary slider and circle expressions have been consolidated into one restricted relation. The captions report a successful launch. The mathematical scope is constructing a working simulation route, not proving a general solution or guaranteeing success for every ball trajectory.
-

@@ -15,4 +15,3 @@ Source: https://www.instagram.com/thevisualmaths/reels/. Followers displayed: `4
 - [DdluXd3JLCE](https://www.instagram.com/thevisualmaths/reel/DdluXd3JLCE/): `11.5K`
 - [DcRMNs6pY7S](https://www.instagram.com/thevisualmaths/reel/DcRMNs6pY7S/): `15.8K`
 - [DcOeSSBJM2X](https://www.instagram.com/thevisualmaths/reel/DcOeSSBJM2X/): `8,596`
-

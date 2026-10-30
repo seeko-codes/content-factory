@@ -25,4 +25,3 @@ Published 2024-04-15; 535 seconds; 46,580 observed views on 2026-10-29. Selectio
 - **06:14:** A grayscale matrix places words on both axes, with a yellow highlighted correspondence path. The matrix is another view of alignment. Its axes are essential mathematical data, so a crop that retains the texture but removes the words loses the example.
 - **07:08-08:02:** A research translation table and an attributed 3Blue1Brown screenshot appear. These are source/reference inserts rather than evidence that the channel uses another creator's entire production method. Small body text is not comfortably readable at the sampled resolution.
 - **08:28-08:54:** The attention graph returns before white supporter columns on black. The ending returns to the established apparatus rather than introducing a fresh analogy. Subtitle text was unavailable for this clip, and no continuous playback or narration review was performed.
-

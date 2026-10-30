@@ -33,4 +33,3 @@ Sample timestamps: 0.1, 0.6, 1.1, 1.6, 2.1, 2.6, 3, 3.5, 4, 4.5, 5, 5.5 seconds.
 | 12 | The dynamic diagram is still the entire presentation; no sampled formula or constant-sum numerical check appears. |
 
 Sample timestamps: 0.2, 1.3, 2.4, 3.4, 4.5, 5.6, 6.7, 7.7, 8.8, 9.9, 11, 12 seconds. The written table selects meaningful states from those samples.
-

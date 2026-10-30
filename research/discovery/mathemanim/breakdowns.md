@@ -25,4 +25,3 @@ Published 20230219; duration 71 seconds; 50 current views observed 2026-10-29. S
 - 38.45s - Cyan explanatory prose identifies vertex (h,k) and describes s as controlling shape. The treatment has moved from graphs to a verbal explanation of the name vertex form.
 - 51.27s - The standard form y=Ax^2+Bx+C appears in isolation. Subsequent yellow/green text compares coefficient roles. This is evidence of representation comparison, not evidence that a full algebraic derivation was shown.
 - 70.50s - A centered thanks message ends the sample. No portrait host, handwriting or live software UI is present in either reviewed video.
-

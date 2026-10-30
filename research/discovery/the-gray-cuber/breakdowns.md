@@ -25,4 +25,3 @@ Published 2026-10-10; 392 seconds; 76,540 observed views on 2026-10-29. Selectio
 - **03:55-04:34:** A weighted sum of direction-like objects appears, then a simple vector breaks into real and imaginary components on a faint grid. The calm symbolic scene supplies a decoding tool after the immersive field. Keep the vector's orientation and component labels coupled.
 - **05:14-05:53:** A summed-lengths title appears over concentric contours, followed by a fractured, layered version of the larger map. The frame identifies another aggregation operation. A new asset should state whether it sums ordinary real lengths or a different generalized quantity rather than inheriting the image's title alone.
 - **06:12-06:31:** Supporter names use the same bright sticker-like palette. The image then resumes as a very bright fractured map before a dark blue final state. This is an experimental visual ending; its exact sound or looping intention was not verified.
-

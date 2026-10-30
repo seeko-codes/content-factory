@@ -33,4 +33,3 @@ Sample timestamps: 2, 12, 22, 32, 42, 52, 182, 192, 202, 212, 222, 232 seconds. 
 | 232 | A minimum-cost expression compares possible continuations. These samples do not establish every A* invariant or its complete proof. |
 
 Sample timestamps: 2, 12, 22, 32, 42, 52, 182, 192, 202, 212, 222, 232 seconds. The written table selects meaningful states from those samples.
-

@@ -15,5 +15,3 @@ Source: https://www.instagram.com/wildmathin/reels/. Followers displayed: `12.2K
 - [Da3bWJUsyLn](https://www.instagram.com/wildmathin/reel/Da3bWJUsyLn/): `6,572`
 - [DaLjNhasOlM](https://www.instagram.com/wildmathin/reel/DaLjNhasOlM/): `3,272`
 - [DZ5epyCsZ2J](https://www.instagram.com/wildmathin/reel/DZ5epyCsZ2J/): `3,344`
-
-

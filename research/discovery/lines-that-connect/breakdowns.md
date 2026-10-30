@@ -25,4 +25,3 @@ Published 2026-03-01; 1494 seconds; 66,083 observed views on 2026-10-29. Selecti
 - **14:56-17:26:** A derivative identity follows, then another partial/regularized expression returns to the colored plane. Alternating symbols and maps makes the extension's behavior inspectable without abandoning formal structure. Exact numerical color calibration is not established by the stills.
 - **19:55-23:39:** A longer expression for zeta and special-value relations appear, including zeta at minus one. The formal relation belongs to the continued function. It must not be rewritten as ordinary convergence of one plus two plus three and so on.
 - **24:24-24:53:** Resource text accompanies a final pair of formulas before the nested-polygon sign-off. The ending gives the interested viewer a route to the derivation's sources, then changes to a purely geometric closing image.
-

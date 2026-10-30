@@ -33,4 +33,3 @@ Sample timestamps: 2, 12, 22, 32, 42, 52, 182, 192, 202, 212, 222, 232 seconds. 
 | 232 | Identity loops appear on the shapes side; the finite example motivates inverse composition rather than proving a universal construction. |
 
 Sample timestamps: 2, 12, 22, 32, 42, 52, 182, 192, 202, 212, 222, 232 seconds. The written table selects meaningful states from those samples.
-

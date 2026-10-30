@@ -25,4 +25,3 @@ Published 2025-11-29; 1050 seconds; 193,069 observed views on 2026-10-29. Select
 - **10:30:** The navy slide shows N minus N/2 minus N/3 plus N/6 and its factored form. The added sixth corrects the double subtraction of multiples of six. This exact finite counting relation, with integer-rounding qualifications when needed, earns the later product form better than a decorative sieve animation alone.
 - **12:15-14:00:** The bound develops on navy, followed by paper marks for an average-gap analogy. The latter makes a reciprocal-density intuition tangible. It does not on its own prove a theorem about prime gaps; the separate displayed inequalities carry the formal claim and their assumptions still matter.
 - **15:45-17:29:** The presenter returns, then navy supporter credits and the X handle close the video. The review establishes those visual states and the changed ending treatment, not a causal account of this upload's observed reach.
-

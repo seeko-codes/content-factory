@@ -25,4 +25,3 @@ Published 2021-07-16; 493 seconds; 28,801 observed views on 2026-10-29. Selectio
 - **04:56-05:45:** The video explicitly states the proof obligation: show the absolute difference of PA and PB is constant for all possible P. A radius labeled k is then made visible. This turns a plausible trace into an invariant-based argument, with exact quantifier/domain details left to the full source.
 - **06:34:** Both circles and the green branches return with a sentence identifying the generated curve as a hyperbola. This is a recap in the same diagram grammar. The sampled visual evidence supports the stated conclusion and construction ingredients, not an independent proof of every degenerate case.
 - **07:24-08:12:** A white sponsor card, a Brilliant address and dark supporter credits replace the geometry. Those states are excluded from the mathematical construction. No exact easing, continuous trace speed or audio timing was assessed.
-

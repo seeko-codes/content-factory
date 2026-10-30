@@ -34,4 +34,3 @@ Sample timestamps: 0.7, 4.5, 8.2, 12, 15.7, 19.5, 23.2, 26.9, 30.7, 34.4, 38.2, 
 | 60.7 | The source reaches (a+b)²=c²+2ab beside the original triangle; the final approximately 13 seconds are outside this fresh sample. |
 
 Sample timestamps: 1.1, 6.5, 11.9, 17.3, 22.8, 28.2, 33.6, 39, 44.4, 49.8, 55.2, 60.7 seconds. The written table selects meaningful states from those samples.
-

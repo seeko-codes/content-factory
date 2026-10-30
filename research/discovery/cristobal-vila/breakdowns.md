@@ -25,4 +25,3 @@ Published 20250103; duration 231 seconds; 3,049 current views observed 2026-10-2
 - 146.68s - A red translucent many-faced solid floats above a dark red-lit ground. The spatial object provides a sculptural counterpart to the earlier planar constructions.
 - 167.64s - A glowing four-by-four number array is accompanied by an equation ending in 192. The exact invariant and all selected entries require closer inspection before being copied as a lesson; this frame establishes number-pattern content, not a complete verified derivation.
 - 209.55s - A contributor-thanks card follows project-direction credits. The substantial credit section makes production attribution explicit; the final sampled frame is black.
-

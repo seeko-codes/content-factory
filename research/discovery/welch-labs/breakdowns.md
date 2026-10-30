@@ -33,4 +33,3 @@ Sample timestamps: 1, 5.9, 10.8, 15.7, 20.6, 25.5, 30.4, 35.3, 40.2, 45.2, 50.1,
 | 60.7 | The sampled excerpt begins a contrast with children learning representations. The remaining roughly 39 seconds were not inspected here. |
 
 Sample timestamps: 1.1, 6.5, 11.9, 17.3, 22.8, 28.2, 33.6, 39, 44.4, 49.8, 55.2, 60.7 seconds. The written table selects meaningful states from those samples.
-

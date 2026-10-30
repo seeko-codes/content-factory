@@ -42,4 +42,3 @@ contrasting compact number-system example. Automatic English captions read; no i
 - 37.23s - A second division 4 by 16 produces quotient 0 and remainder 4. This visible zero quotient supplies the procedure's stopping condition.
 - 53.18s - Red symbols mark remainder 4 as digit 4 and remainder 11 as B using the bottom legend. The operation combines division with a digit naming convention.
 - 58.50s - The result 4B in base 16 is written separately. The caption transcript explicitly says to read upward; independently, 4*16+11=75 checks the conversion. The final prompt points to more examples rather than adding a second conversion.
-

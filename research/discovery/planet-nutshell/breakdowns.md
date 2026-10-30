@@ -25,4 +25,3 @@ Published 20131105; duration 104 seconds; 238,687 current views observed 2026-10
 - 65.86s - A dashed circular path appears around the origin with the triangle. The guide turns a before/after change into a geometric movement around a defined point.
 - 84.68s - A labeled image triangle DEF sits below-left while earlier original/image comparisons show both positions. The sampled frames establish a coordinate rotation, but the exact verbal angle and direction were not verified by transcript.
 - 103.50s - The common Math Shorts closing card returns after a late cyclist image. The everyday analogy and the abstract grid are bookends within this particular lesson.
-

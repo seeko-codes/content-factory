@@ -33,4 +33,3 @@ Sample timestamps: 1.1, 6.5, 11.9, 17.3, 22.8, 28.2, 33.6, 39, 44.4, 49.8, 55.2,
 | 60.7 | The imaginary component of the vector sum is highlighted as sinθ+cosθ. The full 129-second ending was not inspected. |
 
 Sample timestamps: 1.1, 6.5, 11.9, 17.3, 22.8, 28.2, 33.6, 39, 44.4, 49.8, 55.2, 60.7 seconds. The written table selects meaningful states from those samples.
-
