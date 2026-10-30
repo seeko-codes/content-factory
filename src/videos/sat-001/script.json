@@ -1,9 +1,11 @@
 {
-  "title": "All of SAT Math in 60 seconds",
+  "title": "A Map of SAT Math in 60 seconds",
+  "cta": false,
   "voice": "am_michael",
+  "speed": 0.96,
   "lead_in": 1.1,
   "lines": [
-    {"text": "The whole SAT math section is *four pictures.*", "pause": 0.6},
+    {"text": "SAT math starts with *four pictures.*", "pause": 0.6},
     {"text": "{start} Start at *3.* {step} Add *2,* every step.", "say": "Start at three. Add two, every step.", "pause": 0.3},
     {"text": "{line} The steps make a straight *line.*", "pause": 0.3},
     {"text": "{alg} *Algebra:* 13 to 15 questions.", "say": "Algebra, thirteen to fifteen questions.", "pause": 0.6},
@@ -12,13 +14,13 @@
     {"text": "{adv} *Advanced Math:* 13 to 15 more.", "say": "Advanced Math, thirteen to fifteen more.", "pause": 0.6},
     {"text": "{scatter} Now *scatter* the points.", "pause": 0.3},
     {"text": "{bal} They balance at the *mean,* {four} *4.*", "say": "They balance at the mean, four.", "pause": 0.3},
-    {"text": "{above} Three of ten sit above: {pct} *30 percent.*", "say": "Three of ten sit above, thirty percent.", "pause": 0.3},
-    {"text": "{data} *Data:* just 5 to 7.", "say": "Data, just five to seven.", "pause": 0.6},
-    {"text": "{snap} Snap three into a *right triangle.*", "pause": 0.3},
+    {"text": "{above} Three of ten exceed *4:* {pct} *30 percent.*", "say": "Three of ten exceed four, thirty percent.", "pause": 0.3},
+    {"text": "{data} *Data:* 5 to 7 questions.", "say": "Data, five to seven questions.", "pause": 0.6},
+    {"text": "{snap} Snap three into a *right {triangle} triangle.*", "pause": 0.3},
     {"text": "{circle} Circle it. {diam} The long side is the *diameter.*", "pause": 0.3},
     {"text": "{geo} *Geometry:* the last 5 to 7.", "say": "Geometry, the last five to seven.", "pause": 1.0},
     {"text": "{r1} A *line.* {r2} A *curve.* {r3} A *balance.* {r4} A *triangle.*", "pause": 0.5},
-    {"text": "Every question is one in *disguise.*", "pause": 0.6},
+    {"text": "{settle} Different questions. *Familiar pictures.*", "pause": 0.6},
     {"text": "{q44} *44* questions. {four4} *Four* pictures.", "say": "Forty-four questions. Four pictures."}
   ]
 }

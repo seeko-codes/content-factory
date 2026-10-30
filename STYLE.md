@@ -1,10 +1,12 @@
 # Style guide
 
-This is what makes these videos look and sound the way they do. It is taken from 15 reference screen recordings of the `ubilumapp` math reels, recorded 2026-10-27. The local copies are in `samples/`, which is not committed. The code holds the measured values in `src/theme.ts`. This file explains them and covers the parts code cannot hold: how the narration is written.
+[QUALITY.md](QUALITY.md) governs the finished output. This guide governs the current series' narration and visual identity; the [principles](LOGIC.md) explain why the creative choices should help.
+
+This is our current house identity, informed by fifteen `ubilumapp` screen recordings captured 2026-10-27. The recordings are local in `samples/`, not committed. [src/theme.ts](src/theme.ts) holds our exact implementation values; these are not claims about the source's native fonts or every upload. The [detailed Ubilum study](research/channels/ubilumapp/STYLE.md) separates inspected source decisions, prior measurements and our adaptations. It includes fourteen distinct named constructions, with a second Calc II capture, and documents the audio and sampling limits.
 
 ## The look
 
-**A printed page that moves.** Everything sits on one warm off-white page. Thin dark lines carry the drawings, and one blue marks the thing that matters. There are no gradients, shadows, textures, background music, stock footage or decorative motion.
+**Our default: a printed page that moves.** Everything sits on one warm off-white page. Thin dark lines carry the drawings, and one blue marks the thing that matters. There are no gradients, shadows, textures, background music, stock footage or decorative motion.
 
 | Token | Value | Use |
 |---|---|---|
@@ -18,7 +20,7 @@ This is what makes these videos look and sound the way they do. It is taken from
 | accentWash | `#e3e8f2` | strips, regions, translucent planes |
 | chip | `#efefeb` | readout chips ("area ×3") |
 
-**Three typefaces, each with one job.**
+**Three house typefaces, each with one job.**
 - Sans (Inter Tight, weight 500, tracking about -1%): narration captions and titles. Titles are about 104px and tightly tracked. Captions are about 58px.
 - Mono (IBM Plex Mono): every number that is computed or measured (`5.4 m`, `19.99 m`, `area ×3`, `0.800`), plus axis ticks, counters, chapter nav and the "in 60 seconds" subtitle. If a number changes as the video plays, it is mono.
 - Math (KaTeX, Computer Modern): every formula and every symbol. Operators between a label and a value (`=`, `≈`, `×`) are a lighter gray than the value.
@@ -34,8 +36,8 @@ This is what makes these videos look and sound the way they do. It is taken from
 - *Series kicker:* `MILLENNIUM 05 / 07`, tracked caps with mono numbers. A teaser for the next episode closes a series ("TOMORROW 05 / 07").
 - *Chapter nav:* `1 matrix · 2 det · 3 eigen`, mono, with the current chapter underlined.
 - *Readout rows:* a computation row, then a "what we know" row (`distance = ?`, then `≈ 17.4 m`, then `= 20 m` in accent).
-- *CTA:* the diagram fades and a comment box types the keyword `ultralearn` in accent mono while the narrator asks for the comment.
-- *End card:* the name, lowercase **ultralearn** in the title face, appears centered. There is no logo (brand kit: ultralearn repo, `brand/`). Many videos then cut back to the opening frame, so the reel loops seamlessly.
+- *House CTA, not a verified Ubilum practice:* the diagram fades and a comment box types the keyword `ultralearn` in accent mono while the narrator asks for the comment.
+- *End card:* the name, lowercase **ultralearn** in the title face, appears centered. There is no logo (brand kit: ultralearn repo, `brand/`). A return to the opening can be designed when it serves the video. Reference recordings include player replay; they do not establish seamless original edit boundaries.
 
 **Drawings.**
 - Curves are 5-6px ink with round caps, and they are drawn on from left to right.
@@ -46,7 +48,7 @@ This is what makes these videos look and sound the way they do. It is taken from
 
 ## The motion
 
-**Captions are the signature.** Each word rises into its own clipped box at the moment it is spoken, taking about 0.28s with a long ease-out. The newest words are dark ink. About half a second after a word is spoken it settles to soft gray, unless it is an emphasized key word, which stays dark. When the next line starts, the words slide up out of their boxes, staggered left to right by about 25ms per word. A line of narration and a caption screen are the same unit. The caption text is exactly the spoken text, with math rendered inline when it is spoken ("Divide by the thickness, $dx$:").
+**Captions are the signature.** The following timing values are house defaults informed by prior sample measurements, not freshly verified across all reference reels.  Each word rises into its own clipped box at the moment it is spoken, taking about 0.28s with a long ease-out. The newest words are dark ink. About half a second after a word is spoken it settles to soft gray, unless it is an emphasized key word, which stays dark. When the next line starts, the words slide up out of their boxes, staggered left to right by about 25ms per word. A line of narration and a caption screen are the same unit. The caption text is exactly the spoken text, with math rendered inline when it is spoken ("Divide by the thickness, $dx$:").
 
 **Diagrams move only when the voice names something.** Every change is cued to a word: the strips grow on "strip", the area resolves on "exactly". Things glide (symmetric ease-in-out, 0.5-1.1s) and never bounce or overshoot. Readouts crossfade with a small rise. A counter that changes quickly ("8, 16, 32 strips") updates in place instead of crossfading. Formulas morph by crossfading in place: Σ becomes ∫ at "a long S, for sum".
 
@@ -54,9 +56,9 @@ This is what makes these videos look and sound the way they do. It is taken from
 
 ## The narration
 
-**The voice.** A calm, low male voice, with median pitch about 105 Hz and a narrow pitch range. It speaks deliberately, never selling, like someone explaining at a whiteboard to one person. There is no music and no room tone: the silences are digital silence. Pace is about 120 words per minute including pauses. Pauses are about 0.3s between phrases and 0.5-0.7s between ideas, and the longest beat is 1.5-3s before the closing line or a recap. Total length is 30-60 seconds and 50-130 words.
+**The voice.** Earlier reference notes describe a calm, low male voice with median pitch about 105 Hz and a narrow range. These are prior sample observations, not a channel-wide audio finding or a target for a human narrator. Eight saved files have audio; seven are silent captures. The fresh detailed study used ASR and sampled frames, not direct listening. Our delivery default is deliberate, like explaining at a whiteboard to one person, with no background music. Human delivery should use the speaker's comfortable voice and pitch. Aim around 120 words per minute including pauses, adjusting to the finished explanation's readability. Pauses are about 0.3s between phrases and 0.5-0.7s between ideas, and the longest beat is 1.5-3s before the closing line or a recap. Total length is 30-60 seconds and 50-130 words.
 
-**How the script is written.** The script carries the whole teaching method, so it matters more than the visuals.
+**How the script is written.** The script carries the teaching sequence; the visuals must make its decisive relationships visible. Judge the combined result against QUALITY.md. These patterns are house defaults, not universal rules.
 
 1. **Open on a question or the scary symbol.** Use "Why does sine turn into cosine?", "What does this symbol actually do?" or "This scary symbol just tells you which way is uphill." The hook names something the viewer has seen and never understood.
 2. **Start from something the viewer already owns.** Speed and time before the integral. Standing on a hill before the gradient. A point going round a circle before sine. The formal object arrives only as a new name for something already understood.
@@ -68,7 +70,7 @@ This is what makes these videos look and sound the way they do. It is taken from
 8. **Close with one compressed thesis line,** often a parallel pair. "Local rules. Global motion." "Cosine isn't a random rule. It's how fast sine changes." "Zoom in until it's simple. That's all of calculus." "Calculus 2 is calculus learning to handle the infinite."
 9. **Use one idea per line.** A line that needs two caption screens is two lines.
 10. **No filler.** There is no "in this video", no "let's" and no "basically". The last written line is the thesis.
-11. **One call to action, always the same.** After the thesis and a 0.8s beat, every video ends with: Want to take SAT math prep *seriously?* Comment *"ultralearn"*. The diagram clears, and a comment box types `ultralearn` as the word is spoken (the voice says "ultra learn"). Then comes the logo. `tools/voice.py` appends this line automatically, so scripts never include it. Set `"cta": false` to leave it out.
+11. **Our call to action, not a source observation.** After the thesis and a 0.8s beat, every video ends with: Want to take SAT math prep *seriously?* Comment *"ultralearn"*. The diagram clears, and a comment box types `ultralearn` as the word is spoken (the voice says "ultra learn"). Then comes the logo. `tools/voice.py` appends this line automatically, so scripts never include it. Set `"cta": false` to leave it out.
 
 This is the hub's teaching principle in miniature. Begin from the viewer's example (speed × time), climb to the first principle (add tiny pieces), and extend it into the target domain (the integral).
 
@@ -101,7 +103,7 @@ This is the hub's teaching principle in miniature. Begin from the viewer's examp
 | 205155-phone | Taylor series of sine | |
 | 205216-mac | Why x² turns into 2x | growing square |
 | 205301-phone | Calculus II (second capture) | |
-| 205307-mac | Mandelbrot set | dark fractal zoom, the one exception to the light palette |
+| 205307-mac | Mandelbrot set | light paper, black set, gray contour detail, pale lavender membership backdrop |
 | 205503-mac | Fundamental theorem of calculus | caption motion measured here |
 
-The `-mac` recordings have no audio. The `-phone` ones do, and their narration was transcribed with whisper large-v3.
+The seven `-mac` recordings have no audio. The eight `-phone` ones do. Earlier notes used Whisper large-v3; the fresh audit used base.en transcripts cross-checked against visible mathematical captions. No transcript alone verifies voice quality or sound mixing. The reference linear-algebra comparison also uses muted violet alongside blue; one principal blue is our house default, not an absolute source restriction.

@@ -1,5 +1,5 @@
 {
-  "name": "video-gen",
+  "name": "content-factory",
   "private": true,
   "type": "module",
   "scripts": {
@@ -7,7 +7,12 @@
     "voice": "uv run --python 3.12 tools/voice.py",
     "render": "remotion render",
     "typecheck": "tsc --noEmit",
-    "stills": "node tools/stills.mjs"
+    "stills": "node tools/stills.mjs",
+    "recording": "uv run --python 3.12 tools/recording.py guide",
+    "record": "uv run --python 3.12 tools/recorder.py",
+    "import-voice": "uv run --python 3.12 tools/recording.py import",
+    "review": "uv run --python 3.12 tools/compliance.py",
+    "test": "uv run --python 3.12 python -m unittest discover -s tools -p 'test_*.py'"
   },
   "dependencies": {
     "@remotion/cli": "4.0.539",

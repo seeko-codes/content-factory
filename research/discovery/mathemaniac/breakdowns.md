@@ -1,0 +1,28 @@
+# Mathemaniac: video breakdowns
+
+## [I finally find least action principle satisfying](https://www.youtube.com/watch?v=Ohrl3S2wcBU)
+
+Published 2025-03-31; 1251 seconds; 164,901 observed views on 2026-10-29. Selection: highest observed views in the bounded recent-tab sample. Review: sixteen timestamped frames, visual only; subtitle text unavailable.
+
+- **00:05-00:15:** The action principle is introduced as extremizing an integral of T minus V. Small colored labels identify kinetic and potential energy; a bracket labels the whole integral as action. The exact visual job is notation mapping, and "extremize" must not be flattened to an unconditional minimum.
+- **00:30:** A research-paper title appears as a source insert. It supplies a conceptual provenance cue before the main geometric work. The full article is not independently assessed by the frame review, so the insert is not evidence that every later formulation matches the paper's assumptions.
+- **02:05-04:10:** A purple trajectory sits inside a three-dimensional vector field, then survives as the dominant object when the field is removed. The coordinate and direction apparatus make the later integral inspectable. The sparse states establish a change in visual density, not exact camera speed or transition easing.
+- **06:15:** A line-integral expression pairs a vector of components with a differential coordinate vector. The displayed dot product expands the abstract action into a path integral. An asset should preserve component correspondence so the geometry and algebra describe the same curve.
+- **08:20:** A side-by-side comparison distinguishes measurable fields from nonunique potentials and introduces gauge language. Colored arrows point to the relevant objects. The visual relation is an analogy with explicit algebra, not a claim that visually similar arrows make the physical systems identical.
+- **10:26-12:31:** Component equations identify Hamilton's equations; a subsequent surface picture expresses the action difference as flux across the surface between curves. The ribbon's boundary is the essential object. A generic ribbon without boundary identities would remove the mathematical content.
+- **14:36-18:46:** A variation direction is marked next to a purple surface, followed by a continuity-symmetry/conserved-quantity statement and corresponding paired paths. The geometric scene makes the permitted variation and the symmetry comparison distinct stages. The samples do not verify every step of the variational proof between them.
+- **19:48-20:50:** A time-translation specialization displays a Noether charge, then a short recap with arrows precedes watch-more and subscribe text. The ending returns to mathematical structure before promotion, rather than making the call to action the only payoff.
+
+## [The part of vector calculus I finally understand | Differential forms #4](https://www.youtube.com/watch?v=iiPt83dAz18)
+
+Published 2026-09-06; 1225 seconds; 70,213 observed views on 2026-10-29. Selection: contrasting newest returned upload. Review: sixteen timestamped frames, with sampled subtitle-text corroboration.
+
+- **00:05:** A three-dimensional field of short arrows occupies the upper middle of a black frame, with a small creator note below. The opening provides a spatial object before the formal statement. The small note is not used as a legible mathematical premise.
+- **00:15-00:30:** The implication from zero divergence to a curl representation appears with a stated full-space assumption, followed by a vector-potential reference screenshot. The domain condition is essential: a comparable claim on arbitrary domains needs topological qualifications. Keep that condition close to the displayed implication.
+- **02:02:** Surface, boundary and curl are labeled together around a small colored disk while the field remains behind. The asset isolates the exact objects in Stokes' theorem. This is more specific than drawing a generic circular arrow to suggest rotation.
+- **04:05-06:08:** The converse direction and a closed box with face fluxes separate a representation claim from a zero-divergence condition. The box makes external-face cancellation visible. One finite picture illustrates the mechanism; it does not replace hypotheses about differentiability or the underlying field.
+- **08:10-10:12:** A thin triangle runs from the origin to x with a short edge w. Colored text states that a potential's dot product with w equals a field flux across that triangle. Orientation and which edge is varied must be maintained when the triangle is rebuilt.
+- **12:15:** Striped strips subdivide the long triangle beside an integral formula. The subdivision gives an inspectable route from geometric flux to a parametric expression. Asset decision: retain the pairing between stripe positions and the variable of integration rather than make the stripes decorative texture.
+- **14:18-18:22:** A yellow tetrahedron compares base points, then gauge choices lead to an invariant closed-loop quantity. The picture's faces and the algebra's signs belong together. The sample establishes a staged comparison, not a complete independent verification of every cancellation.
+- **19:24-20:24:** Exterior-derivative notation reconnects the construction to the differential-forms series, while a supplemental-material screenshot and end-screen panels appear. This preserves a route for viewers who want the written details; it is a clear within-channel format difference from the older ending.
+

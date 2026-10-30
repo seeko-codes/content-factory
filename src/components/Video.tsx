@@ -20,7 +20,8 @@ export const Video = ({ timing, children }: { timing: Timing; children: ReactNod
   const cta = timing.cues.cta;
   // The diagram clears for the CTA; captions stay until the end card.
   const diagram = cta === undefined ? 1 : 1 - ramp(t, timing.lines.at(-1)!.start - 0.35, 0.5);
-  const content = 1 - ramp(t, endAt, 0.5);
+  // Clear the comment box before the centered wordmark enters the same space.
+  const content = 1 - ramp(t, endAt - 0.15, 0.4);
   return (
     <NarrationContext.Provider value={timing}>
       <AbsoluteFill style={{ background: color.paper, fontFamily: font.sans, color: color.ink }}>

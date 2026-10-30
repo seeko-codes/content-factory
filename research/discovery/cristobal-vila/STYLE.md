@@ -1,0 +1,25 @@
+# Cristóbal Vila / Etérea Estudios: sampled mathematical animation
+
+Observed 2026-10-29. Scope: the two linked videos in [breakdowns.md](breakdowns.md). Broader research preserved outside the final portrait-short core.
+
+## Mathematical CGI as a visual journey
+
+Nature by Numbers presents mathematical structure through polished three-dimensional imagery. Black and dark red introduce luminous gold numerals and a Fibonacci-style square construction. Blue then becomes the surrounding atmosphere for a shell, a glowing ratio formula and bead-like spiral arrangements. Green later accompanies triangulated networks and a dragonfly. These are chapter-like color and material changes, not one permanent palette applied indiscriminately throughout the film. Reflective surfaces, translucency, glow and carefully staged depth make the objects feel like sculptural subjects.
+
+The mathematical text is sparse relative to the imagery. Numerals and a ratio formula are placed as substantial objects or carefully centered statements. A gold phi relation is visible during the blue section; the equation's role is to name the proportion being contemplated, while the images carry most of the progression. Serif-looking mathematical text and dimensional numerals coexist. No exact font, renderer, focal length or compositing technique is claimed from the inspected frames. The first-party description explicitly identifies the original as a 2010 720p film and links a 2024 remaster, so the reviewed original is not misdated as the remaster.
+
+The reveal pattern moves from a mathematical construction toward a natural-looking object: numbered squares and spirals lead toward a shell; ordered points lead toward a sunflower; a geometric network is followed by insect imagery. The camera viewpoints and object scales change between sampled stages. That supports an account of a spatial visual journey, but not a reconstruction of the continuous camera path or exact transition timing. The film first-party description credits music; that credit is source metadata, not independent evidence of how the soundtrack sounds.
+
+## Ars Qubica is a separate variant
+
+Ars Qubica works in an art-historical and sculptural register rather than using the same nature destinations. Framed artwork, a repeating wall pattern and a historical engraving share the film with red-lit floating solids, glowing geometric constructions and number arrays. Warm dark reds, stone-like architectural materials, black space and gold linework bind these scenes together. A framed cube image early in the film makes mathematical art a literal exhibited object. The artist can then leave the gallery-like surface for an isolated geometric construction in a dark stage.
+
+At a sampled midpoint, a diamond or paired-triangle outline carries equal-side ticks, a dashed circular guide and red construction lines. Later a numbered four-by-four array is accompanied by a sum. The historical image and the animated linework are not the same evidence type: one supplies cultural context, the other exposes a relationship with selected marks. An unqualified claim that the entire film is a rigorous proof of one theorem would misrepresent this combination. The first-party description and film credits are retained as the places to verify creative roles and context rather than assuming every scene was produced alone.
+
+## Personality, use, ending and boundaries
+
+These films have no talking-head presenter, handwriting or live editor UI in the sampled scenes. Personality emerges through chosen materials, visual correspondences and the patient display of constructed objects. Nature by Numbers closes through creator credits and black; Ars Qubica devotes a substantial late portion to project and contributor credits. Their endings are film credits, not worksheet answer boxes or automatic looping tricks. The sampled Brocard making-of upload, which exposes Blender panels, rigs and nodes, is deliberately excluded from the active animation reference despite belonging to the same creator.
+
+Use the Nature treatment when a mathematical pattern can be modeled explicitly and then compared to a natural form. Use Ars Qubica when geometry, number and an artwork can enter a visually coherent exhibition-like sequence. An imitation would fail if it treated an attractive shell or flower as proof that every biological object has an exact golden ratio. The original description calls the film an inspiration from numbers, geometry and nature; that modest framing matters. The gallery likewise does not validate universal biological claims from suggestive juxtaposition.
+
+The sampled frames establish scene subjects, material contrasts, graphic hierarchy and broad reveal order. They do not establish exact formula derivations, sound design, optical settings, easing or every construction's correctness. This channel's special contribution is the presentation of mathematical objects as carefully lit cinematic forms, with distinct nature and art-history variants retained rather than collapsed into a generic dark-background animation recipe.

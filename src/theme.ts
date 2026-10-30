@@ -2,7 +2,7 @@ import { loadFont as loadSans } from "@remotion/google-fonts/InterTight";
 import { loadFont as loadMono } from "@remotion/google-fonts/IBMPlexMono";
 import "katex/dist/katex.min.css";
 
-// Measured from the reference recordings (see STYLE.md for the sampling notes).
+// House tokens informed by reference samples; see STYLE.md and the Ubilum audit.
 export const color = {
   paper: "#f9f9f4", // warm off-white page
   ink: "#12130b", // newest caption words, curves, emphasis

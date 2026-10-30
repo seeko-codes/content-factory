@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Record narration | Ultralearn</title>
+  <style>
+    :root { color-scheme:light; --paper:#f9f9f4; --ink:#12130b; --soft:#484843; --rule:#d8d9d1; --blue:#2b5a9e; --wash:#e3e8f2; --red:#a52828; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font:16px/1.5 "Inter Tight",Arial,sans-serif; }
+    ::selection { background:var(--wash); }
+    button, select, input { font:inherit; accent-color:var(--blue); }
+    button, select { border:1px solid var(--rule); border-radius:6px; background:var(--paper); color:var(--ink); padding:10px 15px; }
+    button { cursor:pointer; }
+    button:hover:not(:disabled) { border-color:var(--blue); background:var(--wash); }
+    button:disabled { opacity:.5; cursor:default; }
+    :focus-visible { outline:3px solid var(--blue); outline-offset:4px; }
+    a { color:var(--blue); text-underline-offset:4px; }
+    h1 { font-size:26px; letter-spacing:-.025em; margin:0; font-weight:500; }
+    h2 { font-size:19px; margin:0 0 12px; font-weight:500; }
+    header { padding:22px 32px; border-bottom:1px solid var(--rule); display:flex; justify-content:space-between; gap:20px; align-items:center; }
+    header p { margin:0; color:var(--soft); font-size:14px; }
+    .workspace { display:grid; grid-template-columns:240px minmax(0,1fr); max-width:1450px; margin:auto; }
+    aside { padding:28px 20px; border-right:1px solid var(--rule); }
+    .script-choice { display:block; width:100%; text-align:left; padding:13px 10px; margin-bottom:6px; border-color:transparent; }
+    .script-choice[aria-current=true] { background:var(--wash); border-color:var(--blue); }
+    .script-choice small { display:block; color:var(--soft); font-variant-numeric:tabular-nums; margin-bottom:3px; }
+    main { min-width:0; padding:30px 38px 0; }
+    .script-head { display:flex; gap:20px; align-items:start; justify-content:space-between; margin-bottom:22px; }
+    #script-title { font-size:27px; line-height:1.2; letter-spacing:-.025em; max-width:580px; }
+    #script-meta { color:var(--soft); font-size:14px; margin:9px 0 0; }
+    .reading-controls { display:flex; gap:20px; flex-wrap:wrap; padding:12px 0 18px; color:var(--soft); border-bottom:1px solid var(--rule); }
+    label { display:flex; gap:8px; align-items:center; }
+    #speed { width:110px; }
+    #script { height:49vh; min-height:230px; overflow-y:auto; padding:25px 20px 20vh 0; scrollbar-color:var(--rule) var(--paper); scrollbar-width:thin; scroll-behavior:auto; }
+    #script p { font-size:clamp(25px,2.5vw,37px); line-height:1.55; letter-spacing:-.015em; max-width:34ch; margin:0 0 27px; }
+    .recording-strip { position:sticky; bottom:0; background:var(--paper); border-top:1px solid var(--rule); padding:20px 0; z-index:1; }
+    .actions { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+    .primary { color:white; background:var(--blue); border-color:var(--blue); font-weight:500; }
+    .primary:hover:not(:disabled) { color:white; background:#214779; }
+    #record.recording { background:var(--red); border-color:var(--red); }
+    .record-dot { display:inline-block; width:10px; height:10px; border-radius:50%; background:currentColor; margin-right:9px; }
+    #clock { font:22px/1.3 "IBM Plex Mono",monospace; font-variant-numeric:tabular-nums; min-width:70px; margin-right:6px; }
+    #message { margin:12px 0 0; color:var(--soft); min-height:24px; }
+    #message.error { color:var(--red); }
+    #playback { margin:15px 0 0; display:none; width:min(100%,580px); }
+    .shortcuts { color:var(--soft); font-size:13px; margin:12px 0 0; }
+    kbd { font:inherit; font-weight:500; }
+    #jobs { margin:25px 0 35px; border-top:1px solid var(--rule); padding-top:22px; }
+    .job { padding:12px 0; border-bottom:1px solid var(--rule); }
+    .job-head { display:flex; gap:15px; justify-content:space-between; }
+    .job-status { color:var(--blue); }
+    .job small { display:block; color:var(--soft); overflow-wrap:anywhere; }
+    details { margin-top:8px; }
+    pre { white-space:pre-wrap; overflow-wrap:anywhere; font-size:12px; max-height:250px; overflow:auto; }
+    .mobile-picker { display:none; }
+    [hidden] { display:none !important; }
+    @media(max-width:760px) {
+      header { padding:18px 20px; display:block; } header p { margin-top:6px; }
+      .workspace { grid-template-columns:minmax(0,1fr); } aside { display:none; }
+      main { padding:22px 20px 0; } .mobile-picker { display:block; width:100%; margin-bottom:20px; }
+      #script { height:43vh; } .script-head { margin-bottom:14px; } #script-title { font-size:24px; }
+      .reading-controls { gap:14px; font-size:14px; } .shortcuts { display:none; }
+      #clock { font-size:20px; } button { padding:10px 12px; }
+    }
+    @media(prefers-reduced-motion:reduce) { * { scroll-behavior:auto !important; } }
+  </style>
+</head>
+<body>
+  <header><h1>Record narration</h1><p>Your voice, at your pace. Audio stays on this Mac.</p></header>
+  <div class="workspace">
+    <aside aria-label="Video scripts"><h2>Scripts</h2><div id="script-list">Loading scripts...</div></aside>
+    <main>
+      <select id="mobile-picker" class="mobile-picker" aria-label="Choose a video script"></select>
+      <div class="script-head"><div><h2 id="script-title">Loading your scripts...</h2><p id="script-meta"></p></div></div>
+      <div class="reading-controls">
+        <label><input id="autoscroll" type="checkbox"> Autoscroll while recording</label>
+        <label for="speed">Reading pace <input id="speed" type="range" min="60" max="200" step="10" value="120"><span id="pace">120 wpm</span></label>
+      </div>
+      <div id="script" tabindex="0" role="region" aria-label="Read aloud script"></div>
+      <div class="recording-strip">
+        <div class="actions">
+          <span id="clock" aria-label="Recording duration">00:00</span>
+          <button id="record" class="primary" disabled><span class="record-dot" aria-hidden="true"></span><span id="record-label">Record</span></button>
+          <button id="retake" disabled>Retake</button>
+          <button id="save" disabled>Save take</button>
+          <button id="next" hidden>Next script</button>
+          <a id="download" hidden>Download audio</a>
+        </div>
+        <audio id="playback" controls></audio>
+        <p id="message" role="status">Read naturally. The animation will follow your voice.</p>
+        <p class="shortcuts"><kbd>Space</kbd> record / stop · <kbd>R</kbd> retake · <kbd>S</kbd> save. Leave a moment of silence at each end.</p>
+      </div>
+      <section id="jobs" aria-label="Saved takes"><h2>Saved takes</h2><div id="job-list">Save a take to rebuild its captions and animation timing.</div></section>
+    </main>
+  </div>
+  <script>
+    const token = '__SESSION_TOKEN__';
+    const $ = id => document.getElementById(id);
+    let scripts = [], current = null, captureScript = null, recorder = null, stream = null;
+    let blob = null, audioUrl = null, started = 0, timer = null, requesting = false, uploading = false, saved = false;
+    function message(text, error=false) { $('message').textContent=text; $('message').classList.toggle('error',error); }
+    function busy() { return requesting || uploading || recorder?.state==='recording'; }
+    function updateChoices() {
+      document.querySelectorAll('.script-choice').forEach(e => { e.disabled=busy(); e.setAttribute('aria-current',String(e.dataset.id===current?.id)); });
+      $('mobile-picker').disabled=busy();
+    }
+    function discard() {
+      if(audioUrl) URL.revokeObjectURL(audioUrl);
+      blob=null; audioUrl=null; saved=false;
+      $('playback').pause(); $('playback').removeAttribute('src'); $('playback').style.display='none';
+      $('save').disabled=true; $('retake').disabled=true; $('download').hidden=true; $('next').hidden=true; $('clock').textContent='00:00';
+    }
+    function selectScript(id) {
+      if(busy()) return;
+      if(blob && !saved && !confirm('Discard this unsaved take and switch scripts?')) { $('mobile-picker').value=current.id; return; }
+      discard(); current=scripts.find(s=>s.id===id); if(!current) return;
+      $('script-title').textContent=current.title;
+      $('script-meta').textContent=`${current.id} · ${current.words} words · approximately ${Math.ceil(current.words/120*60)} seconds at 120 wpm`;
+      $('script').replaceChildren(...current.lines.map(text=>{const p=document.createElement('p');p.textContent=text;return p;}));
+      $('script').scrollTop=0; $('mobile-picker').value=id; $('record').disabled=false; updateChoices();
+      message('Read naturally. The animation will follow your voice.');
+    }
+    async function record() {
+      if(recorder?.state==='recording') { recorder.stop(); return; }
+      if(busy() || !current) return;
+      if(blob && !saved && !confirm('Discard this unsaved take and record again?')) return;
+      discard(); requesting=true; updateChoices(); $('record').disabled=true;
+      try {
+        if(!navigator.mediaDevices?.getUserMedia || !window.MediaRecorder) throw Error('Microphone recording needs Chrome at the printed local address.');
+        message('Allow microphone access in Chrome when prompted.');
+        stream=await navigator.mediaDevices.getUserMedia({audio:{channelCount:1,echoCancellation:false,noiseSuppression:false,autoGainControl:false}});
+        const type=['audio/webm;codecs=opus','audio/mp4','audio/ogg;codecs=opus'].find(t=>MediaRecorder.isTypeSupported(t));
+        if(!type) throw Error('This browser cannot record a supported audio format. Use Chrome.');
+        const chunks=[]; captureScript={...current};
+        recorder=new MediaRecorder(stream,{mimeType:type,audioBitsPerSecond:128000});
+        recorder.ondataavailable=e=>{if(e.data.size) chunks.push(e.data);};
+        recorder.onerror=()=>{message('Recording was interrupted. Retake when your microphone is available.',true); if(recorder.state==='recording') recorder.stop();};
+        recorder.onstop=()=>{
+          clearInterval(timer); stream.getTracks().forEach(t=>t.stop()); stream=null;
+          blob=new Blob(chunks,{type:recorder.mimeType}); audioUrl=URL.createObjectURL(blob);
+          $('playback').src=audioUrl; $('playback').style.display='block';
+          $('download').href=audioUrl; $('download').download=`${captureScript.id}-take.${blob.type.includes('mp4')?'m4a':blob.type.includes('ogg')?'ogg':'webm'}`; $('download').hidden=false;
+          $('record-label').textContent='Record'; $('record').classList.remove('recording');
+          $('retake').disabled=false; $('save').disabled=!blob.size; updateChoices();
+          message(blob.size?'Listen back, then save. Saving rebuilds captions and animation timing.':'No audio captured. Check your microphone and retake.',!blob.size);
+        };
+        $('script').scrollTop=0; recorder.start(250); started=Date.now();
+        $('record-label').textContent='Stop'; $('record').classList.add('recording');
+        message('Recording. Read the script at your own pace.');
+        timer=setInterval(()=>{
+          const seconds=Math.floor((Date.now()-started)/1000);
+          $('clock').textContent=`${String(Math.floor(seconds/60)).padStart(2,'0')}:${String(seconds%60).padStart(2,'0')}`;
+          if($('autoscroll').checked) {
+            const reader=$('script'), paragraphs=[...reader.children];
+            const height=paragraphs.reduce((n,p)=>n+p.getBoundingClientRect().height+parseFloat(getComputedStyle(p).marginBottom),0);
+            const pxPerSecond=height/Math.max(1,current.words)*Number($('speed').value)/60;
+            reader.scrollTop+=pxPerSecond/20;
+          }
+          if(seconds>=300) recorder.stop();
+        },50);
+      } catch(error) {
+        stream?.getTracks().forEach(t=>t.stop()); stream=null;
+        message(error.name==='NotAllowedError'?'Microphone access was denied. Allow it in Chrome’s site controls, then press Record.':error.message,true);
+      } finally { requesting=false; $('record').disabled=false; updateChoices(); }
+    }
+    async function save() {
+      if(!blob || busy() || saved) return;
+      uploading=true; $('save').disabled=true; $('record').disabled=true; $('retake').disabled=true; updateChoices(); message('Saving your take locally...');
+      try {
+        const response=await fetch(`/api/takes/${captureScript.id}`,{method:'POST',headers:{'Content-Type':blob.type,'X-Recorder-Token':token,'X-Script-Sha256':captureScript.digest},body:blob});
+        const data=await response.json(); if(!response.ok) throw Error(data.error);
+        saved=true; $('next').hidden=scripts.indexOf(current)===scripts.length-1;
+        message('Take saved. Timing is rebuilding below; you can record the next script.'); await refreshJobs();
+      } catch(error) { message(`${error.message} Your take is still here; download it as a backup.`,true); }
+      finally { uploading=false; $('save').disabled=saved; $('record').disabled=false; $('retake').disabled=false; updateChoices(); }
+    }
+    let lastJobs='';
+    async function refreshJobs() {
+      try {
+        const response=await fetch('/api/jobs'); if(!response.ok) return; const jobs=await response.json(); if(!jobs.length) return;
+        const serialized=JSON.stringify(jobs); if(serialized===lastJobs) return;
+        lastJobs=serialized;
+        const openJobs=new Set(Array.from($('job-list').querySelectorAll('details[open]')).map(detail=>detail.dataset.jobId));
+        $('job-list').replaceChildren(...jobs.slice().reverse().map(job=>{
+          const div=document.createElement('div'); div.className='job';
+          const head=document.createElement('div');head.className='job-head';
+          const title=document.createElement('span');title.textContent=job.video_id;
+          const status=document.createElement('span');status.className='job-status';
+          status.textContent=({'queued':'Waiting to align','aligning':'Rebuilding timing...','ready':'Voice and timing ready','needs-review':'Take saved · needs review'})[job.status];
+          head.append(title,status);div.append(head);
+          const path=document.createElement('small');path.textContent=job.path.split('/out/').pop();div.append(path);
+          if(job.detail) {const details=document.createElement('details'),summary=document.createElement('summary'),pre=document.createElement('pre');details.dataset.jobId=job.id;details.open=openJobs.has(job.id);summary.textContent=job.status==='needs-review'?'Show what needs attention':'Import details';pre.textContent=job.detail;details.append(summary,pre);div.append(details);}
+          return div;
+        }));
+      } catch { /* Keep the take usable during a temporary server interruption. */ }
+    }
+    $('record').onclick=record; $('retake').onclick=record; $('save').onclick=save;
+    $('next').onclick=()=>{const next=scripts[scripts.indexOf(current)+1];if(next)selectScript(next.id);};
+    $('speed').oninput=()=>{$('pace').textContent=`${$('speed').value} wpm`;};
+    $('mobile-picker').onchange=e=>selectScript(e.target.value);
+    document.addEventListener('keydown',e=>{
+      if(e.repeat || e.altKey || e.ctrlKey || e.metaKey || /INPUT|SELECT|TEXTAREA|BUTTON|AUDIO/.test(e.target.tagName)) return;
+      if(e.code==='Space') {e.preventDefault();record();}
+      if(e.key.toLowerCase()==='r' && !$('retake').disabled) {e.preventDefault();record();}
+      if(e.key.toLowerCase()==='s' && !$('save').disabled) {e.preventDefault();save();}
+    });
+    window.addEventListener('beforeunload',e=>{if(busy() || (blob&&!saved)){e.preventDefault();e.returnValue='';}});
+    async function init() {
+      try {
+        const response=await fetch('/api/scripts');if(!response.ok)throw Error('Could not load scripts.');scripts=await response.json();
+        if(!scripts.length) { $('script-title').textContent='No scripts yet'; $('script-list').textContent='Add a video script to begin.';message('Ask the agent to prepare a script, then reload.');return; }
+        $('script-list').replaceChildren(...scripts.map(script=>{const button=document.createElement('button');button.className='script-choice';button.dataset.id=script.id;const small=document.createElement('small');small.textContent=script.id;button.append(small,document.createTextNode(script.title));button.onclick=()=>selectScript(script.id);return button;}));
+        $('mobile-picker').replaceChildren(...scripts.map(script=>{const option=document.createElement('option');option.value=script.id;option.textContent=`${script.id} · ${script.title}`;return option;}));
+        const requested=new URLSearchParams(location.search).get('video');selectScript(scripts.find(s=>s.id===requested)?.id||scripts[0].id);
+        await refreshJobs();setInterval(refreshJobs,2000);
+      } catch(error) { $('script-title').textContent='Recording page unavailable';message(`${error.message} Restart npm run record and reload.`,true); }
+    }
+    init();
+  </script>
+</body>
+</html>

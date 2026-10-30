@@ -20,7 +20,6 @@ script sets "cta": false.
 """
 
 import json
-import re
 import sys
 from pathlib import Path
 
@@ -31,33 +30,7 @@ from kokoro import KPipeline
 ROOT = Path(__file__).resolve().parent.parent
 SR = 24000
 LEAD = 0.05  # seconds kept before the first word / after the last word of a line
-CTA = {
-    "text": 'Want to take SAT math prep *seriously?* {cta} Comment *"ultralearn".*',
-    "say": "Want to take SAT math prep seriously? Comment, ultra learn.",  # two words so the voice says it cleanly
-}
-CTA_GAP = 0.8  # seconds of silence between the thesis line and the CTA
-
-
-def tokenize(text):
-    """Display tokens with emphasis/tex flags, and cue names keyed by token index."""
-    tokens, cues, in_emph = [], {}, False
-    for raw in re.findall(r"\{[\w-]+\}|[^\s$]*\$[^$]+\$[^\s$]*|\S+", text):
-        if re.fullmatch(r"\{[\w-]+\}", raw):
-            cues[raw[1:-1]] = len(tokens)
-            continue
-        opens = raw.startswith("*")
-        closes = "*" in (raw[1:] if opens else raw)
-        tokens.append({"text": raw.replace("*", ""), "emph": in_emph or opens, "tex": "$" in raw})
-        in_emph = (in_emph or opens) and not closes
-    return tokens, cues
-
-
-def spoken(line, tokens):
-    if "say" in line:
-        return line["say"]
-    if any(t["tex"] for t in tokens):
-        sys.exit(f'Line has math, add a "say" with how it is read aloud: {line["text"]}')
-    return " ".join(t["text"] for t in tokens)
+from video_script import script_lines, spoken, tokenize
 
 
 def synth(pipeline, text, voice, speed):
@@ -92,11 +65,7 @@ def main(video_id):
 
     pieces, lines, cues, clock = [], [], {}, script.get("lead_in", 0.6)
     pieces.append(np.zeros(int(clock * SR), dtype=np.float32))
-    script_lines = [dict(l) for l in script["lines"]]
-    if script.get("cta", True):
-        script_lines[-1]["pause"] = max(script_lines[-1].get("pause", default_pause), CTA_GAP)
-        script_lines.append(CTA)
-    for line in script_lines:
+    for line in script_lines(script):
         tokens, line_cues = tokenize(line["text"])
         audio, words = synth(pipeline, spoken(line, tokens), voice, speed)
         if not words:

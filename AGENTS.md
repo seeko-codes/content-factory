@@ -1,8 +1,15 @@
-# video-gen
+# content-factory
 
-- Read STYLE.md before writing or changing a video. Narration rules matter more than visuals.
-- Measured style values live in `src/theme.ts`. Change them only when you've checked the change against the reference frames in `samples/`.
-- Workflow and commands: README.md. After editing a script, run `npm run voice -- <id>` again before rendering.
-- Build videos from the shared blocks in `src/components` (README, "Building blocks"). A piece a second video could use belongs there, not in a video folder.
-- Verify visually: render stills (`npm run stills -- <id> every 2`) and compare them side by side with the reference frames.
-- `samples/` holds third-party recordings: keep it local and out of Git. Do not reuse the reference brand's name or logo.
+This repo exists to produce exceptional videos at volume. SAT math is the current subject; the quality bar should survive a change of subject. Optimize the finished viewer experience, not the amount of process or documentation produced.
+
+- Automatically load [LOGIC.md](LOGIC.md) as your first read before any video ideation, production or review. Keep the principles there. Use them to propose the intended viewer experience and payoff, get the owner's approval through [the human decision checkpoints](README.md#human-decision-checkpoints), then load the relevant channel README and exact clip dossier. Those checkpoints also require owner review of learning conclusions and exact proposed guidance edits before applying them.
+- Before creating or reviewing content, read [QUALITY.md](QUALITY.md). It defines excellent output, rejection criteria, the current SAT profile and [verification of standards against the actual export](QUALITY.md#verify-that-the-output-follows-the-standards). Every delivered video must meet the bar individually; batch size never excuses a weak result.
+- For the current series, read [STYLE.md](STYLE.md); [research/README.md](research/README.md) routes to the active slate.
+- The concepts layer is [the seven researched channels](research/channels/README.md). Its details live inside each channel's clip dossiers, reconstructions and audits. Preserve their depth and specific constructions when choosing a reference. `research/discovery/` and metadata-only catalogue rows are research leads; source counts are discovery evidence, not forecasts or quality approval.
+- Execution and commands live in [README.md](README.md). Reuse `src/components`; house tokens live in `src/theme.ts`. Check changes to those tokens against the reference frames in `samples/`.
+- Before campaign production, scheduling or performance reviews, read [the Instagram strategy](research/instagram-strategy.md), including the observation workflow and actual `backpass` CLI configuration in `.backpassrc.json`.
+- Before final delivery or publishing, use [the standards verification workflow](README.md#verify-standards-before-publishing): `npm run review` binds the actual export to its evidence and current standards. Publish through its gate; use only eligible results for creative-rule learning. Instagram access uses the configured `zernio` CLI and [README's commands](README.md#instagram-publishing-and-analytics). Reuse this Mac's @ultralearns connection outside Git and keep secrets out of transcripts. These are agent-operated tools, not background jobs.
+- Deliver the requested finished artifacts. An idea, script, storyboard, silent preview, and final video are different outputs; label them accurately. Keep any review note brief and identify unverified sound, timing, or comprehension rather than claiming checks that did not happen.
+- Before dispatching production or evaluation work, read [agent roles and model allocation](README.md#agent-roles-and-model-allocation): Sol/Opus produce in parallel; Fable/Astra independently review exports and interpret eligible outcomes. Follow the production status there and keep shared changes under one integration owner.
+- For narration, the current preference is the Mac script-and-record-button flow in [README](README.md#record-your-own-narration), started with `npm run record`. Preserve imported human narration unless replacing it is intended. After editing a synthetic script, regenerate its voice and timings.
+- `samples/` contains local third-party references. Use them to study craft; produce our own assets and branding. Preserve source provenance and keep downloaded reference media out of Git.

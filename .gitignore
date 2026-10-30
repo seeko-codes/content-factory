@@ -1,5 +1,15 @@
 node_modules/
+.venv/
 out/
 # Reference recordings are third-party content; keep them local only
 samples/
+# Backpass transcripts, evidence and proposals are local session state
+.backpass/
+# Local credentials and runtime files
+.env
+.env.*
+!.env.example
+*.log
 .DS_Store
+__pycache__/
+*.pyc

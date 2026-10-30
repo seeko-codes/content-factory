@@ -1,5 +1,7 @@
 # SAT math: video topics
 
+Historical research, preserved for lineage. The [fresh Ubilum study](channels/ubilumapp/STYLE.md) supersedes the performance interpretations below; its [metric audit](channels/ubilumapp/ubilumapp-performance.md) verifies icon associations and comparison limits. The active slate is [v2](today-2026-10-29-v2.md). Old causal claims and expected reach priorities are hypotheses, not production authority.
+
 This is research only. It lists the big ideas in SAT math, prioritized by the formats that perform best on the reference channel, that become "wait, *that's* why?" moments when you see them, each sized for one 60-second video in this style. Format, packaging and production decisions are out of scope here.
 
 Each topic has four parts:

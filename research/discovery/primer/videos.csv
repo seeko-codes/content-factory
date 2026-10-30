@@ -1,0 +1,6 @@
+source_url,title,views,audience,views_per_current_audience,observed_at,publication_date,duration_seconds,format,review_flag,count_precision,scope
+https://www.youtube.com/shorts/TNnc4T9m9tA,Evolving Rock Paper Scissors,70617,1940000,0.036401,2026-10-29,2024-07-13,48,Shorts,sampled_visual_plus_subtitles,watch_integer_views_rounded_current_audience,complete duration sampled
+https://www.youtube.com/watch?v=Qg5QXY_qZuI,Taking AI Doom Seriously For 62 Minutes,486000,1940000,0.250515,2026-10-29,,3742,longform,metadata_only,public_tab_may_be_rounded,tab metadata only
+https://www.youtube.com/watch?v=GkiITbgu0V0,Simulating a single brain cell,340000,1940000,0.175258,2026-10-29,,2027,longform,metadata_only,public_tab_may_be_rounded,tab metadata only
+https://www.youtube.com/watch?v=1_JbJTeLZJs,Simulating the Evolution of Aging,2500000,1940000,1.28866,2026-10-29,,1942,longform,metadata_only,public_tab_may_be_rounded,tab metadata only
+https://www.youtube.com/watch?v=tCoEYFbDVoI,"Simulating the Evolution of Rock, Paper, Scissors",4639630,1940000,2.391562,2026-10-29,2024-07-13,900,longform_adjacent,sampled_visual_plus_subtitles,watch_integer_views_rounded_current_audience,opening 00:00-03:00 sampled; remainder not visually reviewed

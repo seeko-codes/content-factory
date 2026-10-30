@@ -1,0 +1,5 @@
+source_url,title,views,audience,views_per_current_audience,observed_at,publication_date,duration_seconds,format,review_flag,count_precision,scope
+https://www.youtube.com/watch?v=mSVSZECSh6Y,What is Sound? The basics,60160,957000,0.062863,2026-10-29,2026-09-19,367,longform_adjacent,sampled_visual_plus_subtitles,watch_integer_views_rounded_current_audience,complete duration sampled
+https://www.youtube.com/watch?v=JCAVh1wpBMU,Alcubierre's Warp Drive | What would it look like?,907460,957000,0.948234,2026-10-29,2026-09-01,907,longform_adjacent,sampled_visual_plus_subtitles,watch_integer_views_rounded_current_audience,opening 00:00-03:00 sampled; remainder not visually reviewed
+https://www.youtube.com/watch?v=-yNXZWtBTbg,Temperature and Heat | The basics,35000,957000,0.036573,2026-10-29,,323,longform,metadata_only,public_tab_may_be_rounded,tab metadata only
+https://www.youtube.com/watch?v=oRSmMDH11Ss,Visualizing the birth of a Black Hole,609000,957000,0.636364,2026-10-29,,692,longform,metadata_only,public_tab_may_be_rounded,tab metadata only

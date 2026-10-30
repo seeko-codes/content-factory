@@ -1,0 +1,23 @@
+# Alan Becker: sampled mathematical animation
+
+Observed 2026-10-29. Scope: the two linked videos in [breakdowns.md](breakdowns.md). Broader research preserved outside the final portrait-short core.
+
+## Mathematical action theatre
+
+The sampled mathematical films put a small orange stick figure inside an almost unlimited black space. The character's rounded head, thin limbs and intensely colored silhouette remain legible against white notation and geometry, even when the camera has pulled far back. There is no presenter, writing hand, editor panel or classroom. Mathematical objects provide the set, the obstacles, the weapons and the routes. Equations are often much larger than the figure, so a familiar numeral can become a physical object before the scene expands into something spatially unfamiliar. This scale relationship is fundamental to these particular films.
+
+The palette is highly constrained but not flatly monochrome. White equations, construction lines and translucent grids establish the mathematical world; orange identifies the protagonist. Geometry adds luminous gold constructions that can dominate the image. The black background leaves room around an encounter and permits objects to emerge without a conventional environment. Late scenes become extremely dense, with recursive constructions or many overlapping symbols. The isolated-character readability of an early scene is therefore not an accurate description of every stage.
+
+Notation looks typeset and diagrams use clean geometric edges. Exact typefaces, rendering software and line-width specifications were not verified. The typography is diegetic: the figure interacts with the symbols in the scene rather than reading an explanatory lower-third. No continuous speech-caption track appears in the inspected frames. A viewer's mathematical recognition is enlisted as part of the joke or action. The channel description's characterization of dialogue-free stick-figure storytelling supports that interpretation, but no independent audio listening was performed here.
+
+## Two distinct films
+
+Animation vs. Math travels from arithmetic and algebraic-looking relations into radicals, a unit-circle environment, helices and a perspective mathematical space. Its recurring question is what the character can do with the object currently encountered. Animation vs. Geometry instead repeatedly rebuilds its world through constructions: axes, triangle relationships, attached squares, recursive arrangements and increasingly spatial polyhedral objects. The latter's golden light and transparent solid forms are a meaningful variant, not just a recolor of the former's equations.
+
+The samples show changing poses, positions, sizes and camera viewpoints. They support a broad account of action progression, but not an exact timing chart, easing curve or frame-by-frame account of collisions. Long intervals between the twelve inspected frames omit many intermediate mathematical and narrative moves. The late bright field in Math and the complex solids in Geometry should not be assigned a precise mathematical identity from these small samples alone.
+
+## Hook, reveal, ending and useful scope
+
+The hook is the mismatch between a physically vulnerable, expressive character and an abstract system that can act upon it. The reveal is often a change of dimensional or conceptual scale: notation becomes a landscape, a local construction grows into a world, or a small familiar shape becomes part of a much larger structure. The inspected final samples are black, so a detailed closing call to action or exact end-credit sequence is not established. Sound, music and vocal performance cannot be reconstructed from stills. First-party descriptions credit collaborators, including writing, animation and sound/music work; this is a team-produced reference and should not be described as entirely solo craft.
+
+Use the Math treatment when mathematical symbols can behave coherently enough to support a physical encounter. Use the Geometry treatment when constructing and changing spatial relationships can drive the plot. A superficial imitation that merely places a stick figure beside formulas would lose the causal role of the mathematics. Making all late scenes equally crowded would also remove the early contrast between a clear encounter and a vast system. These are entertainment films rich in mathematical references, not verified proofs of every operation shown. An instructional adaptation needs to distinguish a dramatic metaphor from a formally justified transformation rather than treating spectacular action as sufficient explanation.

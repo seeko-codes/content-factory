@@ -1,904 +1,878 @@
 {
  "id": "sat-001",
- "duration": 57.5,
+ "duration": 56.7,
  "lines": [
   {
    "start": 1.15,
-   "end": 4.525,
+   "end": 3.95,
    "tokens": [
-    {
-     "text": "The",
-     "emph": false,
-     "tex": false,
-     "start": 1.15,
-     "end": 1.275
-    },
-    {
-     "text": "whole",
-     "emph": false,
-     "tex": false,
-     "start": 1.275,
-     "end": 1.663
-    },
     {
      "text": "SAT",
      "emph": false,
      "tex": false,
-     "start": 1.663,
-     "end": 2.225
+     "start": 1.15,
+     "end": 1.825
     },
     {
      "text": "math",
      "emph": false,
      "tex": false,
-     "start": 2.225,
-     "end": 2.525
+     "start": 1.825,
+     "end": 2.2
     },
     {
-     "text": "section",
+     "text": "starts",
      "emph": false,
      "tex": false,
-     "start": 2.525,
-     "end": 3.1
+     "start": 2.2,
+     "end": 2.562
     },
     {
-     "text": "is",
+     "text": "with",
      "emph": false,
      "tex": false,
-     "start": 3.1,
-     "end": 3.288
+     "start": 2.562,
+     "end": 2.737
     },
     {
      "text": "four",
      "emph": true,
      "tex": false,
-     "start": 3.288,
-     "end": 3.575
+     "start": 2.737,
+     "end": 3.025
     },
     {
      "text": "pictures.",
      "emph": true,
      "tex": false,
-     "start": 3.575,
-     "end": 4.525
+     "start": 3.025,
+     "end": 3.95
     }
    ]
   },
   {
-   "start": 5.225,
-   "end": 8.05,
+   "start": 4.65,
+   "end": 7.375,
    "tokens": [
     {
      "text": "Start",
      "emph": false,
      "tex": false,
-     "start": 5.225,
-     "end": 5.487
+     "start": 4.65,
+     "end": 4.887
     },
     {
      "text": "at",
      "emph": false,
      "tex": false,
-     "start": 5.487,
-     "end": 5.612
+     "start": 4.887,
+     "end": 5.012
     },
     {
      "text": "3.",
      "emph": true,
      "tex": false,
-     "start": 5.612,
-     "end": 6.2
+     "start": 5.012,
+     "end": 5.575
     },
     {
      "text": "Add",
      "emph": false,
      "tex": false,
-     "start": 6.387,
-     "end": 6.675
+     "start": 5.762,
+     "end": 6.037
     },
     {
      "text": "2,",
      "emph": true,
      "tex": false,
-     "start": 6.675,
-     "end": 6.975
+     "start": 6.037,
+     "end": 6.3
     },
     {
      "text": "every",
      "emph": false,
      "tex": false,
-     "start": 7.025,
-     "end": 7.362
+     "start": 6.35,
+     "end": 6.688
     },
     {
      "text": "step.",
      "emph": false,
      "tex": false,
-     "start": 7.362,
-     "end": 8.05
+     "start": 6.688,
+     "end": 7.375
     }
    ]
   },
   {
-   "start": 8.45,
-   "end": 10.35,
+   "start": 7.775,
+   "end": 9.6,
    "tokens": [
     {
      "text": "The",
      "emph": false,
      "tex": false,
-     "start": 8.45,
-     "end": 8.55
+     "start": 7.775,
+     "end": 7.875
     },
     {
      "text": "steps",
      "emph": false,
      "tex": false,
-     "start": 8.55,
-     "end": 8.9
+     "start": 7.875,
+     "end": 8.225
     },
     {
      "text": "make",
      "emph": false,
      "tex": false,
-     "start": 8.9,
-     "end": 9.088
+     "start": 8.225,
+     "end": 8.412
     },
     {
      "text": "a",
      "emph": false,
      "tex": false,
-     "start": 9.088,
-     "end": 9.188
+     "start": 8.412,
+     "end": 8.475
     },
     {
      "text": "straight",
      "emph": false,
      "tex": false,
-     "start": 9.188,
-     "end": 9.575
+     "start": 8.475,
+     "end": 8.85
     },
     {
      "text": "line.",
      "emph": true,
      "tex": false,
-     "start": 9.575,
-     "end": 10.35
+     "start": 8.85,
+     "end": 9.6
     }
    ]
   },
   {
-   "start": 10.75,
-   "end": 13.45,
+   "start": 10.0,
+   "end": 12.625,
    "tokens": [
     {
      "text": "Algebra:",
      "emph": true,
      "tex": false,
-     "start": 10.75,
-     "end": 11.3
+     "start": 10.0,
+     "end": 10.55
     },
     {
      "text": "13",
      "emph": false,
      "tex": false,
-     "start": 11.375,
-     "end": 11.85
+     "start": 10.625,
+     "end": 11.1
     },
     {
      "text": "to",
      "emph": false,
      "tex": false,
-     "start": 11.85,
-     "end": 11.975
+     "start": 11.1,
+     "end": 11.225
     },
     {
      "text": "15",
      "emph": false,
      "tex": false,
-     "start": 11.975,
-     "end": 12.425
+     "start": 11.225,
+     "end": 11.675
     },
     {
      "text": "questions.",
      "emph": false,
      "tex": false,
-     "start": 12.425,
-     "end": 13.45
+     "start": 11.675,
+     "end": 12.625
     }
    ]
   },
   {
-   "start": 14.15,
-   "end": 15.675,
+   "start": 13.325,
+   "end": 14.8,
    "tokens": [
     {
      "text": "Now",
      "emph": false,
      "tex": false,
-     "start": 14.15,
-     "end": 14.35
+     "start": 13.325,
+     "end": 13.525
     },
     {
      "text": "let",
      "emph": false,
      "tex": false,
-     "start": 14.35,
-     "end": 14.537
+     "start": 13.525,
+     "end": 13.713
     },
     {
      "text": "the",
      "emph": false,
      "tex": false,
-     "start": 14.537,
-     "end": 14.625
+     "start": 13.713,
+     "end": 13.8
     },
     {
      "text": "step",
      "emph": false,
      "tex": false,
-     "start": 14.625,
-     "end": 14.925
+     "start": 13.8,
+     "end": 14.1
     },
     {
      "text": "grow.",
      "emph": true,
      "tex": false,
-     "start": 14.925,
-     "end": 15.675
+     "start": 14.1,
+     "end": 14.8
     }
    ]
   },
   {
-   "start": 16.075,
-   "end": 18.55,
+   "start": 15.2,
+   "end": 17.65,
    "tokens": [
     {
      "text": "Curves:",
      "emph": false,
      "tex": false,
-     "start": 16.075,
-     "end": 16.525
+     "start": 15.2,
+     "end": 15.65
     },
     {
      "text": "parabolas,",
      "emph": true,
      "tex": false,
-     "start": 16.575,
-     "end": 17.275
+     "start": 15.7,
+     "end": 16.4
     },
     {
      "text": "exponentials.",
      "emph": true,
      "tex": false,
-     "start": 17.35,
-     "end": 18.55
+     "start": 16.475,
+     "end": 17.65
     }
    ]
   },
   {
-   "start": 18.95,
-   "end": 21.95,
+   "start": 18.05,
+   "end": 20.975,
    "tokens": [
     {
      "text": "Advanced",
      "emph": true,
      "tex": false,
-     "start": 18.95,
-     "end": 19.437
+     "start": 18.05,
+     "end": 18.538
     },
     {
      "text": "Math:",
      "emph": true,
      "tex": false,
-     "start": 19.437,
-     "end": 19.975
+     "start": 18.538,
+     "end": 19.05
     },
     {
      "text": "13",
      "emph": false,
      "tex": false,
-     "start": 20.112,
-     "end": 20.625
+     "start": 19.175,
+     "end": 19.65
     },
     {
      "text": "to",
      "emph": false,
      "tex": false,
-     "start": 20.625,
-     "end": 20.75
+     "start": 19.65,
+     "end": 19.775
     },
     {
      "text": "15",
      "emph": false,
      "tex": false,
-     "start": 20.75,
-     "end": 21.225
+     "start": 19.775,
+     "end": 20.25
     },
     {
      "text": "more.",
      "emph": false,
      "tex": false,
-     "start": 21.225,
-     "end": 21.95
+     "start": 20.25,
+     "end": 20.975
     }
    ]
   },
   {
-   "start": 22.65,
-   "end": 24.1,
+   "start": 21.675,
+   "end": 23.1,
    "tokens": [
     {
      "text": "Now",
      "emph": false,
      "tex": false,
-     "start": 22.65,
-     "end": 22.862
+     "start": 21.675,
+     "end": 21.887
     },
     {
      "text": "scatter",
      "emph": true,
      "tex": false,
-     "start": 22.862,
-     "end": 23.237
+     "start": 21.887,
+     "end": 22.262
     },
     {
      "text": "the",
      "emph": false,
      "tex": false,
-     "start": 23.237,
-     "end": 23.325
+     "start": 22.262,
+     "end": 22.35
     },
     {
      "text": "points.",
      "emph": false,
      "tex": false,
-     "start": 23.325,
-     "end": 24.1
+     "start": 22.35,
+     "end": 23.1
     }
    ]
   },
   {
-   "start": 24.5,
-   "end": 26.45,
+   "start": 23.5,
+   "end": 25.35,
    "tokens": [
     {
      "text": "They",
      "emph": false,
      "tex": false,
-     "start": 24.5,
-     "end": 24.65
+     "start": 23.5,
+     "end": 23.65
     },
     {
      "text": "balance",
      "emph": false,
      "tex": false,
-     "start": 24.65,
-     "end": 25.062
+     "start": 23.65,
+     "end": 24.062
     },
     {
      "text": "at",
      "emph": false,
      "tex": false,
-     "start": 25.062,
-     "end": 25.137
+     "start": 24.062,
+     "end": 24.137
     },
     {
      "text": "the",
      "emph": false,
      "tex": false,
-     "start": 25.137,
-     "end": 25.225
+     "start": 24.137,
+     "end": 24.225
     },
     {
      "text": "mean,",
      "emph": true,
      "tex": false,
-     "start": 25.225,
-     "end": 25.575
+     "start": 24.225,
+     "end": 24.55
     },
     {
      "text": "4.",
      "emph": true,
      "tex": false,
-     "start": 25.675,
-     "end": 26.45
+     "start": 24.625,
+     "end": 25.35
     }
    ]
   },
   {
-   "start": 26.85,
-   "end": 29.45,
+   "start": 25.75,
+   "end": 28.575,
    "tokens": [
     {
      "text": "Three",
      "emph": false,
      "tex": false,
-     "start": 26.85,
-     "end": 27.062
+     "start": 25.75,
+     "end": 25.962
     },
     {
      "text": "of",
      "emph": false,
      "tex": false,
-     "start": 27.062,
-     "end": 27.175
+     "start": 25.962,
+     "end": 26.075
     },
     {
      "text": "ten",
      "emph": false,
      "tex": false,
-     "start": 27.175,
-     "end": 27.487
+     "start": 26.075,
+     "end": 26.35
     },
     {
-     "text": "sit",
+     "text": "exceed",
      "emph": false,
      "tex": false,
-     "start": 27.487,
-     "end": 27.662
+     "start": 26.35,
+     "end": 26.825
     },
     {
-     "text": "above:",
-     "emph": false,
+     "text": "4:",
+     "emph": true,
      "tex": false,
-     "start": 27.662,
-     "end": 28.1
+     "start": 26.825,
+     "end": 27.275
     },
     {
      "text": "30",
      "emph": true,
      "tex": false,
-     "start": 28.212,
-     "end": 28.55
+     "start": 27.387,
+     "end": 27.725
     },
     {
      "text": "percent.",
      "emph": true,
      "tex": false,
-     "start": 28.55,
-     "end": 29.45
+     "start": 27.725,
+     "end": 28.575
     }
    ]
   },
   {
-   "start": 29.85,
-   "end": 31.825,
+   "start": 28.975,
+   "end": 31.25,
    "tokens": [
     {
      "text": "Data:",
      "emph": true,
      "tex": false,
-     "start": 29.85,
-     "end": 30.25
-    },
-    {
-     "text": "just",
-     "emph": false,
-     "tex": false,
-     "start": 30.3,
-     "end": 30.562
+     "start": 28.975,
+     "end": 29.375
     },
     {
      "text": "5",
      "emph": false,
      "tex": false,
-     "start": 30.562,
-     "end": 30.925
+     "start": 29.463,
+     "end": 29.825
     },
     {
      "text": "to",
      "emph": false,
      "tex": false,
-     "start": 30.925,
-     "end": 31.062
+     "start": 29.825,
+     "end": 29.95
     },
     {
-     "text": "7.",
+     "text": "7",
      "emph": false,
      "tex": false,
-     "start": 31.062,
-     "end": 31.825
-    }
-   ]
-  },
-  {
-   "start": 32.525,
-   "end": 34.9,
-   "tokens": [
-    {
-     "text": "Snap",
-     "emph": false,
-     "tex": false,
-     "start": 32.525,
-     "end": 32.862
-    },
-    {
-     "text": "three",
-     "emph": false,
-     "tex": false,
-     "start": 32.862,
-     "end": 33.175
-    },
-    {
-     "text": "into",
-     "emph": false,
-     "tex": false,
-     "start": 33.175,
-     "end": 33.425
-    },
-    {
-     "text": "a",
-     "emph": false,
-     "tex": false,
-     "start": 33.425,
-     "end": 33.525
-    },
-    {
-     "text": "right",
-     "emph": true,
-     "tex": false,
-     "start": 33.525,
-     "end": 33.812
-    },
-    {
-     "text": "triangle.",
-     "emph": true,
-     "tex": false,
-     "start": 33.812,
-     "end": 34.9
-    }
-   ]
-  },
-  {
-   "start": 35.3,
-   "end": 38.1,
-   "tokens": [
-    {
-     "text": "Circle",
-     "emph": false,
-     "tex": false,
-     "start": 35.3,
-     "end": 35.675
-    },
-    {
-     "text": "it.",
-     "emph": false,
-     "tex": false,
-     "start": 35.675,
-     "end": 35.85
-    },
-    {
-     "text": "The",
-     "emph": false,
-     "tex": false,
-     "start": 35.925,
-     "end": 36.05
-    },
-    {
-     "text": "long",
-     "emph": false,
-     "tex": false,
-     "start": 36.05,
-     "end": 36.4
-    },
-    {
-     "text": "side",
-     "emph": false,
-     "tex": false,
-     "start": 36.4,
-     "end": 36.825
-    },
-    {
-     "text": "is",
-     "emph": false,
-     "tex": false,
-     "start": 36.825,
-     "end": 36.962
-    },
-    {
-     "text": "the",
-     "emph": false,
-     "tex": false,
-     "start": 36.962,
-     "end": 37.05
-    },
-    {
-     "text": "diameter.",
-     "emph": true,
-     "tex": false,
-     "start": 37.05,
-     "end": 38.1
-    }
-   ]
-  },
-  {
-   "start": 38.5,
-   "end": 40.975,
-   "tokens": [
-    {
-     "text": "Geometry:",
-     "emph": true,
-     "tex": false,
-     "start": 38.5,
-     "end": 39.225
-    },
-    {
-     "text": "the",
-     "emph": false,
-     "tex": false,
-     "start": 39.3,
-     "end": 39.4
-    },
-    {
-     "text": "last",
-     "emph": false,
-     "tex": false,
-     "start": 39.4,
-     "end": 39.775
-    },
-    {
-     "text": "5",
-     "emph": false,
-     "tex": false,
-     "start": 39.775,
-     "end": 40.075
-    },
-    {
-     "text": "to",
-     "emph": false,
-     "tex": false,
-     "start": 40.075,
-     "end": 40.212
-    },
-    {
-     "text": "7.",
-     "emph": false,
-     "tex": false,
-     "start": 40.212,
-     "end": 40.975
-    }
-   ]
-  },
-  {
-   "start": 42.075,
-   "end": 45.1,
-   "tokens": [
-    {
-     "text": "A",
-     "emph": false,
-     "tex": false,
-     "start": 42.075,
-     "end": 42.162
-    },
-    {
-     "text": "line.",
-     "emph": true,
-     "tex": false,
-     "start": 42.162,
-     "end": 42.575
-    },
-    {
-     "text": "A",
-     "emph": false,
-     "tex": false,
-     "start": 42.625,
-     "end": 42.737
-    },
-    {
-     "text": "curve.",
-     "emph": true,
-     "tex": false,
-     "start": 42.737,
-     "end": 43.175
-    },
-    {
-     "text": "A",
-     "emph": false,
-     "tex": false,
-     "start": 43.25,
-     "end": 43.35
-    },
-    {
-     "text": "balance.",
-     "emph": true,
-     "tex": false,
-     "start": 43.35,
-     "end": 43.825
-    },
-    {
-     "text": "A",
-     "emph": false,
-     "tex": false,
-     "start": 43.875,
-     "end": 43.987
-    },
-    {
-     "text": "triangle.",
-     "emph": true,
-     "tex": false,
-     "start": 43.987,
-     "end": 45.1
-    }
-   ]
-  },
-  {
-   "start": 45.7,
-   "end": 48.15,
-   "tokens": [
-    {
-     "text": "Every",
-     "emph": false,
-     "tex": false,
-     "start": 45.7,
-     "end": 46.0
-    },
-    {
-     "text": "question",
-     "emph": false,
-     "tex": false,
-     "start": 46.0,
-     "end": 46.537
-    },
-    {
-     "text": "is",
-     "emph": false,
-     "tex": false,
-     "start": 46.537,
-     "end": 46.725
-    },
-    {
-     "text": "one",
-     "emph": false,
-     "tex": false,
-     "start": 46.725,
-     "end": 47.025
-    },
-    {
-     "text": "in",
-     "emph": false,
-     "tex": false,
-     "start": 47.025,
-     "end": 47.137
-    },
-    {
-     "text": "disguise.",
-     "emph": true,
-     "tex": false,
-     "start": 47.137,
-     "end": 48.15
-    }
-   ]
-  },
-  {
-   "start": 48.85,
-   "end": 51.5,
-   "tokens": [
-    {
-     "text": "44",
-     "emph": true,
-     "tex": false,
-     "start": 48.85,
-     "end": 49.4
+     "start": 29.95,
+     "end": 30.3
     },
     {
      "text": "questions.",
      "emph": false,
      "tex": false,
-     "start": 49.4,
-     "end": 50.125
-    },
-    {
-     "text": "Four",
-     "emph": true,
-     "tex": false,
-     "start": 50.25,
-     "end": 50.55
-    },
-    {
-     "text": "pictures.",
-     "emph": false,
-     "tex": false,
-     "start": 50.55,
-     "end": 51.5
+     "start": 30.3,
+     "end": 31.25
     }
    ]
   },
   {
-   "start": 52.4,
-   "end": 57.0,
+   "start": 31.95,
+   "end": 34.3,
    "tokens": [
     {
-     "text": "Want",
+     "text": "Snap",
      "emph": false,
      "tex": false,
-     "start": 52.4,
-     "end": 52.537
+     "start": 31.95,
+     "end": 32.288
+    },
+    {
+     "text": "three",
+     "emph": false,
+     "tex": false,
+     "start": 32.288,
+     "end": 32.6
+    },
+    {
+     "text": "into",
+     "emph": false,
+     "tex": false,
+     "start": 32.6,
+     "end": 32.85
+    },
+    {
+     "text": "a",
+     "emph": false,
+     "tex": false,
+     "start": 32.85,
+     "end": 32.95
+    },
+    {
+     "text": "right",
+     "emph": true,
+     "tex": false,
+     "start": 32.95,
+     "end": 33.238
+    },
+    {
+     "text": "triangle.",
+     "emph": true,
+     "tex": false,
+     "start": 33.238,
+     "end": 34.3
+    }
+   ]
+  },
+  {
+   "start": 34.7,
+   "end": 37.425,
+   "tokens": [
+    {
+     "text": "Circle",
+     "emph": false,
+     "tex": false,
+     "start": 34.7,
+     "end": 35.075
+    },
+    {
+     "text": "it.",
+     "emph": false,
+     "tex": false,
+     "start": 35.075,
+     "end": 35.225
+    },
+    {
+     "text": "The",
+     "emph": false,
+     "tex": false,
+     "start": 35.275,
+     "end": 35.4
+    },
+    {
+     "text": "long",
+     "emph": false,
+     "tex": false,
+     "start": 35.4,
+     "end": 35.75
+    },
+    {
+     "text": "side",
+     "emph": false,
+     "tex": false,
+     "start": 35.75,
+     "end": 36.175
+    },
+    {
+     "text": "is",
+     "emph": false,
+     "tex": false,
+     "start": 36.175,
+     "end": 36.312
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 36.312,
+     "end": 36.4
+    },
+    {
+     "text": "diameter.",
+     "emph": true,
+     "tex": false,
+     "start": 36.4,
+     "end": 37.425
+    }
+   ]
+  },
+  {
+   "start": 37.825,
+   "end": 40.225,
+   "tokens": [
+    {
+     "text": "Geometry:",
+     "emph": true,
+     "tex": false,
+     "start": 37.825,
+     "end": 38.5
+    },
+    {
+     "text": "the",
+     "emph": false,
+     "tex": false,
+     "start": 38.575,
+     "end": 38.675
+    },
+    {
+     "text": "last",
+     "emph": false,
+     "tex": false,
+     "start": 38.675,
+     "end": 39.025
+    },
+    {
+     "text": "5",
+     "emph": false,
+     "tex": false,
+     "start": 39.025,
+     "end": 39.325
     },
     {
      "text": "to",
      "emph": false,
      "tex": false,
-     "start": 52.537,
-     "end": 52.625
+     "start": 39.325,
+     "end": 39.462
+    },
+    {
+     "text": "7.",
+     "emph": false,
+     "tex": false,
+     "start": 39.462,
+     "end": 40.225
+    }
+   ]
+  },
+  {
+   "start": 41.325,
+   "end": 44.25,
+   "tokens": [
+    {
+     "text": "A",
+     "emph": false,
+     "tex": false,
+     "start": 41.325,
+     "end": 41.412
+    },
+    {
+     "text": "line.",
+     "emph": true,
+     "tex": false,
+     "start": 41.412,
+     "end": 41.8
+    },
+    {
+     "text": "A",
+     "emph": false,
+     "tex": false,
+     "start": 41.85,
+     "end": 41.962
+    },
+    {
+     "text": "curve.",
+     "emph": true,
+     "tex": false,
+     "start": 41.962,
+     "end": 42.375
+    },
+    {
+     "text": "A",
+     "emph": false,
+     "tex": false,
+     "start": 42.45,
+     "end": 42.55
+    },
+    {
+     "text": "balance.",
+     "emph": true,
+     "tex": false,
+     "start": 42.55,
+     "end": 43.025
+    },
+    {
+     "text": "A",
+     "emph": false,
+     "tex": false,
+     "start": 43.075,
+     "end": 43.187
+    },
+    {
+     "text": "triangle.",
+     "emph": true,
+     "tex": false,
+     "start": 43.187,
+     "end": 44.25
+    }
+   ]
+  },
+  {
+   "start": 44.85,
+   "end": 47.55,
+   "tokens": [
+    {
+     "text": "Different",
+     "emph": false,
+     "tex": false,
+     "start": 44.85,
+     "end": 45.15
+    },
+    {
+     "text": "questions.",
+     "emph": false,
+     "tex": false,
+     "start": 45.15,
+     "end": 45.95
+    },
+    {
+     "text": "Familiar",
+     "emph": true,
+     "tex": false,
+     "start": 46.062,
+     "end": 46.625
+    },
+    {
+     "text": "pictures.",
+     "emph": true,
+     "tex": false,
+     "start": 46.625,
+     "end": 47.55
+    }
+   ]
+  },
+  {
+   "start": 48.25,
+   "end": 50.8,
+   "tokens": [
+    {
+     "text": "44",
+     "emph": true,
+     "tex": false,
+     "start": 48.25,
+     "end": 48.8
+    },
+    {
+     "text": "questions.",
+     "emph": false,
+     "tex": false,
+     "start": 48.8,
+     "end": 49.5
+    },
+    {
+     "text": "Four",
+     "emph": true,
+     "tex": false,
+     "start": 49.612,
+     "end": 49.9
+    },
+    {
+     "text": "pictures.",
+     "emph": false,
+     "tex": false,
+     "start": 49.9,
+     "end": 50.8
+    }
+   ]
+  },
+  {
+   "start": 51.7,
+   "end": 56.2,
+   "tokens": [
+    {
+     "text": "Want",
+     "emph": false,
+     "tex": false,
+     "start": 51.7,
+     "end": 51.837
+    },
+    {
+     "text": "to",
+     "emph": false,
+     "tex": false,
+     "start": 51.837,
+     "end": 51.925
     },
     {
      "text": "take",
      "emph": false,
      "tex": false,
-     "start": 52.625,
-     "end": 52.937
+     "start": 51.925,
+     "end": 52.237
     },
     {
      "text": "SAT",
      "emph": false,
      "tex": false,
-     "start": 52.937,
-     "end": 53.475
+     "start": 52.237,
+     "end": 52.775
     },
     {
      "text": "math",
      "emph": false,
      "tex": false,
-     "start": 53.475,
-     "end": 53.775
+     "start": 52.775,
+     "end": 53.075
     },
     {
      "text": "prep",
      "emph": false,
      "tex": false,
-     "start": 53.775,
-     "end": 54.062
+     "start": 53.075,
+     "end": 53.362
     },
     {
      "text": "seriously?",
      "emph": true,
      "tex": false,
-     "start": 54.062,
-     "end": 54.95
+     "start": 53.362,
+     "end": 54.225
     },
     {
      "text": "Comment",
      "emph": false,
      "tex": false,
-     "start": 55.137,
-     "end": 55.7
+     "start": 54.387,
+     "end": 54.95
     },
     {
      "text": "\"ultralearn\".",
      "emph": true,
      "tex": false,
-     "start": 55.787,
-     "end": 57.0
+     "start": 55.025,
+     "end": 56.2
     }
    ]
   }
  ],
  "cues": {
-  "start": 5.225,
-  "step": 6.387,
-  "line": 8.45,
-  "alg": 10.75,
-  "bend": 14.15,
-  "para": 16.575,
-  "expo": 17.35,
-  "adv": 18.95,
-  "scatter": 22.65,
-  "bal": 24.5,
-  "four": 25.675,
-  "above": 26.85,
-  "pct": 28.212,
-  "data": 29.85,
-  "snap": 32.525,
-  "circle": 35.3,
-  "diam": 35.925,
-  "geo": 38.5,
-  "r1": 42.075,
-  "r2": 42.625,
-  "r3": 43.25,
-  "r4": 43.875,
-  "q44": 48.85,
-  "four4": 50.25,
-  "cta": 55.137
+  "start": 4.65,
+  "step": 5.762,
+  "line": 7.775,
+  "alg": 10.0,
+  "bend": 13.325,
+  "para": 15.7,
+  "expo": 16.475,
+  "adv": 18.05,
+  "scatter": 21.675,
+  "bal": 23.5,
+  "four": 24.625,
+  "above": 25.75,
+  "pct": 27.387,
+  "data": 28.975,
+  "snap": 31.95,
+  "triangle": 33.238,
+  "circle": 34.7,
+  "diam": 35.275,
+  "geo": 37.825,
+  "r1": 41.325,
+  "r2": 41.85,
+  "r3": 42.45,
+  "r4": 43.075,
+  "settle": 44.85,
+  "q44": 48.25,
+  "four4": 49.612,
+  "cta": 54.387
  }
 }

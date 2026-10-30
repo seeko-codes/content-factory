@@ -1,0 +1,128 @@
+clip,source_id,time_seconds,evidence_type,local_path,scope
+cnn,SmLtNyvnWKo,0,two-second-state,out/channel-references/graduate-ml/cnn/frame-00-00.00s.jpg,"sampled still, not continuous motion"
+cnn,SmLtNyvnWKo,2,two-second-state,out/channel-references/graduate-ml/cnn/frame-01-02.00s.jpg,"sampled still, not continuous motion"
+cnn,SmLtNyvnWKo,4,two-second-state,out/channel-references/graduate-ml/cnn/frame-02-04.00s.jpg,"sampled still, not continuous motion"
+cnn,SmLtNyvnWKo,6,two-second-state,out/channel-references/graduate-ml/cnn/frame-03-06.00s.jpg,"sampled still, not continuous motion"
+cnn,SmLtNyvnWKo,8,two-second-state,out/channel-references/graduate-ml/cnn/frame-04-08.00s.jpg,"sampled still, not continuous motion"
+cnn,SmLtNyvnWKo,10,two-second-state,out/channel-references/graduate-ml/cnn/frame-05-10.00s.jpg,"sampled still, not continuous motion"
+cnn,SmLtNyvnWKo,12,two-second-state,out/channel-references/graduate-ml/cnn/frame-06-12.00s.jpg,"sampled still, not continuous motion"
+cnn,SmLtNyvnWKo,14,two-second-state,out/channel-references/graduate-ml/cnn/frame-07-14.00s.jpg,"sampled still, not continuous motion"
+cnn,SmLtNyvnWKo,16,two-second-state,out/channel-references/graduate-ml/cnn/frame-08-16.00s.jpg,"sampled still, not continuous motion"
+cnn,SmLtNyvnWKo,18,two-second-state,out/channel-references/graduate-ml/cnn/frame-09-18.00s.jpg,"sampled still, not continuous motion"
+cnn,SmLtNyvnWKo,20,two-second-state,out/channel-references/graduate-ml/cnn/frame-10-20.00s.jpg,"sampled still, not continuous motion"
+cnn,SmLtNyvnWKo,22,two-second-state,out/channel-references/graduate-ml/cnn/frame-11-22.00s.jpg,"sampled still, not continuous motion"
+cnn,SmLtNyvnWKo,24,two-second-state,out/channel-references/graduate-ml/cnn/frame-12-24.00s.jpg,"sampled still, not continuous motion"
+cnn,SmLtNyvnWKo,26,two-second-state,out/channel-references/graduate-ml/cnn/frame-13-26.00s.jpg,"sampled still, not continuous motion"
+cnn,SmLtNyvnWKo,28,two-second-state,out/channel-references/graduate-ml/cnn/frame-14-28.00s.jpg,"sampled still, not continuous motion"
+cnn,SmLtNyvnWKo,30,two-second-state,out/channel-references/graduate-ml/cnn/frame-15-30.00s.jpg,"sampled still, not continuous motion"
+cnn,SmLtNyvnWKo,32,two-second-state,out/channel-references/graduate-ml/cnn/frame-16-32.00s.jpg,"sampled still, not continuous motion"
+cnn,SmLtNyvnWKo,34,two-second-state,out/channel-references/graduate-ml/cnn/frame-17-34.00s.jpg,"sampled still, not continuous motion"
+cnn,SmLtNyvnWKo,36,two-second-state,out/channel-references/graduate-ml/cnn/frame-18-36.00s.jpg,"sampled still, not continuous motion"
+cnn,SmLtNyvnWKo,37.85,two-second-state,out/channel-references/graduate-ml/cnn/frame-19-37.85s.jpg,"sampled still, not continuous motion"
+cnn,SmLtNyvnWKo,6,detail-check,out/channel-references/graduate-ml/cnn/full-06.png,720x1280 detail frame
+cnn,SmLtNyvnWKo,8,detail-check,out/channel-references/graduate-ml/cnn/full-08.png,720x1280 detail frame
+cnn,SmLtNyvnWKo,20,detail-check,out/channel-references/graduate-ml/cnn/full-20.png,720x1280 detail frame
+cnn,SmLtNyvnWKo,24,detail-check,out/channel-references/graduate-ml/cnn/full-24.png,720x1280 detail frame
+cnn,SmLtNyvnWKo,30,detail-check,out/channel-references/graduate-ml/cnn/full-30.png,720x1280 detail frame
+attention,TPVuy1VvFg0,0,two-second-state,out/channel-references/graduate-ml/attention/frame-00-00.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,2,two-second-state,out/channel-references/graduate-ml/attention/frame-01-02.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,4,two-second-state,out/channel-references/graduate-ml/attention/frame-02-04.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,6,two-second-state,out/channel-references/graduate-ml/attention/frame-03-06.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,8,two-second-state,out/channel-references/graduate-ml/attention/frame-04-08.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,10,two-second-state,out/channel-references/graduate-ml/attention/frame-05-10.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,12,two-second-state,out/channel-references/graduate-ml/attention/frame-06-12.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,14,two-second-state,out/channel-references/graduate-ml/attention/frame-07-14.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,16,two-second-state,out/channel-references/graduate-ml/attention/frame-08-16.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,18,two-second-state,out/channel-references/graduate-ml/attention/frame-09-18.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,20,two-second-state,out/channel-references/graduate-ml/attention/frame-10-20.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,22,two-second-state,out/channel-references/graduate-ml/attention/frame-11-22.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,24,two-second-state,out/channel-references/graduate-ml/attention/frame-12-24.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,26,two-second-state,out/channel-references/graduate-ml/attention/frame-13-26.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,28,two-second-state,out/channel-references/graduate-ml/attention/frame-14-28.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,30,two-second-state,out/channel-references/graduate-ml/attention/frame-15-30.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,32,two-second-state,out/channel-references/graduate-ml/attention/frame-16-32.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,34,two-second-state,out/channel-references/graduate-ml/attention/frame-17-34.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,36,two-second-state,out/channel-references/graduate-ml/attention/frame-18-36.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,38,two-second-state,out/channel-references/graduate-ml/attention/frame-19-38.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,40,two-second-state,out/channel-references/graduate-ml/attention/frame-20-40.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,42,two-second-state,out/channel-references/graduate-ml/attention/frame-21-42.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,44,two-second-state,out/channel-references/graduate-ml/attention/frame-22-44.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,46,two-second-state,out/channel-references/graduate-ml/attention/frame-23-46.00s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,47.85,two-second-state,out/channel-references/graduate-ml/attention/frame-24-47.85s.jpg,"sampled still, not continuous motion"
+attention,TPVuy1VvFg0,10,detail-check,out/channel-references/graduate-ml/attention/full-10.png,720x1280 detail frame
+attention,TPVuy1VvFg0,18,detail-check,out/channel-references/graduate-ml/attention/full-18.png,720x1280 detail frame
+attention,TPVuy1VvFg0,26,detail-check,out/channel-references/graduate-ml/attention/full-26.png,720x1280 detail frame
+attention,TPVuy1VvFg0,32,detail-check,out/channel-references/graduate-ml/attention/full-32.png,720x1280 detail frame
+attention,TPVuy1VvFg0,36,detail-check,out/channel-references/graduate-ml/attention/full-36.png,720x1280 detail frame
+attention,TPVuy1VvFg0,46,detail-check,out/channel-references/graduate-ml/attention/full-46.png,720x1280 detail frame
+mpc,DeUpZj4JWzF,0,two-second-state,out/channel-references/graduate-ml/mpc/frame-00-00.00s.jpg,"sampled still, not continuous motion"
+mpc,DeUpZj4JWzF,2,two-second-state,out/channel-references/graduate-ml/mpc/frame-01-02.00s.jpg,"sampled still, not continuous motion"
+mpc,DeUpZj4JWzF,4,two-second-state,out/channel-references/graduate-ml/mpc/frame-02-04.00s.jpg,"sampled still, not continuous motion"
+mpc,DeUpZj4JWzF,6,two-second-state,out/channel-references/graduate-ml/mpc/frame-03-06.00s.jpg,"sampled still, not continuous motion"
+mpc,DeUpZj4JWzF,8,two-second-state,out/channel-references/graduate-ml/mpc/frame-04-08.00s.jpg,"sampled still, not continuous motion"
+mpc,DeUpZj4JWzF,10,two-second-state,out/channel-references/graduate-ml/mpc/frame-05-10.00s.jpg,"sampled still, not continuous motion"
+mpc,DeUpZj4JWzF,12,two-second-state,out/channel-references/graduate-ml/mpc/frame-06-12.00s.jpg,"sampled still, not continuous motion"
+mpc,DeUpZj4JWzF,14,two-second-state,out/channel-references/graduate-ml/mpc/frame-07-14.00s.jpg,"sampled still, not continuous motion"
+mpc,DeUpZj4JWzF,16,two-second-state,out/channel-references/graduate-ml/mpc/frame-08-16.00s.jpg,"sampled still, not continuous motion"
+mpc,DeUpZj4JWzF,18,two-second-state,out/channel-references/graduate-ml/mpc/frame-09-18.00s.jpg,"sampled still, not continuous motion"
+mpc,DeUpZj4JWzF,20,two-second-state,out/channel-references/graduate-ml/mpc/frame-10-20.00s.jpg,"sampled still, not continuous motion"
+mpc,DeUpZj4JWzF,22,two-second-state,out/channel-references/graduate-ml/mpc/frame-11-22.00s.jpg,"sampled still, not continuous motion"
+mpc,DeUpZj4JWzF,24,two-second-state,out/channel-references/graduate-ml/mpc/frame-12-24.00s.jpg,"sampled still, not continuous motion"
+mpc,DeUpZj4JWzF,26,two-second-state,out/channel-references/graduate-ml/mpc/frame-13-26.00s.jpg,"sampled still, not continuous motion"
+mpc,DeUpZj4JWzF,28,two-second-state,out/channel-references/graduate-ml/mpc/frame-14-28.00s.jpg,"sampled still, not continuous motion"
+mpc,DeUpZj4JWzF,30,two-second-state,out/channel-references/graduate-ml/mpc/frame-15-30.00s.jpg,"sampled still, not continuous motion"
+mpc,DeUpZj4JWzF,32,two-second-state,out/channel-references/graduate-ml/mpc/frame-16-32.00s.jpg,"sampled still, not continuous motion"
+mpc,DeUpZj4JWzF,34,two-second-state,out/channel-references/graduate-ml/mpc/frame-17-34.00s.jpg,"sampled still, not continuous motion"
+mpc,DeUpZj4JWzF,36,two-second-state,out/channel-references/graduate-ml/mpc/frame-18-36.00s.jpg,"sampled still, not continuous motion"
+mpc,DeUpZj4JWzF,37.22,two-second-state,out/channel-references/graduate-ml/mpc/frame-19-37.22s.jpg,"sampled still, not continuous motion"
+mpc,DeUpZj4JWzF,4,detail-check,out/channel-references/graduate-ml/mpc/full-04.png,720x1280 detail frame
+mpc,DeUpZj4JWzF,12,detail-check,out/channel-references/graduate-ml/mpc/full-12.png,720x1280 detail frame
+mpc,DeUpZj4JWzF,16,detail-check,out/channel-references/graduate-ml/mpc/full-16.png,720x1280 detail frame
+mpc,DeUpZj4JWzF,18,detail-check,out/channel-references/graduate-ml/mpc/full-18.png,720x1280 detail frame
+mpc,DeUpZj4JWzF,22,detail-check,out/channel-references/graduate-ml/mpc/full-22.png,720x1280 detail frame
+mpc,DeUpZj4JWzF,26,detail-check,out/channel-references/graduate-ml/mpc/full-26.png,720x1280 detail frame
+mpc,DeUpZj4JWzF,32,detail-check,out/channel-references/graduate-ml/mpc/full-32.png,720x1280 detail frame
+drone-question,DdcCE0YJcdf,0,two-second-state,out/channel-references/graduate-ml/drone-question/frame-00-00.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,2,two-second-state,out/channel-references/graduate-ml/drone-question/frame-01-02.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,4,two-second-state,out/channel-references/graduate-ml/drone-question/frame-02-04.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,6,two-second-state,out/channel-references/graduate-ml/drone-question/frame-03-06.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,8,two-second-state,out/channel-references/graduate-ml/drone-question/frame-04-08.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,10,two-second-state,out/channel-references/graduate-ml/drone-question/frame-05-10.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,12,two-second-state,out/channel-references/graduate-ml/drone-question/frame-06-12.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,14,two-second-state,out/channel-references/graduate-ml/drone-question/frame-07-14.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,16,two-second-state,out/channel-references/graduate-ml/drone-question/frame-08-16.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,18,two-second-state,out/channel-references/graduate-ml/drone-question/frame-09-18.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,20,two-second-state,out/channel-references/graduate-ml/drone-question/frame-10-20.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,22,two-second-state,out/channel-references/graduate-ml/drone-question/frame-11-22.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,24,two-second-state,out/channel-references/graduate-ml/drone-question/frame-12-24.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,26,two-second-state,out/channel-references/graduate-ml/drone-question/frame-13-26.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,28,two-second-state,out/channel-references/graduate-ml/drone-question/frame-14-28.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,30,two-second-state,out/channel-references/graduate-ml/drone-question/frame-15-30.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,32,two-second-state,out/channel-references/graduate-ml/drone-question/frame-16-32.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,34,two-second-state,out/channel-references/graduate-ml/drone-question/frame-17-34.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,36,two-second-state,out/channel-references/graduate-ml/drone-question/frame-18-36.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,38,two-second-state,out/channel-references/graduate-ml/drone-question/frame-19-38.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,40,two-second-state,out/channel-references/graduate-ml/drone-question/frame-20-40.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,42,two-second-state,out/channel-references/graduate-ml/drone-question/frame-21-42.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,44,two-second-state,out/channel-references/graduate-ml/drone-question/frame-22-44.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,46,two-second-state,out/channel-references/graduate-ml/drone-question/frame-23-46.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,48,two-second-state,out/channel-references/graduate-ml/drone-question/frame-24-48.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,50,two-second-state,out/channel-references/graduate-ml/drone-question/frame-25-50.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,52,two-second-state,out/channel-references/graduate-ml/drone-question/frame-26-52.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,54,two-second-state,out/channel-references/graduate-ml/drone-question/frame-27-54.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,56,two-second-state,out/channel-references/graduate-ml/drone-question/frame-28-56.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,58,two-second-state,out/channel-references/graduate-ml/drone-question/frame-29-58.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,60,two-second-state,out/channel-references/graduate-ml/drone-question/frame-30-60.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,62,two-second-state,out/channel-references/graduate-ml/drone-question/frame-31-62.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,64,two-second-state,out/channel-references/graduate-ml/drone-question/frame-32-64.00s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,65.71,two-second-state,out/channel-references/graduate-ml/drone-question/frame-33-65.71s.jpg,"sampled still, not continuous motion"
+drone-question,DdcCE0YJcdf,14,detail-check,out/channel-references/graduate-ml/drone-question/full-14.png,720x1280 detail frame
+drone-question,DdcCE0YJcdf,18,detail-check,out/channel-references/graduate-ml/drone-question/full-18.png,720x1280 detail frame
+drone-question,DdcCE0YJcdf,24,detail-check,out/channel-references/graduate-ml/drone-question/full-24.png,720x1280 detail frame
+drone-question,DdcCE0YJcdf,28,detail-check,out/channel-references/graduate-ml/drone-question/full-28.png,720x1280 detail frame
+drone-question,DdcCE0YJcdf,40,detail-check,out/channel-references/graduate-ml/drone-question/full-40.png,720x1280 detail frame
+drone-question,DdcCE0YJcdf,42,detail-check,out/channel-references/graduate-ml/drone-question/full-42.png,720x1280 detail frame
+drone-question,DdcCE0YJcdf,46,detail-check,out/channel-references/graduate-ml/drone-question/full-46.png,720x1280 detail frame
+drone-question,DdcCE0YJcdf,52,detail-check,out/channel-references/graduate-ml/drone-question/full-52.png,720x1280 detail frame
+drone-question,DdcCE0YJcdf,56,detail-check,out/channel-references/graduate-ml/drone-question/full-56.png,720x1280 detail frame
+drone-question,DdcCE0YJcdf,58,detail-check,out/channel-references/graduate-ml/drone-question/full-58.png,720x1280 detail frame
